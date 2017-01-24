@@ -1,26 +1,15 @@
 package com.amum.atr;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Properties;
-import java.util.TreeMap;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import com.amum.util.InputCSVReader;
+import com.amum.util.OutputCSVWriter;
 
 public class ATREngine {
 
@@ -34,12 +23,12 @@ public class ATREngine {
 		List<String> currLowMinusPrevCloseList = findCurrLowMinusPrevClose(currHighMinusPrevCloseList);
 		List<String> trueRangeList =findTrueRange(currLowMinusPrevCloseList);
 		List<String> avgTrueRangeList = findAvgTrueRange(trueRangeList);
-		System.out.println("trueRangeList>>>"+trueRangeList.size());
-		System.out.println("avgTrueRangeList>>>"+avgTrueRangeList.size());
-		for(String input : avgTrueRangeList){
-			System.out.println(input);
-		}
-		
+
+		List<String> avgTrueRange = avgTrueRangeList.stream().collect(Collectors.toList());
+				
+		String outputPath= prop.getProperty("file.output.path");
+		String fullPath = outputPath+"/ATR/"+LocalDate.now();
+		   OutputCSVWriter.writeToCsvFile(fullPath,  symbol,  avgTrueRange);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -48,6 +37,7 @@ public class ATREngine {
 
 	private static List<String> findAvgTrueRange(List<String> trueRangeList) {
 		List<String> avgTrueRangeList = new ArrayList<>(); 
+		avgTrueRangeList.add("SYMBOL,DATE,HIGH,LOW,CLOSE,HIGH-LOW,CURR_HIGH-PREV_CLOSE,CURR_LOW-PREV_CLOSE,TRUE_RANGE,AVG_TRUE_RANGE");
 		double prevATR =0.0;
 		int count=0;
 		double atrAvg=0.0;
