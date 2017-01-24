@@ -4,6 +4,7 @@ import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 import java.util.stream.Collectors;
@@ -18,6 +19,7 @@ public class ATREngine {
 	public static void execute(Properties prop, String symbol) {
 		try {
 		List<String> inputList =	InputCSVReader.readAsCsv(prop, symbol);
+		Collections.reverse(inputList);
 		List<String> highMinusLowList = findHighMinusLow(inputList);
 		List<String> currHighMinusPrevCloseList = findCurrHighMinusPrevClose(highMinusLowList);
 		List<String> currLowMinusPrevCloseList = findCurrLowMinusPrevClose(currHighMinusPrevCloseList);

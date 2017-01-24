@@ -20,7 +20,7 @@ public static void writeToCsvFile(String fullPath, String symbol, List<String> o
             e.printStackTrace();
         }
     }
-	outputPath=fullPath+"/stockoutput_"+LocalDate.now()+"_"+symbol+".txt";
+	outputPath=fullPath+"/stockoutput_"+LocalDate.now()+"_"+symbol+".csv";
 
 	try {
 		Files.write(Paths.get(outputPath), outputList);
