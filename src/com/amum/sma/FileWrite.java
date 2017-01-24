@@ -12,7 +12,7 @@ public class FileWrite {
 
 	public static void execute(Properties prop, String symbol, Map<String,String> outputMap) throws IOException{
 		String outputPath= prop.getProperty("file.output.path");
-		String fullPath = outputPath+"/"+LocalDate.now();
+		String fullPath = outputPath+"/SMA/"+LocalDate.now();
 		Path path = Paths.get(fullPath);
         //if directory exists?
         if (!Files.exists(path)) {

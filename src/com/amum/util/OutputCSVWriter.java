@@ -29,4 +29,16 @@ public static void writeToCsvFile(String fullPath, String symbol, List<String> o
 	}
 		
 }
+public static void writeToCsvSummaryFile(String fullPath, List<String> outputList ){
+	String outputPath = null;
+
+	outputPath=fullPath+LocalDate.now()+".csv";
+
+	try {
+		Files.write(Paths.get(outputPath), outputList);
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+		
+}
 }

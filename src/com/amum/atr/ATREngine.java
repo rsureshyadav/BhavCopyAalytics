@@ -6,8 +6,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.amum.util.InputCSVReader;
 import com.amum.util.OutputCSVWriter;
@@ -15,9 +18,10 @@ import com.amum.util.OutputCSVWriter;
 public class ATREngine {
 
 	public static DecimalFormat df = new DecimalFormat("###.##");
-
+	public static String OUTPUT_HEADER ="SYMBOL,DATE,HIGH,LOW,CLOSE,HIGH-LOW,CURR_HIGH-PREV_CLOSE,CURR_LOW-PREV_CLOSE,TRUE_RANGE,AVG_TRUE_RANGE";
 	public static void execute(Properties prop, String symbol) {
 		try {
+		StringBuffer summaryHeader = new StringBuffer();
 		List<String> inputList =	InputCSVReader.readAsCsv(prop, symbol);
 		Collections.reverse(inputList);
 		List<String> highMinusLowList = findHighMinusLow(inputList);
@@ -25,21 +29,38 @@ public class ATREngine {
 		List<String> currLowMinusPrevCloseList = findCurrLowMinusPrevClose(currHighMinusPrevCloseList);
 		List<String> trueRangeList =findTrueRange(currLowMinusPrevCloseList);
 		List<String> avgTrueRangeList = findAvgTrueRange(trueRangeList);
-
 		List<String> avgTrueRange = avgTrueRangeList.stream().collect(Collectors.toList());
-				
+		List<String> atrOutputSummary = new ArrayList<>(); 		
 		String outputPath= prop.getProperty("file.output.path");
 		String fullPath = outputPath+"/ATR/"+LocalDate.now();
-		   OutputCSVWriter.writeToCsvFile(fullPath,  symbol,  avgTrueRange);
+		OutputCSVWriter.writeToCsvFile(fullPath,  symbol,  avgTrueRange);
+		
+		summaryHeader.append("SYMBOL, LAST_TREND,");
+		List<String> zigzagList = Arrays.asList(prop.getProperty("last.zigzag").split("\\s*,\\s*"));
+		for(String val :  zigzagList){
+			if(val.equalsIgnoreCase("1")){
+			}else{
+				summaryHeader.append("LAST_"+val+"_UP_TREND_COUNT,");
+				summaryHeader.append("LAST_"+val+"_DOWN_TREND_COUNT,");
+				
+			}
+		}
+		atrOutputSummary.add(summaryHeader.substring(0, summaryHeader.toString().length()-1));
+		String summaryOutput = ZigZagWithATR.getZigZagLastRange(symbol,avgTrueRangeList,OUTPUT_HEADER,prop);
+		atrOutputSummary.add(summaryOutput.substring(0, summaryOutput.toString().length()-1));
+		String writePath =prop.getProperty("file.summary.path")+"/atr_trend_summary_";
+		OutputCSVWriter.writeToCsvSummaryFile(writePath, atrOutputSummary);
+		
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
+	
 	}
 
 	private static List<String> findAvgTrueRange(List<String> trueRangeList) {
 		List<String> avgTrueRangeList = new ArrayList<>(); 
-		avgTrueRangeList.add("SYMBOL,DATE,HIGH,LOW,CLOSE,HIGH-LOW,CURR_HIGH-PREV_CLOSE,CURR_LOW-PREV_CLOSE,TRUE_RANGE,AVG_TRUE_RANGE");
+		avgTrueRangeList.add(OUTPUT_HEADER);
 		double prevATR =0.0;
 		int count=0;
 		double atrAvg=0.0;
@@ -78,7 +99,8 @@ public class ATREngine {
 	private static double maxValue(double array[]){
 		double max = Arrays.stream(array).max().getAsDouble();
 		  return max;
-		}
+	}
+	
 	private static List<String> findCurrLowMinusPrevClose(List<String> inputList) {
 		List<String> findCurrLowMinusPrevCloseList = new ArrayList<>();
 		int count = 0;
