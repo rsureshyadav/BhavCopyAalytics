@@ -1,4 +1,4 @@
-package com.amum;
+package com.amum.sma;
 
 import java.io.FileInputStream;
 import java.io.IOException;

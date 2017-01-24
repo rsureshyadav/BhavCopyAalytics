@@ -1,28 +1,42 @@
-package com.amum;
+package coma.amum.download;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.FileSystem;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
-public class BulkDownloadBhavCopyStats {
+public class DailyBhavCopyStats {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		List<String> urlList = new ArrayList<>();
+		Properties prop = new Properties();
+		InputStream input = null;
+		input = new FileInputStream("conf/config.properties");
+		prop.load(input);
+		
 		urlList=urlBuilder();
-		urlDownloader(urlList);
+		urlDownloader(urlList,prop);
 		
 	}
 
-	private static void urlDownloader(List<String> urlList) {
-		String saveDir="E:/amum/amumtrade/SparkAnalytics/input";
+	private static void urlDownloader(List<String> urlList,Properties prop) {
+		String saveDir=prop.getProperty("dest.dir");
+		
 		for(String targetURL:urlList){
 			System.out.println(targetURL);
 		        try {
@@ -83,15 +97,66 @@ public class BulkDownloadBhavCopyStats {
             inputStream.close();
  
             System.out.println("File downloaded");
+            unzip(saveDir+"/"+fileName,saveDir);
+            deleteZip(saveDir+"/"+fileName);
         } else {
             System.out.println("No file to download. Server replied HTTP code: " + responseCode);
         }
         httpConn.disconnect();
     }
+	private static void deleteZip(String filepath) {
+		Path path= FileSystems.getDefault().getPath(filepath);
+        try {
+			Files.deleteIfExists(path);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	private static void unzip(String zipFilePath, String destDir) {
+        File dir = new File(destDir);
+        // create output directory if it doesn't exist
+        if(!dir.exists()) dir.mkdirs();
+        FileInputStream fis;
+        //buffer for read and write data to file
+        byte[] buffer = new byte[1024];
+        try {
+            fis = new FileInputStream(zipFilePath);
+            ZipInputStream zis = new ZipInputStream(fis);
+            ZipEntry ze = zis.getNextEntry();
+            while(ze != null){
+                String fileName = ze.getName();
+                File newFile = new File(destDir + File.separator + fileName);
+                System.out.println("Unzipping to "+newFile.getAbsolutePath());
+                //create directories for sub directories in zip
+                new File(newFile.getParent()).mkdirs();
+                FileOutputStream fos = new FileOutputStream(newFile);
+                int len;
+                while ((len = zis.read(buffer)) > 0) {
+                fos.write(buffer, 0, len);
+                }
+                fos.close();
+                //close this ZipEntry
+                zis.closeEntry();
+                ze = zis.getNextEntry();
+            }
+            //close last ZipEntry
+            zis.closeEntry();
+            zis.close();
+            fis.close();
+            System.out.println("Unzip Completed");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+         
+    }
+ 
+
 	private static List<String> urlBuilder() {
 		List<String> urlList = new ArrayList<>();
-		for(int i=0; i<=385;i++){
-			LocalDate currentDate = LocalDate.now().minusDays(i);
+			LocalDate currentDate = LocalDate.now();
 			DayOfWeek dow = currentDate.getDayOfWeek(); 
 			
 			LocalDate ld = LocalDate.of(currentDate.getYear(), currentDate.getMonth(), currentDate.getDayOfMonth());
@@ -105,7 +170,7 @@ public class BulkDownloadBhavCopyStats {
 				String url = "https://www.nseindia.com/content/historical/EQUITIES/"+currentDate.getYear()+"/"+month.toUpperCase()+"/cm"+date.toUpperCase()+"bhav.csv.zip";
 				urlList.add(url);
 			}
-		}
+		
 		return urlList;
 	}
 

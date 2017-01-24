@@ -1,4 +1,4 @@
-package com.amum;
+package com.amum.sma;
 
 import java.text.DateFormat;
 import java.text.ParseException;

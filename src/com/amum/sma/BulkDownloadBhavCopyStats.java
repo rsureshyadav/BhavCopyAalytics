@@ -1,13 +1,13 @@
-package com.amum;
+package com.amum.sma;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -16,20 +16,26 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-public class DailyBhavCopyStats {
+public class BulkDownloadBhavCopyStats {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		List<String> urlList = new ArrayList<>();
+		Properties prop = new Properties();
+		InputStream input = null;
+		input = new FileInputStream("conf/config.properties");
+		prop.load(input);
+		
 		urlList=urlBuilder();
-		urlDownloader(urlList);
+		urlDownloader(urlList,prop);
 		
 	}
 
-	private static void urlDownloader(List<String> urlList) {
-		String saveDir="E:/amum/amumtrade/SparkAnalytics/input";
+	private static void urlDownloader(List<String> urlList,Properties prop) {
+		String saveDir=prop.getProperty("dest.dir");
 		for(String targetURL:urlList){
 			System.out.println(targetURL);
 		        try {
@@ -97,6 +103,7 @@ public class DailyBhavCopyStats {
         }
         httpConn.disconnect();
     }
+	
 	private static void deleteZip(String filepath) {
 		Path path= FileSystems.getDefault().getPath(filepath);
         try {
@@ -107,7 +114,6 @@ public class DailyBhavCopyStats {
 		}
 
 	}
-
 	private static void unzip(String zipFilePath, String destDir) {
         File dir = new File(destDir);
         // create output directory if it doesn't exist
@@ -146,10 +152,10 @@ public class DailyBhavCopyStats {
          
     }
  
-
 	private static List<String> urlBuilder() {
 		List<String> urlList = new ArrayList<>();
-			LocalDate currentDate = LocalDate.now();
+		for(int i=0; i<=385;i++){
+			LocalDate currentDate = LocalDate.now().minusDays(i);
 			DayOfWeek dow = currentDate.getDayOfWeek(); 
 			
 			LocalDate ld = LocalDate.of(currentDate.getYear(), currentDate.getMonth(), currentDate.getDayOfMonth());
@@ -163,7 +169,7 @@ public class DailyBhavCopyStats {
 				String url = "https://www.nseindia.com/content/historical/EQUITIES/"+currentDate.getYear()+"/"+month.toUpperCase()+"/cm"+date.toUpperCase()+"bhav.csv.zip";
 				urlList.add(url);
 			}
-		
+		}
 		return urlList;
 	}
 
