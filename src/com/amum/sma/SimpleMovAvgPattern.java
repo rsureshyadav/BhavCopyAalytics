@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-public class BhavCopyPrediction {
+public class SimpleMovAvgPattern {
 
 	public static void main(String[] args) throws IOException {
 		System.out.println("Execution Started......");

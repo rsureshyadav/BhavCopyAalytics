@@ -1,4 +1,4 @@
-package com.amum.sma;
+package coma.amum.download;
 
 import java.io.File;
 import java.io.FileInputStream;
