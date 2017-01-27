@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
+import com.amum.util.AmumUtil;
 import com.amum.util.OutputCSVWriter;
 
 public class AverageTrueRangePattern {
@@ -35,29 +36,9 @@ public class AverageTrueRangePattern {
 		finalSummaryList.add(ATREngine.getHeader(prop));
 		finalSummaryList.addAll(summaryList);
 
-		String writePath =prop.getProperty("file.summary.path")+"/atr_trend_summary_";
+		String writePath =prop.getProperty("file.summary.path")+"/atr_volatile_summary_";
 		OutputCSVWriter.writeToCsvSummaryFile(writePath, finalSummaryList);
-		
-		
-		long endTime = System.currentTimeMillis();
-		long totalTime = endTime - startTime;
-		
-		long secondsInMilli = 1000;
-		long minutesInMilli = secondsInMilli * 60;
-		long hoursInMilli = minutesInMilli * 60;
-		
-		long elapsedHours = totalTime / hoursInMilli;
-		totalTime = totalTime % hoursInMilli;
-
-		long elapsedMinutes = totalTime / minutesInMilli;
-		totalTime = totalTime % minutesInMilli;
-
-		long elapsedSeconds = totalTime / secondsInMilli;
-
-		System.out.printf(
-		    " %d hours, %d minutes, %d seconds%n",
-		     elapsedHours, elapsedMinutes, elapsedSeconds);
-
+		AmumUtil.executionTime(startTime);
 		System.out.println("Execution Completed......");
 	
 	}

@@ -1,83 +1,203 @@
 package com.amum.testresult;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Scanner;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.TreeMap;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.amum.util.AmumUtil;
+import com.amum.util.OutputCSVWriter;
 
 public class TestResultEngine {
 
+	
+	public static DecimalFormat df = new DecimalFormat("###.##");
 	public static void main(String str[]) throws IOException{
+		System.out.println("Execution Started......");
+		long startTime = System.currentTimeMillis();
 		
-		String out = new Scanner(new URL("http://www.google.com").openStream(), "UTF-8").useDelimiter("\\A").next();
-		System.out.println(out);
-		/*String url ="https://www.google.com/finance/info?q=NSE:STARPAPER";
-		String mJsonString = downloadFileFromInternet(url);
-		System.out.println(mJsonString);*/
-		/*JSONObject jObject = null;
-		try {
-		    jObject = new JSONObject(mJsonString);
-		} 
-		catch (JSONException e) {
-		    e.printStackTrace();
-		}*/
-	}
-
-	private static  String downloadFileFromInternet(String url)
-	{
-	    if(url == null /*|| url.isEmpty() == true*/)
-	        new IllegalArgumentException("url is empty/null");
-	    StringBuilder sb = new StringBuilder();
-	    InputStream inStream = null;
-	    try
-	    {
-	        url = urlEncode(url);
-	        URL link = new URL(url);
-	        inStream = link.openStream();
-	        int i;
-	        int total = 0;
-	        byte[] buffer = new byte[8 * 1024];
-	        while((i=inStream.read(buffer)) != -1)
-	        {
-	            if(total >= (1024 * 1024))
-	            {
-	                return "";
-	            }
-	            total += i;
-	            sb.append(new String(buffer,0,i));
-	        }
-	    }
-	    catch(Exception e )
-	    {
-	        e.printStackTrace();
-	        return null;
-	    }catch(OutOfMemoryError e)
-	    {
-	        e.printStackTrace();
-	        return null;
-	    }
-	    return sb.toString();
-	}
-
-	private static String urlEncode(String url)
-	{
-	    if(url == null /*|| url.isEmpty() == true*/)
-	        return null;
-	    url = url.replace("[","");
-	    url = url.replace("]","");
-	    url = url.replaceAll(" ","%20");
-	    return url;
-	}
-	/*private static String downloadFileFromInternet(String url) throws IOException {
-		String response;
-		URL website = new URL(url);
+		Properties prop = new Properties();
+		InputStream input = null;
+		input = new FileInputStream("conf/config.properties");
+		prop.load(input);
+		List<String> inputList;
+		List<String> fileNameList = Arrays.asList(prop.getProperty("test.summary.name").split("\\s*,\\s*"));
 		
-		URLConnection conn = website.openConnection();
-		try (BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), StandardCharsets.UTF_8))) {
-			response = reader.lines().collect(Collectors.joining("\n"));
+		
+		for(String fileName : fileNameList ){
+			List<String> headerNameList = getHeader(prop,fileName);
+			String headerName = "ACTUAL_RESULT, UP_DOWN_AMOUNT, CURRENT_PRICE, "+ headerNameList.get(0);
+			List<String> outputList = new ArrayList<>();
+			outputList.add(headerName);
+			if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
+					inputList = getSymbol(prop,fileName);
+					
+					for(String line :inputList){
+						String inputArray[] = line.split("\\s*,\\s*");
+						outputList.add(getOutputOnlineResult(inputArray[0].toString(),line));
+					}
+
+			}else{
+				inputList = getSymbol(prop,fileName);
+				
+				for(String line :inputList){
+					String inputArray[] = line.split("\\s*,\\s*");
+					outputList.add(getOutputOfflineResult(inputArray[0].toString(),line));
+				}
+			}
+			String testPath = prop.getProperty("file.summary.path")+"/TEST_RESULT";
+			
+			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,fileName);
 		}
-		System.out.println(">>>>>"+response);
+		AmumUtil.executionTime(startTime);
+		System.out.println("Execution Completed......");
+	}
 
-        return response;
-	}*/
+	
+	private static String getOutputOfflineResult(String symbol, String outputLine) {
+		String finalOutputString = null;
+		String result = null;
+		List<String> list = new ArrayList<>();
+		try {
+			String latestFileName=AmumUtil.getLatestInputFile();
+			//System.out.println(latestFileName);
+			
+			try (Stream<String> stream = Files.lines(Paths.get(latestFileName))) {
+				list = stream
+						.filter(line -> line.startsWith(symbol))
+						.collect(Collectors.toList());
+				System.out.println(symbol);
+				if(!list.isEmpty() && list.get(0) != null){
+					
+					String lineArray[]= list.get(0).split("\\s*,\\s*");
+					
+					double last_price = Double.parseDouble(lineArray[5]);
+					double prev_close_price = Double.parseDouble(lineArray[7]);
+					double profitOrLoss = last_price - prev_close_price;
+					if(profitOrLoss>0){
+						result = "UP";
+					}else{
+						result = "DOWN";
+					}
+					finalOutputString = result+","+df.format(profitOrLoss)+","+last_price+","+outputLine;
+				}
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return finalOutputString;
+	}
+
+
+	
+
+	private static String getOutputOnlineResult(String symbol, String line) throws IOException {
+		String outputLine="null";
+		if(symbol != null && symbol.length()>0){
+			if(symbol.contains("&")){
+				symbol = symbol.replace("&", "%26");
+			}
+			String url ="https://www.google.com/finance/info?q=NSE:"+symbol;
+			System.out.println("Executing>>>"+url);
+			String mJsonString = downloadFileFromInternet(url);
+			if(mJsonString != null ){
+				mJsonString =mJsonString.replace("// [", "");
+				mJsonString =mJsonString.replace("]", "");
+				JSONObject jObject = null;
+				String result = null;
+				try {
+					jObject = new JSONObject(mJsonString);
+					double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
+					double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
+					double profitOrLoss = last_price - prev_close_price;
+					if(profitOrLoss>0){
+						result = "UP";
+					}else{
+						result = "DOWN";
+					}
+					outputLine = result+","+df.format(profitOrLoss)+","+last_price+","+line;
+				} 
+				catch (JSONException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return outputLine;
+	}
+
+
+	private static List<String>  getSymbol(Properties prop, String fileName) throws IOException {
+		String outputPath=prop.getProperty("file.summary.path");
+        String readFileName = outputPath+"/"+fileName;
+        List<String> list = new ArrayList<>();
+        try (Stream<String> stream = Files.lines(Paths.get(readFileName))) {
+
+        	list = stream
+					.filter(line -> !line.startsWith("SYMBOL"))
+					.map(String::toUpperCase)
+					.collect(Collectors.toList());
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        return list;
+		}
+
+	private static List<String>  getHeader(Properties prop, String fileName) throws IOException {
+		String outputPath=prop.getProperty("file.summary.path");
+		
+		
+        String readFileName = outputPath+"/"+fileName;
+        List<String> headerName=new ArrayList<>();
+
+        try (Stream<String> stream = Files.lines(Paths.get(readFileName))) {
+        	headerName = stream.filter(line -> line.startsWith("SYMBOL")).collect(Collectors.toList());
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        return headerName;
+	}
+	
+
+
+	private static String downloadFileFromInternet(String httpUrl) throws IOException {
+		String response = null;
+			URL url = new URL(httpUrl);
+			 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			 if (conn.getResponseCode() == 200) {
+				 try (BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), StandardCharsets.UTF_8))) {
+					 response = reader.lines().collect(Collectors.joining("\n"));
+				 }
+			 }
+		return response;
+	}
 }

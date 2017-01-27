@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
+import com.amum.util.AmumUtil;
+
 public class SimpleMovAvgPattern {
 
 	public static void main(String[] args) throws IOException {
@@ -28,24 +30,7 @@ public class SimpleMovAvgPattern {
 			buffer.append(outputMap.get("ConStockResult")+System.getProperty("line.separator"));
 		}
 		FileWrite.execute(prop,buffer.toString());
-		long endTime = System.currentTimeMillis();
-		long totalTime = endTime - startTime;
-		
-		long secondsInMilli = 1000;
-		long minutesInMilli = secondsInMilli * 60;
-		long hoursInMilli = minutesInMilli * 60;
-		
-		long elapsedHours = totalTime / hoursInMilli;
-		totalTime = totalTime % hoursInMilli;
-
-		long elapsedMinutes = totalTime / minutesInMilli;
-		totalTime = totalTime % minutesInMilli;
-
-		long elapsedSeconds = totalTime / secondsInMilli;
-
-		System.out.printf(
-		    " %d hours, %d minutes, %d seconds%n",
-		     elapsedHours, elapsedMinutes, elapsedSeconds);
+		AmumUtil.executionTime(startTime);
 
 		System.out.println("Execution Completed......");
 	}

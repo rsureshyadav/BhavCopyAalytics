@@ -29,8 +29,8 @@ public class FileWrite {
 	}
 	
 	public static void execute(Properties prop,String output) throws IOException{
-		String fileName= prop.getProperty("file.output.two");
-		fileName=fileName.replace(".csv", "_"+LocalDate.now()+".csv");
+		String fileName= prop.getProperty("file.summary.path");
+		fileName = fileName+"/sma_summary_"+LocalDate.now()+".csv";
 		Files.write(Paths.get(fileName), output.getBytes());
 	}
 }
