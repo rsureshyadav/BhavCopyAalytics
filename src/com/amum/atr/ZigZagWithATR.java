@@ -50,20 +50,16 @@ public class ZigZagWithATR {
 				.filter(line -> !OUTPUT_HEADER. equals (line))	
 				.collect(Collectors.toList());
 		summaryOutput.append(symbol+",");
-		//resultList.forEach(System.out::println);
 		for(String input : resultList){
 			String inputArray[] = input.split("\\s*,\\s*");
 			zigZagInputList.add(Double.parseDouble(inputArray[9]));
 		}
 		zigZagOutputList = ZigZagWithATR.longestZigZag(zigZagInputList);
-		
-		//System.out.println(zigZagOutputList);
+
 		List<String> zigzagList = Arrays.asList(prop.getProperty("last.zigzag").split("\\s*,\\s*"));
 		for(String val :  zigzagList){
 			int count = Integer.parseInt(val);
-			//System.out.println(">>>Count>>."+count);
-			if(count==1){
-				 //System.out.println("Last Maching Element:"+zigZagOutputList.get(zigZagOutputList.size() - 1));
+			if(zigZagOutputList.size()>0 && count==1){
 				 summaryOutput.append(zigZagOutputList.get(zigZagOutputList.size() - 1)+",");
 			}else if(count>1 && zigZagOutputList.size() >= count){
 			lastZigZagList= new ArrayList<>();
@@ -72,9 +68,7 @@ public class ZigZagWithATR {
 			}
 			Map<String, Long> lastZigZagMap = lastZigZagList.stream()
 			            .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-			 //System.out.println("Number of Last " +val+ " up Matching Element:"+lastZigZagMap.get("UP_TREND"));
 			 summaryOutput.append(lastZigZagMap.get("UP_TREND")+",");
-		    // System.out.println("Number of Last " +val+ " down Matching Element:"+lastZigZagMap.get("DOWN_TREND"));
 		     summaryOutput.append(lastZigZagMap.get("DOWN_TREND")+",");
 			 }
 		}

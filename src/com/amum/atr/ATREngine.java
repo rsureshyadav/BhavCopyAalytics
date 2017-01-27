@@ -4,6 +4,7 @@ import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -19,7 +20,8 @@ public class ATREngine {
 
 	public static DecimalFormat df = new DecimalFormat("###.##");
 	public static String OUTPUT_HEADER ="SYMBOL,DATE,HIGH,LOW,CLOSE,HIGH-LOW,CURR_HIGH-PREV_CLOSE,CURR_LOW-PREV_CLOSE,TRUE_RANGE,AVG_TRUE_RANGE";
-	public static void execute(Properties prop, String symbol) {
+	public static List<String> execute(Properties prop, String symbol) {
+		List<String> summaryOutputList = new  ArrayList<>();
 		try {
 		StringBuffer summaryHeader = new StringBuffer();
 		List<String> inputList =	InputCSVReader.readAsCsv(prop, symbol);
@@ -28,37 +30,43 @@ public class ATREngine {
 		List<String> currHighMinusPrevCloseList = findCurrHighMinusPrevClose(highMinusLowList);
 		List<String> currLowMinusPrevCloseList = findCurrLowMinusPrevClose(currHighMinusPrevCloseList);
 		List<String> trueRangeList =findTrueRange(currLowMinusPrevCloseList);
-		List<String> avgTrueRangeList = findAvgTrueRange(trueRangeList);
+		List<String> avgTrueRangeList = findAvgTrueRange(trueRangeList,OUTPUT_HEADER);
 		List<String> avgTrueRange = avgTrueRangeList.stream().collect(Collectors.toList());
-		List<String> atrOutputSummary = new ArrayList<>(); 		
 		String outputPath= prop.getProperty("file.output.path");
 		String fullPath = outputPath+"/ATR/"+LocalDate.now();
 		OutputCSVWriter.writeToCsvFile(fullPath,  symbol,  avgTrueRange);
 		
-		summaryHeader.append("SYMBOL, LAST_TREND,");
-		List<String> zigzagList = Arrays.asList(prop.getProperty("last.zigzag").split("\\s*,\\s*"));
-		for(String val :  zigzagList){
-			if(val.equalsIgnoreCase("1")){
-			}else{
-				summaryHeader.append("LAST_"+val+"_UP_TREND_COUNT,");
-				summaryHeader.append("LAST_"+val+"_DOWN_TREND_COUNT,");
-				
-			}
-		}
-		atrOutputSummary.add(summaryHeader.substring(0, summaryHeader.toString().length()-1));
 		String summaryOutput = ZigZagWithATR.getZigZagLastRange(symbol,avgTrueRangeList,OUTPUT_HEADER,prop);
-		atrOutputSummary.add(summaryOutput.substring(0, summaryOutput.toString().length()-1));
-		String writePath =prop.getProperty("file.summary.path")+"/atr_trend_summary_";
-		OutputCSVWriter.writeToCsvSummaryFile(writePath, atrOutputSummary);
+		summaryOutput =summaryOutput.substring(0, summaryOutput.toString().length()-1);
+		if(summaryOutput.contains("null")){
+			summaryOutput=summaryOutput.replace("null", "0");
+		}
+		summaryOutputList.add(summaryOutput);
 		
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+		return summaryOutputList;
 	
 	}
 
-	private static List<String> findAvgTrueRange(List<String> trueRangeList) {
+	public static String getHeader(Properties prop){
+		StringBuffer header = new StringBuffer();
+		String finaHeader=null;
+		header.append("SYMBOL, LAST_TREND,");
+		List<String> zigzagList = Arrays.asList(prop.getProperty("last.zigzag").split("\\s*,\\s*"));
+		for(String val :  zigzagList){
+			if(val.equalsIgnoreCase("1")){
+			}else{
+				header.append("LAST_"+val+"_UP_TREND_COUNT,");
+				header.append("LAST_"+val+"_DOWN_TREND_COUNT,");
+				
+			}
+		}
+		finaHeader = header.substring(0, header.length()-1);
+		return finaHeader;
+	}
+	public static List<String> findAvgTrueRange(List<String> trueRangeList,String OUTPUT_HEADER) {
 		List<String> avgTrueRangeList = new ArrayList<>(); 
 		avgTrueRangeList.add(OUTPUT_HEADER);
 		double prevATR =0.0;
@@ -82,7 +90,7 @@ public class ATREngine {
 		return avgTrueRangeList;
 	}
 
-	private static List<String> findTrueRange(List<String> inputList) {
+	public static List<String> findTrueRange(List<String> inputList) {
 		List<String> trueRangeList = new ArrayList<>(); 
 		double value[] = new double[3];
 		for(String input :inputList){
@@ -101,7 +109,7 @@ public class ATREngine {
 		  return max;
 	}
 	
-	private static List<String> findCurrLowMinusPrevClose(List<String> inputList) {
+	public static List<String> findCurrLowMinusPrevClose(List<String> inputList) {
 		List<String> findCurrLowMinusPrevCloseList = new ArrayList<>();
 		int count = 0;
 		for(String input :inputList){
@@ -125,7 +133,7 @@ public class ATREngine {
 		return findCurrLowMinusPrevCloseList;
 	}
 
-	private static List<String> findCurrHighMinusPrevClose(List<String> inputList) {
+	public static List<String> findCurrHighMinusPrevClose(List<String> inputList) {
 		List<String> findCurrHighMinusPrevCloseList = new ArrayList<>();
 		int count = 0;
 		for(String input :inputList){
