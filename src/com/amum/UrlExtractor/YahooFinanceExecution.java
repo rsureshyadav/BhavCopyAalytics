@@ -48,7 +48,7 @@ public class YahooFinanceExecution {
 		finalSummaryList.add(ATREngine.getHeader(prop));
 		finalSummaryList.addAll(summaryList);
 
-		String writePath =prop.getProperty("file.summary.path")+"/atr_volatile_summary_";
+		String writePath =prop.getProperty("file.summary.path")+"/yahoo_atr_volatile_summary_";
 		OutputCSVWriter.writeToCsvSummaryFile(writePath, finalSummaryList);
 		AmumUtil.executionTime(startTime);
 		System.out.println("Execution ATR Completed......");
@@ -63,7 +63,7 @@ public class YahooFinanceExecution {
 			FileWrite.execute(prop,symbol,outputMap);
 			buffer.append(outputMap.get("ConStockResult")+System.getProperty("line.separator"));
 		}
-		FileWrite.execute(prop,buffer.toString());
+		FileWrite.executeYahoo(prop,buffer.toString());
 		AmumUtil.executionTime(startSMATime);
 
 		System.out.println("Execution SMA Completed......");

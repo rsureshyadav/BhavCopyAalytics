@@ -33,4 +33,9 @@ public class FileWrite {
 		fileName = fileName+"/sma_summary_"+LocalDate.now()+".csv";
 		Files.write(Paths.get(fileName), output.getBytes());
 	}
+	public static void executeYahoo(Properties prop,String output) throws IOException{
+		String fileName= prop.getProperty("file.summary.path");
+		fileName = fileName+"/yahoo_sma_summary_"+LocalDate.now()+".csv";
+		Files.write(Paths.get(fileName), output.getBytes());
+	}
 }

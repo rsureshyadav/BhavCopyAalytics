@@ -1,4 +1,4 @@
-package coma.amum.download;
+package com.amum.download;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,7 +19,7 @@ import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-public class DailyBhavCopyStats {
+public class BulkDownloadBhavCopyStats {
 
 	public static void main(String[] args) throws IOException {
 		List<String> urlList = new ArrayList<>();
@@ -35,7 +35,6 @@ public class DailyBhavCopyStats {
 
 	private static void urlDownloader(List<String> urlList,Properties prop) {
 		String saveDir=prop.getProperty("dest.dir");
-		
 		for(String targetURL:urlList){
 			System.out.println(targetURL);
 		        try {
@@ -103,6 +102,7 @@ public class DailyBhavCopyStats {
         }
         httpConn.disconnect();
     }
+	
 	private static void deleteZip(String filepath) {
 		Path path= FileSystems.getDefault().getPath(filepath);
         try {
@@ -113,7 +113,6 @@ public class DailyBhavCopyStats {
 		}
 
 	}
-
 	private static void unzip(String zipFilePath, String destDir) {
         File dir = new File(destDir);
         // create output directory if it doesn't exist
@@ -152,10 +151,10 @@ public class DailyBhavCopyStats {
          
     }
  
-
 	private static List<String> urlBuilder() {
 		List<String> urlList = new ArrayList<>();
-			LocalDate currentDate = LocalDate.now();
+		for(int i=0; i<=385;i++){
+			LocalDate currentDate = LocalDate.now().minusDays(i);
 			DayOfWeek dow = currentDate.getDayOfWeek(); 
 			
 			LocalDate ld = LocalDate.of(currentDate.getYear(), currentDate.getMonth(), currentDate.getDayOfMonth());
@@ -169,7 +168,7 @@ public class DailyBhavCopyStats {
 				String url = "https://www.nseindia.com/content/historical/EQUITIES/"+currentDate.getYear()+"/"+month.toUpperCase()+"/cm"+date.toUpperCase()+"bhav.csv.zip";
 				urlList.add(url);
 			}
-		
+		}
 		return urlList;
 	}
 
