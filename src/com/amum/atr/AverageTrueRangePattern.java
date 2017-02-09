@@ -20,8 +20,8 @@ public class AverageTrueRangePattern {
 		long startTime = System.currentTimeMillis();
 		Properties prop = new Properties();
 		InputStream input = null;
-		StringBuffer summaryHeader = new StringBuffer();
-		List<String> atrOutputSummary = new ArrayList<>(); 		
+		/*StringBuffer summaryHeader = new StringBuffer();
+		List<String> atrOutputSummary = new ArrayList<>(); 	*/	
 
 		//read the config file
 		input = new FileInputStream("conf/config.properties");
@@ -31,7 +31,9 @@ public class AverageTrueRangePattern {
 		List<String> finalSummaryList = new  ArrayList<>();
 
 		for(String symbol :  symbolItems){
-			summaryList.addAll(ATREngine.execute(prop, symbol));
+			if(!symbol.contains("-")){
+				summaryList.addAll(ATREngine.execute(prop, symbol));
+			}
 		}
 		finalSummaryList.add(ATREngine.getHeader(prop));
 		finalSummaryList.addAll(summaryList);

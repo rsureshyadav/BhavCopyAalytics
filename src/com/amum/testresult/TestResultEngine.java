@@ -47,15 +47,20 @@ public class TestResultEngine {
 		if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
 			for(String line :inputList){
 				String inputArray[] = line.split("\\s*,\\s*");
-				String jsonString = getJsonObjectInfo(inputArray[0].toString());
-				
-				JSONObject jObject = null;
-				try {
-					jObject = new JSONObject(jsonString);
-					jsonMap.put(inputArray[0].toString(), jObject);
-				} 
-				catch (JSONException e) {
-					e.printStackTrace();
+				String isNull = inputArray[1];
+				if(!isNull.equalsIgnoreCase("NULL")){
+					String jsonString = getJsonObjectInfo(inputArray[0].toString());
+					
+					JSONObject jObject = null;
+					try {
+						if(jsonString != null){
+							jObject = new JSONObject(jsonString);
+							jsonMap.put(inputArray[0].toString(), jObject);
+						}
+					} 
+					catch (JSONException e) {
+						e.printStackTrace();
+					}
 				}
 			}
 		}
@@ -69,14 +74,19 @@ public class TestResultEngine {
 			if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
 				for(String line :inputList){
 					String inputArray[] = line.split("\\s*,\\s*");
-					outputList.add(getOutputOnlineResult(inputArray[0].toString(),line,jsonMap));
+					String isNull = inputArray[1];
+					if(!isNull.equalsIgnoreCase("NULL")){
+						outputList.add(getOutputOnlineResult(inputArray[0].toString(),line,jsonMap));
+					}
 				}
-			}else{
+				}else{
 				inputList = getSymbol(prop,fileName);
-				
 				for(String line :inputList){
 					String inputArray[] = line.split("\\s*,\\s*");
-					outputList.add(getOutputOfflineResult(inputArray[0].toString(),line));
+					String isNull = inputArray[1];
+					if(!isNull.equalsIgnoreCase("NULL")){
+						outputList.add(getOutputOfflineResult(inputArray[0].toString(),line));
+					}
 				}
 			}
 			String testPath = prop.getProperty("file.summary.path")+"/TEST_RESULT";
@@ -131,16 +141,18 @@ public class TestResultEngine {
 				JSONObject jObject = null;
 				String result = null;
 				try {
-					jObject = jsonMap.get(symbol);
-					double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
-					double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
-					double profitOrLoss = last_price - prev_close_price;
-					if(profitOrLoss>0){
-						result = "UP";
-					}else{
-						result = "DOWN";
+					if(jsonMap.get(symbol) != null){
+						jObject = jsonMap.get(symbol);
+						double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
+						double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
+						double profitOrLoss = last_price - prev_close_price;
+						if(profitOrLoss>0){
+							result = "UP";
+						}else{
+							result = "DOWN";
+						}
+						outputLine = result+","+df.format(profitOrLoss)+","+last_price+","+line;
 					}
-					outputLine = result+","+df.format(profitOrLoss)+","+last_price+","+line;
 				} 
 				catch (JSONException e) {
 					e.printStackTrace();

@@ -30,15 +30,18 @@ public class ATREngine {
 		List<String> avgTrueRange = avgTrueRangeList.stream().collect(Collectors.toList());
 		String outputPath= prop.getProperty("file.output.path");
 		String fullPath = outputPath+"/ATR/"+LocalDate.now();
-		OutputCSVWriter.writeToCsvFile(fullPath,  symbol,  avgTrueRange);
-		
-		String summaryOutput = ZigZagWithATR.getZigZagLastRange(symbol,avgTrueRangeList,OUTPUT_HEADER,prop);
-		summaryOutput =summaryOutput.substring(0, summaryOutput.toString().length()-1);
-		if(summaryOutput.contains("null")){
-			summaryOutput=summaryOutput.replace("null", "0");
+		if(avgTrueRange.size()>1){
+			OutputCSVWriter.writeToCsvFile(fullPath,  symbol,  avgTrueRange);
 		}
-		summaryOutputList.add(summaryOutput);
-		
+		if(avgTrueRangeList.size() >1){
+			String summaryOutput = ZigZagWithATR.getZigZagLastRange(symbol,avgTrueRangeList,OUTPUT_HEADER,prop);
+			summaryOutput =summaryOutput.substring(0, summaryOutput.toString().length()-1);
+			if(summaryOutput.contains("null")){
+				summaryOutput=summaryOutput.replace("null", "0");
+			}
+			summaryOutputList.add(summaryOutput);
+			
+		}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

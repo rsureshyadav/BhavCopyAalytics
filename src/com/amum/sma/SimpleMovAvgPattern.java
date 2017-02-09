@@ -25,9 +25,15 @@ public class SimpleMovAvgPattern {
 		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
 		buffer.append("SYMBOL,PREDECTION,MAX_GREEN,MAX_RED,SMA"+System.getProperty("line.separator"));
 		for(String symbol :  symbolItems){
-			Map<String,String> outputMap =FileReader.execute(prop,symbol);
-			FileWrite.execute(prop,symbol,outputMap);
-			buffer.append(outputMap.get("ConStockResult")+System.getProperty("line.separator"));
+			if(!symbol.contains("-")){
+				Map<String,String> outputMap =FileReader.execute(prop,symbol);
+				String resultArray[]= outputMap.get("ConStockResult").split("\\s*,\\s*");
+				String isNull = resultArray[1];
+				if(!isNull.equalsIgnoreCase("null")){
+					FileWrite.execute(prop,symbol,outputMap);
+					buffer.append(outputMap.get("ConStockResult")+System.getProperty("line.separator"));
+				}
+			}
 		}
 		FileWrite.execute(prop,buffer.toString());
 		AmumUtil.executionTime(startTime);
