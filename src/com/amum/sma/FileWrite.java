@@ -8,6 +8,8 @@ import java.time.LocalDate;
 import java.util.Map;
 import java.util.Properties;
 
+import com.amum.util.AmumUtil;
+
 public class FileWrite {
 
 	public static void execute(Properties prop, String symbol, Map<String,String> outputMap) throws IOException{
@@ -29,13 +31,15 @@ public class FileWrite {
 	}
 	
 	public static void execute(Properties prop,String output) throws IOException{
-		String fileName= prop.getProperty("file.summary.path");
-		fileName = fileName+"/sma_summary_"+LocalDate.now()+".csv";
+		String fileName= prop.getProperty("file.summary.path")+"/"+LocalDate.now();
+		AmumUtil.createDir(fileName);
+		fileName = fileName+"/sma_summary.csv";
 		Files.write(Paths.get(fileName), output.getBytes());
 	}
 	public static void executeYahoo(Properties prop,String output) throws IOException{
-		String fileName= prop.getProperty("file.summary.path");
-		fileName = fileName+"/sma_yahoo_summary_"+LocalDate.now()+".csv";
+		String fileName= prop.getProperty("file.summary.path")+"/"+LocalDate.now();
+		AmumUtil.createDir(fileName);
+		fileName = fileName+"/sma_yahoo_summary.csv";
 		Files.write(Paths.get(fileName), output.getBytes());
 	}
 }

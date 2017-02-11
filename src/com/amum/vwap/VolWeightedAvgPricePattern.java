@@ -4,12 +4,18 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.Properties;
-import java.util.Timer;
+import java.util.Set;
 
 import com.amum.util.AmumUtil;
+import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
 
 public class VolWeightedAvgPricePattern {
 public static void main(String str[]){
@@ -17,23 +23,21 @@ public static void main(String str[]){
 	long startTime = System.currentTimeMillis();
 	Properties prop = new Properties();
 	InputStream input = null;
-	Path path = Paths.get("output/INTRA_DAY/output.txt");
+/*	Path path = Paths.get("output/INTRA_DAY/output.txt");
 	int count =0;
-
+*/
 	//read the config file
 	try {
+
 		input = new FileInputStream("conf/config.properties");
 		prop.load(input);
-		
-		IntradayEngine engine = new IntradayEngine();
-		Timer timer = new Timer();
-		//message prints every 60 seconds, with a 1 second delay
-		if(count >= 3){
-		timer.schedule(new IntradayEngine(), 0, 6000);
-			System.out.println("<<<inside if>>>");
-			timer.cancel();
-			count++;
+		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
+		for(String symbol :  symbolItems){
+			if(!symbol.contains("-")){
+			VWAPEngine.writeToFileOutput(prop,symbol);
+			}
 		}
+		VWAPEngine.writeToFileSummary(prop);
 		
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block

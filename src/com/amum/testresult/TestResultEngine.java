@@ -11,6 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DecimalFormat;
+import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -89,7 +90,7 @@ public class TestResultEngine {
 					}
 				}
 			}
-			String testPath = prop.getProperty("file.summary.path")+"/TEST_RESULT";
+			String testPath = prop.getProperty("file.summary.path")+"/TEST_RESULT/"+LocalDate.now();
 			
 			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,fileName);
 		}

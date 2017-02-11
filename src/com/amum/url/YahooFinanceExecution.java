@@ -1,8 +1,9 @@
-package com.amum.UrlExtractor;
+package com.amum.url;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -49,8 +50,9 @@ public class YahooFinanceExecution {
 		}
 		finalSummaryList.add(ATREngine.getHeader(prop));
 		finalSummaryList.addAll(summaryList);
-
-		String writePath =prop.getProperty("file.summary.path")+"/atr_yahoo_volatile_summary_";
+		String path =prop.getProperty("file.summary.path")+"/"+LocalDate.now();
+		AmumUtil.createDir(path);
+		String writePath =path+"/atr_yahoo_summary.csv";
 		OutputCSVWriter.writeToCsvSummaryFile(writePath, finalSummaryList);
 		AmumUtil.executionTime(startTime);
 		System.out.println("Execution ATR Completed......");
