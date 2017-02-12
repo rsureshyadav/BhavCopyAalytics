@@ -21,6 +21,7 @@ import com.amum.sma.FileReader;
 import com.amum.sma.FileWrite;
 import com.amum.util.AmumUtil;
 import com.amum.util.OutputCSVWriter;
+import com.amum.vwap.VWAPEngine;
 
 
 public class YahooFinanceExecution {
@@ -28,17 +29,17 @@ public class YahooFinanceExecution {
 	public static void main(String[] args) throws IOException {
 		List<String> yahooGainerList = getGainerSymbol();
 
-		System.out.println("Execution ATR Started.....");
 		long startTime = System.currentTimeMillis();
 		Properties prop = new Properties();
 		InputStream input = null;
-		StringBuffer summaryHeader = new StringBuffer();
-		List<String> atrOutputSummary = new ArrayList<>(); 		
+/*		StringBuffer summaryHeader = new StringBuffer();
+		List<String> atrOutputSummary = new ArrayList<>(); */		
 
 		//read the config file
 		input = new FileInputStream("conf/config.properties");
 		prop.load(input);
 	    //System.out.println(yahooGainerList);
+		/*System.out.println("Execution ATR Started.....");
 
 		List<String> summaryList = new  ArrayList<>();
 		List<String> finalSummaryList = new  ArrayList<>();
@@ -71,8 +72,19 @@ public class YahooFinanceExecution {
 		}
 		FileWrite.executeYahoo(prop,buffer.toString());
 		AmumUtil.executionTime(startSMATime);
+		System.out.println("Execution SMA Completed......");*/
 
-		System.out.println("Execution SMA Completed......");
+		System.out.println("Execution VWAP Started......");
+		long startVWAPTime = System.currentTimeMillis();
+		for(String symbol :  yahooGainerList){
+			if(!symbol.contains("-")){
+				VWAPEngine.writeToFileOutput(prop,symbol);
+			}
+		}
+		String fileName="yahoo_vwap_summary.csv";
+		VWAPEngine.writeToFileSummary(prop,fileName);
+		AmumUtil.executionTime(startVWAPTime);
+		System.out.println("Execution VWAP Completed......");
 
 	}
 

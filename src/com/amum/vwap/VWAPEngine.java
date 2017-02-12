@@ -19,7 +19,6 @@ public class VWAPEngine {
 	public static String execute(String filename, String symbol) {
 		//String stockInfo = null;
 		List<String> list = new ArrayList<>();
-		
 		try (Stream<String> stream = Files.lines(Paths.get(filename))) {
 			list = stream
 					.filter(line -> line.startsWith(symbol))
@@ -28,11 +27,13 @@ public class VWAPEngine {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-		return list.get(0);
+		if(!list.isEmpty()){
+			return list.get(0);
+		}
+		return symbol ;
 	}
 
-	public static void writeToFileSummary(Properties prop) throws IOException{
+	public static void writeToFileSummary(Properties prop, String fileName) throws IOException{
 		String summaryPath= prop.getProperty("file.summary.path");
 		String fullPath = summaryPath+"/"+LocalDate.now();
 		Path path = Paths.get(fullPath);
@@ -46,7 +47,7 @@ public class VWAPEngine {
             }
         }
         
-        summaryPath=fullPath+"/vwap_summary.csv";
+        summaryPath=fullPath+"/"+fileName;
         String header="SYMBOL,DATE,OPEN,HIGH,LOW,CLOSE,VOLUME,VOLUMExCLOSE,13-VWAP,20-VWAP";
         List<String>  finalSummList = new ArrayList<>();
         finalSummList.add(header);
@@ -128,59 +129,62 @@ public class VWAPEngine {
 		int count=0;
 		for(String line : stockInfoList){
 			String lineArray[]=line.split("\\s*,\\s*");
-			if(lineArray[10] !=  null){
-				date=lineArray[10];
-			}else{
-				date="99-JAN-9999";
+			if(lineArray.length > 10 ){
+				
+				if(lineArray[10] !=  null){
+					date=lineArray[10];
+				}else{
+					date="99-JAN-9999";
+				}
+				if(lineArray[2] !=  null){
+					open=Double.parseDouble(lineArray[2]);
+				}else{
+					open=0.0;
+				}
+				if(lineArray[3] !=  null){
+					high=Double.parseDouble(lineArray[3]);
+				}else{
+					high=0.0;
+				}
+				if(lineArray[4] !=  null){
+					low=Double.parseDouble(lineArray[4]);
+				}else{
+					low=0.0;
+				}
+				if(lineArray[5] !=  null){
+					close=Double.parseDouble(lineArray[5]);
+				}else{
+					close=0.0;
+				}
+				if(lineArray[8] !=  null){
+					volume=Long.parseLong(lineArray[8]);
+				}else{
+					volume=0;
+				}
+				
+				volumexclose=(long) (volume * close);
+				
+				volumeList.add(volume);
+				volumexList.add(volumexclose);
+				if(count>=13){
+					List<Long> sumeOneList = volumexList.subList(innerSumOneCount, volumexList.size()-1);
+					List<Long> sumeTwoList = volumeList.subList(innerSumOneCount, volumeList.size()-1);
+					sumOne = VWAPEngine.getSumInLong(sumeOneList);
+					sumTwo = VWAPEngine.getSumInLong(sumeTwoList);
+					vwapOne = sumOne / sumTwo;
+					innerSumOneCount++;
+				}
+				if(count>=20){
+					List<Long> sumeOneList = volumexList.subList(innerSumTwoCount, volumexList.size()-1);
+					List<Long> sumeTwoList = volumeList.subList(innerSumTwoCount, volumeList.size()-1);
+					sumOne = VWAPEngine.getSumInLong(sumeOneList);
+					sumTwo = VWAPEngine.getSumInLong(sumeTwoList);
+					vwapTwo = sumOne / sumTwo;
+					innerSumTwoCount++;
+				}
+				count++;
+				stockList.add(date+","+open+","+high+","+low+","+close+","+volume+","+volumexclose+","+vwapOne+","+vwapTwo);
 			}
-			if(lineArray[2] !=  null){
-				open=Double.parseDouble(lineArray[2]);
-			}else{
-				open=0.0;
-			}
-			if(lineArray[3] !=  null){
-				high=Double.parseDouble(lineArray[3]);
-			}else{
-				high=0.0;
-			}
-			if(lineArray[4] !=  null){
-				low=Double.parseDouble(lineArray[4]);
-			}else{
-				low=0.0;
-			}
-			if(lineArray[5] !=  null){
-				close=Double.parseDouble(lineArray[5]);
-			}else{
-				close=0.0;
-			}
-			if(lineArray[8] !=  null){
-				volume=Long.parseLong(lineArray[8]);
-			}else{
-				volume=0;
-			}
-			
-			volumexclose=(long) (volume * close);
-			
-			volumeList.add(volume);
-			volumexList.add(volumexclose);
-			if(count>=13){
-				List<Long> sumeOneList = volumexList.subList(innerSumOneCount, volumexList.size()-1);
-				List<Long> sumeTwoList = volumeList.subList(innerSumOneCount, volumeList.size()-1);
-				sumOne = VWAPEngine.getSumInLong(sumeOneList);
-				sumTwo = VWAPEngine.getSumInLong(sumeTwoList);
-				vwapOne = sumOne / sumTwo;
-				innerSumOneCount++;
-			}
-			if(count>=20){
-				List<Long> sumeOneList = volumexList.subList(innerSumTwoCount, volumexList.size()-1);
-				List<Long> sumeTwoList = volumeList.subList(innerSumTwoCount, volumeList.size()-1);
-				sumOne = VWAPEngine.getSumInLong(sumeOneList);
-				sumTwo = VWAPEngine.getSumInLong(sumeTwoList);
-				vwapTwo = sumOne / sumTwo;
-				innerSumTwoCount++;
-			}
-			stockList.add(date+","+open+","+high+","+low+","+close+","+volume+","+volumexclose+","+vwapOne+","+vwapTwo);
-			count++;
 		}
 		VWAPEngine.writeToOutputFile(prop,symbol,stockList);
 	}

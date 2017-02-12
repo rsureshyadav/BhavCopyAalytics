@@ -23,10 +23,6 @@ public static void main(String str[]){
 	long startTime = System.currentTimeMillis();
 	Properties prop = new Properties();
 	InputStream input = null;
-/*	Path path = Paths.get("output/INTRA_DAY/output.txt");
-	int count =0;
-*/
-	//read the config file
 	try {
 
 		input = new FileInputStream("conf/config.properties");
@@ -37,7 +33,8 @@ public static void main(String str[]){
 			VWAPEngine.writeToFileOutput(prop,symbol);
 			}
 		}
-		VWAPEngine.writeToFileSummary(prop);
+		String fileName="vwap_summary.csv";
+		VWAPEngine.writeToFileSummary(prop,fileName);
 		
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
