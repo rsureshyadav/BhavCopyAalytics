@@ -39,7 +39,7 @@ public class YahooFinanceExecution {
 		input = new FileInputStream("conf/config.properties");
 		prop.load(input);
 	    //System.out.println(yahooGainerList);
-		/*System.out.println("Execution ATR Started.....");
+		System.out.println("Execution ATR Started.....");
 
 		List<String> summaryList = new  ArrayList<>();
 		List<String> finalSummaryList = new  ArrayList<>();
@@ -72,7 +72,7 @@ public class YahooFinanceExecution {
 		}
 		FileWrite.executeYahoo(prop,buffer.toString());
 		AmumUtil.executionTime(startSMATime);
-		System.out.println("Execution SMA Completed......");*/
+		System.out.println("Execution SMA Completed......");
 
 		System.out.println("Execution VWAP Started......");
 		long startVWAPTime = System.currentTimeMillis();
@@ -81,7 +81,7 @@ public class YahooFinanceExecution {
 				VWAPEngine.writeToFileOutput(prop,symbol);
 			}
 		}
-		String fileName="yahoo_vwap_summary.csv";
+		String fileName="vwap_yahoo_summary.csv";
 		VWAPEngine.writeToFileSummary(prop,fileName);
 		AmumUtil.executionTime(startVWAPTime);
 		System.out.println("Execution VWAP Completed......");

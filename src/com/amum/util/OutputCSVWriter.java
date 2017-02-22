@@ -58,6 +58,8 @@ public static void writeToCsvTestResultSummary(String fullPath, List<String> out
 			outputPath=fullPath+"/ATR_"+getDateTime()+".csv";
 		}else if(inputFileName.startsWith("sma")){
 			outputPath=fullPath+"/SMA_"+getDateTime()+".csv";
+		}else if(inputFileName.startsWith("vwap")){
+			outputPath=fullPath+"/VWAP_"+getDateTime()+".csv";
 		}
 		Files.write(Paths.get(outputPath), outputList);
 	} catch (IOException e) {

@@ -48,19 +48,22 @@ public class TestResultEngine {
 		if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
 			for(String line :inputList){
 				String inputArray[] = line.split("\\s*,\\s*");
-				String isNull = inputArray[1];
-				if(!isNull.equalsIgnoreCase("NULL")){
-					String jsonString = getJsonObjectInfo(inputArray[0].toString());
-					
-					JSONObject jObject = null;
-					try {
-						if(jsonString != null){
-							jObject = new JSONObject(jsonString);
-							jsonMap.put(inputArray[0].toString(), jObject);
+				if(inputArray.length>1){
+					System.out.println("==>"+line);
+					String isNull = inputArray[1];
+					if(!isNull.equalsIgnoreCase("NULL")){
+						String jsonString = getJsonObjectInfo(inputArray[0].toString());
+						
+						JSONObject jObject = null;
+						try {
+							if(jsonString != null){
+								jObject = new JSONObject(jsonString);
+								jsonMap.put(inputArray[0].toString(), jObject);
+							}
+						} 
+						catch (JSONException e) {
+							e.printStackTrace();
 						}
-					} 
-					catch (JSONException e) {
-						e.printStackTrace();
 					}
 				}
 			}
@@ -75,9 +78,11 @@ public class TestResultEngine {
 			if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
 				for(String line :inputList){
 					String inputArray[] = line.split("\\s*,\\s*");
-					String isNull = inputArray[1];
-					if(!isNull.equalsIgnoreCase("NULL")){
-						outputList.add(getOutputOnlineResult(inputArray[0].toString(),line,jsonMap));
+					if(inputArray.length>1){
+						String isNull = inputArray[1];
+						if(!isNull.equalsIgnoreCase("NULL")){
+							outputList.add(getOutputOnlineResult(inputArray[0].toString(),line,jsonMap));
+						}
 					}
 				}
 				}else{
@@ -183,7 +188,7 @@ public class TestResultEngine {
 
 	private static List<String>  getSymbol(Properties prop, String fileName) throws IOException {
 		String outputPath=prop.getProperty("file.summary.path");
-        String readFileName = outputPath+"/"+fileName;
+        String readFileName = outputPath+"/"+LocalDate.now()+"/"+fileName;
         List<String> list = new ArrayList<>();
         try (Stream<String> stream = Files.lines(Paths.get(readFileName))) {
 
@@ -202,7 +207,7 @@ public class TestResultEngine {
 		String outputPath=prop.getProperty("file.summary.path");
 		
 		
-        String readFileName = outputPath+"/"+fileName;
+        String readFileName = outputPath+"/"+LocalDate.now()+"/"+fileName;
         List<String> headerName=new ArrayList<>();
 
         try (Stream<String> stream = Files.lines(Paths.get(readFileName))) {
