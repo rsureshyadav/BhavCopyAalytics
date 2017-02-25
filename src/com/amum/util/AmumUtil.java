@@ -6,6 +6,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
@@ -15,8 +19,6 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import com.amum.vwap.VWAPEngine;
 
 public class AmumUtil {
 
@@ -157,13 +159,6 @@ public class AmumUtil {
 
 	public static Map<String, List<Double>> splitAsPrice(String stockInfo) {
 		
-		/*Map<String, List<String>> priceMap = new HashMap<>();
-		List<String> openPrice = new ArrayList<>();
-		List<String> highPrice= new ArrayList<>();
-		List<String> lowPrice= new ArrayList<>();
-		List<String> closePrice= new ArrayList<>();
-		List<String> lastPrice= new ArrayList<>();
-		List<String> prevClose= new ArrayList<>();*/
 		Map<String, List<Double>> priceMap = new HashMap<>();
 		List<Double> openPrice = new ArrayList<>();
 		List<Double> highPrice= new ArrayList<>();
@@ -172,42 +167,8 @@ public class AmumUtil {
 		List<Double> lastPrice= new ArrayList<>();
 		List<Double> prevClose= new ArrayList<>();
 		
-	 // for(String line : stockInfoList){
 			String lineArray[]=stockInfo.split("\\s*,\\s*");
 			if(lineArray.length > 10 ){
-				
-				/*if(lineArray[2] !=  null){
-					openPrice.add(lineArray[2]);
-				}else{
-					openPrice.add("0.0");
-				}
-				if(lineArray[3] !=  null){
-					highPrice.add(lineArray[3]);
-				}else{
-					highPrice.add("0.0");
-				}
-				if(lineArray[4] !=  null){
-					lowPrice.add(lineArray[4]);
-				}else{
-					lowPrice.add("0.0");
-				}
-				if(lineArray[5] !=  null){
-					closePrice.add(lineArray[5]);
-				}else{
-					closePrice.add("0.0");
-				}
-				if(lineArray[6] !=  null){
-					lastPrice.add(lineArray[6]);
-				}else{
-					lastPrice.add("0.0");
-				}
-				if(lineArray[7] !=  null){
-					prevClose.add(lineArray[7]);
-				}else{
-					prevClose.add("0.0");
-				}*/
-			
-				
 				if(lineArray[2] !=  null){
 					openPrice.add(Double.parseDouble(lineArray[2]));
 				}else{
@@ -239,7 +200,6 @@ public class AmumUtil {
 					prevClose.add(0.0);
 				}
 			}
-		//}
 	  priceMap.put("OPEN_PRICE", openPrice);
 	  priceMap.put("HIGH_PRICE", highPrice);
 	  priceMap.put("LOW_PRICE", lowPrice);
@@ -249,4 +209,24 @@ public class AmumUtil {
 		return priceMap;
 	}
 
+	public static Date convertStringToDate(String dateInString) {
+		 SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-yyyy");
+		 Date date = null;
+	        try {
+
+	             date = formatter.parse(dateInString);
+
+	        } catch (ParseException e) {
+	            e.printStackTrace();
+	        }
+		return date;
+	}
+
+	public static LocalDate convertDateToLocalDate(Date dateInDate) {
+		LocalDate date = null;
+		Instant instant = dateInDate.toInstant();
+		ZonedDateTime zdt = instant.atZone(ZoneId.systemDefault());
+		 date = zdt.toLocalDate();
+		 return date;
+	}
 }

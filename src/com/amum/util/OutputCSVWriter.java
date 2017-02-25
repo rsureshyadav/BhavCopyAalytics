@@ -60,6 +60,8 @@ public static void writeToCsvTestResultSummary(String fullPath, List<String> out
 			outputPath=fullPath+"/SMA_"+getDateTime()+".csv";
 		}else if(inputFileName.startsWith("vwap")){
 			outputPath=fullPath+"/VWAP_"+getDateTime()+".csv";
+		}else if(inputFileName.startsWith("thirtymin")){
+			outputPath=fullPath+"/THIRTYMIN_INTRADAY_"+getDateTime()+".csv";
 		}
 		Files.write(Paths.get(outputPath), outputList);
 	} catch (IOException e) {

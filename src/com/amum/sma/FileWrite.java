@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
@@ -36,10 +37,17 @@ public class FileWrite {
 		fileName = fileName+"/sma_summary.csv";
 		Files.write(Paths.get(fileName), output.getBytes());
 	}
+	
 	public static void executeYahoo(Properties prop,String output) throws IOException{
 		String fileName= prop.getProperty("file.summary.path")+"/"+LocalDate.now();
 		AmumUtil.createDir(fileName);
 		fileName = fileName+"/sma_yahoo_summary.csv";
 		Files.write(Paths.get(fileName), output.getBytes());
+	}
+	public static void executeIntraday(Properties prop,List<String> output) throws IOException{
+		String fileName= prop.getProperty("file.summary.path")+"/"+LocalDate.now();
+		AmumUtil.createDir(fileName);
+		fileName = fileName+"/thirtymin_intraday_summary.csv";
+		Files.write(Paths.get(fileName), output);
 	}
 }

@@ -27,7 +27,7 @@ import com.amum.vwap.VWAPEngine;
 public class YahooFinanceExecution {
 
 	public static void main(String[] args) throws IOException {
-		List<String> yahooGainerList = getGainerSymbol();
+		List<String> yahooGainerList = getYahooGainerSymbol();
 
 		long startTime = System.currentTimeMillis();
 		Properties prop = new Properties();
@@ -88,7 +88,7 @@ public class YahooFinanceExecution {
 
 	}
 
-	private static List<String> getGainerSymbol() {
+	private static List<String> getYahooGainerSymbol() {
 		List<String> gainerList = new ArrayList<>();
 		try
 		{

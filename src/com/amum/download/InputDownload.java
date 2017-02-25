@@ -25,7 +25,7 @@ import java.util.zip.ZipInputStream;
 
 import com.amum.util.AmumUtil;
 
-public class TimeBasedInputDownload {
+public class InputDownload {
 
     public static void main(String[] args) throws IOException, ParseException {
         List<String> urlList = new ArrayList<>();
