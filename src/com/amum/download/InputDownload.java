@@ -166,8 +166,8 @@ public class InputDownload {
         Date result = new SimpleDateFormat("ddMMMyyyy",Locale.ENGLISH).parse(actualDate);
         int actDateCount = LocalDate.now().getDayOfMonth();
         int curDateCount = result.getDate();
-        dateCount = actDateCount   - curDateCount;
-        
+        dateCount = curDateCount - actDateCount;
+        System.out.println(dateCount);
         for(int i=0; i<=dateCount;i++){
             LocalDate currentDate = LocalDate.now().minusDays(i);
             DayOfWeek dow = currentDate.getDayOfWeek(); 
