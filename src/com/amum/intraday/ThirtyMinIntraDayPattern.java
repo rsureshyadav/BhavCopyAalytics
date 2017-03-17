@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +18,7 @@ import com.amum.util.AmumUtil;
 public class ThirtyMinIntraDayPattern {
 	static DecimalFormat df = new DecimalFormat("###.##");
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 
 
 		System.out.println("Execution Started......");
@@ -34,22 +36,41 @@ public class ThirtyMinIntraDayPattern {
 		String header="SYMBOL,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
 		outputList.add(header);
 		int count=0;
+		int fileRowSplitCout=1;
+		boolean isFileRowSplitCount=false;
+
+		int fileRowSplit= Integer.parseInt(prop.getProperty("file.row.split"));
+		int splitCount=1;
 		for(String symbol :  symbolItems){
 			if(!symbol.contains("-")){
-				System.out.println("Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
+				System.out.println(LocalDateTime.now()+"==> Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
 				Map<String, List<Double>> lastTwoPriceMap  = IntradayEngine.getLastTwoPriceInfo(inputFileList,symbol,deliveryMode);
 				List<Double> priceList = lastTwoPriceMap.get("CLOSE_PRICE");
 
 				if(!priceList.isEmpty()){
 					String stockStatus = IntradayEngine.stockPriceSentiment(priceList);
-					String newsSentiment = IntradayEngine.getNewsSentiment(symbol);
+					String newsSentiment = IntradayEngine.getNewsSentiment(prop,symbol);
 					Map<String,Double> buySellMap = IntradayEngine.getBuySellPrice(lastTwoPriceMap);
 					outputList.add(symbol+","+stockStatus+","+newsSentiment+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
 				}
 				count++;
+				if(symbolItems.size()>=100){
+					if(fileRowSplitCout==fileRowSplit){
+						isFileRowSplitCount=true;
+					}
+					if(isFileRowSplitCount){
+						isFileRowSplitCount=false;
+						fileRowSplitCout=0;
+						FileWrite.executeIntradaySplit(prop, outputList,splitCount);
+						splitCount++;
+					}
+					fileRowSplitCout++;
+				}
 			}
 		}
-		FileWrite.executeIntraday(prop, outputList);
+		if(symbolItems.size()<=100){
+			FileWrite.executeIntraday(prop, outputList);
+		}
 		AmumUtil.executionTime(startTime);
 		System.out.println("Execution Completed......");
 	}

@@ -1,9 +1,9 @@
 package com.amum.intraday;
 
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.DecimalFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -11,9 +11,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -102,78 +104,85 @@ public class IntradayEngine {
 		return priceMap;
 	}
 
-	public static String getNewsSentiment(String symbol) throws IOException {
+	public static String getNewsSentiment(Properties prop,String symbol) throws IOException  {
 		String newsStatus = null;
-
+		Response response = null;
 		  String newsURL="http://money.rediff.com/companies/"+symbol;
-			Document doc = Jsoup.connect(newsURL).get();
-			Date marketNewsDate = NewsReader.getLastMarketNewsDate(symbol,doc);
-			LocalDate markLocaDate = AmumUtil.convertDateToLocalDate(marketNewsDate);
-			//System.out.println("Last Market News::"+markLocaDate);
-			Date nseNewsDate = NewsReader.getLastNseNewsDate(symbol,doc);
-			LocalDate nseNewsLocalDate = AmumUtil.convertDateToLocalDate(nseNewsDate);
-			//System.out.println("Last NSE News::"+nseNewsLocalDate);
-
-			LocalDate today = LocalDate.now();
-			LocalDate yesterday = today.minusDays(1);
-			LocalDate dayBeforeYesterday = today.minusDays(2);
-
-			if(!today.getDayOfWeek().equals(DayOfWeek.SATURDAY) && !today.getDayOfWeek().equals(DayOfWeek.SUNDAY)){
-				if(today.equals(markLocaDate)){
-					newsStatus="NEWS";
-				}else if(yesterday.equals(markLocaDate)){
-					newsStatus="NEWS";
-				}else if(dayBeforeYesterday.equals(markLocaDate)){
-					newsStatus="NEWS";
-				}else if(today.equals(nseNewsLocalDate)){
-					newsStatus="NEWS";
-				}else if(yesterday.equals(nseNewsLocalDate)){
-					newsStatus="NEWS";
-				}else if(dayBeforeYesterday.equals(nseNewsLocalDate)){
-					newsStatus="NEWS";
-				}else{
-					newsStatus="NO_NEWS";
+			//Document doc = Jsoup.connect(newsURL).get();
+		 int timer = Integer.parseInt(prop.getProperty("file.news.timer"));
+			response = Jsoup.connect(newsURL).timeout(timer).execute();
+			if(response.statusCode() == HttpURLConnection.HTTP_OK){
+				
+				Document doc = response.parse();
+				
+				Date marketNewsDate = NewsReader.getLastMarketNewsDate(symbol,doc);
+				LocalDate markLocaDate = AmumUtil.convertDateToLocalDate(marketNewsDate);
+				//System.out.println("Last Market News::"+markLocaDate);
+				Date nseNewsDate = NewsReader.getLastNseNewsDate(symbol,doc);
+				LocalDate nseNewsLocalDate = AmumUtil.convertDateToLocalDate(nseNewsDate);
+				//System.out.println("Last NSE News::"+nseNewsLocalDate);
+				
+				LocalDate today = LocalDate.now();
+				LocalDate yesterday = today.minusDays(1);
+				LocalDate dayBeforeYesterday = today.minusDays(2);
+				
+				if(!today.getDayOfWeek().equals(DayOfWeek.SATURDAY) && !today.getDayOfWeek().equals(DayOfWeek.SUNDAY)){
+					if(today.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(yesterday.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(dayBeforeYesterday.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(today.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else if(yesterday.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else if(dayBeforeYesterday.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else{
+						newsStatus="NO_NEWS";
+					}
+				} if(today.getDayOfWeek().equals(DayOfWeek.SATURDAY)){
+					today = LocalDate.now();
+					today = today.minusDays(1);
+					yesterday = today.minusDays(2);
+					dayBeforeYesterday = today.minusDays(3);
+					if(today.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(yesterday.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(dayBeforeYesterday.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(today.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else if(yesterday.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else if(dayBeforeYesterday.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else{
+						newsStatus="NO_NEWS";
+					}
+				}else if(today.getDayOfWeek().equals(DayOfWeek.SUNDAY)){
+					today = LocalDate.now();
+					today = today.minusDays(2);
+					yesterday = today.minusDays(3);
+					dayBeforeYesterday = today.minusDays(3);
+					if(today.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(yesterday.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(dayBeforeYesterday.equals(markLocaDate)){
+						newsStatus="NEWS";
+					}else if(today.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else if(yesterday.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else if(dayBeforeYesterday.equals(nseNewsLocalDate)){
+						newsStatus="NEWS";
+					}else{
+						newsStatus="NO_NEWS";
+					}
 				}
-			} if(today.getDayOfWeek().equals(DayOfWeek.SATURDAY)){
-				 today = LocalDate.now();
-				 today = today.minusDays(1);
-				 yesterday = today.minusDays(2);
-				 dayBeforeYesterday = today.minusDays(3);
-				 if(today.equals(markLocaDate)){
-						newsStatus="NEWS";
-					}else if(yesterday.equals(markLocaDate)){
-						newsStatus="NEWS";
-					}else if(dayBeforeYesterday.equals(markLocaDate)){
-						newsStatus="NEWS";
-					}else if(today.equals(nseNewsLocalDate)){
-						newsStatus="NEWS";
-					}else if(yesterday.equals(nseNewsLocalDate)){
-						newsStatus="NEWS";
-					}else if(dayBeforeYesterday.equals(nseNewsLocalDate)){
-						newsStatus="NEWS";
-					}else{
-						newsStatus="NO_NEWS";
-					}
-			}else if(today.getDayOfWeek().equals(DayOfWeek.SUNDAY)){
-				 today = LocalDate.now();
-				 today = today.minusDays(2);
-				 yesterday = today.minusDays(3);
-				 dayBeforeYesterday = today.minusDays(3);
-				 if(today.equals(markLocaDate)){
-						newsStatus="NEWS";
-					}else if(yesterday.equals(markLocaDate)){
-						newsStatus="NEWS";
-					}else if(dayBeforeYesterday.equals(markLocaDate)){
-						newsStatus="NEWS";
-					}else if(today.equals(nseNewsLocalDate)){
-						newsStatus="NEWS";
-					}else if(yesterday.equals(nseNewsLocalDate)){
-						newsStatus="NEWS";
-					}else if(dayBeforeYesterday.equals(nseNewsLocalDate)){
-						newsStatus="NEWS";
-					}else{
-						newsStatus="NO_NEWS";
-					}
 			}
 			
 		return newsStatus;

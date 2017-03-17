@@ -28,9 +28,12 @@ public static void main(String str[]){
 		input = new FileInputStream("conf/config.properties");
 		prop.load(input);
 		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
+		int count=0;
 		for(String symbol :  symbolItems){
 			if(!symbol.contains("-")){
+				System.out.println("Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
 			VWAPEngine.writeToFileOutput(prop,symbol);
+			count++;
 			}
 		}
 		String fileName="vwap_summary.csv";

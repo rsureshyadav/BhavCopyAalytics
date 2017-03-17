@@ -50,4 +50,11 @@ public class FileWrite {
 		fileName = fileName+"/thirtymin_intraday_summary.csv";
 		Files.write(Paths.get(fileName), output);
 	}
+
+	public static void executeIntradaySplit(Properties prop, List<String> outputList, int fileRowSplitCout) throws IOException{
+		String fileName= prop.getProperty("file.summary.path")+"/"+LocalDate.now();
+		AmumUtil.createDir(fileName);
+		fileName = fileName+"/thirtymin_intraday_summary_"+fileRowSplitCout+".csv";
+		Files.write(Paths.get(fileName), outputList);
+	}
 }

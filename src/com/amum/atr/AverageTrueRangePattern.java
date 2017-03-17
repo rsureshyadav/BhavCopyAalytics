@@ -30,10 +30,12 @@ public class AverageTrueRangePattern {
 		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
 		List<String> summaryList = new  ArrayList<>();
 		List<String> finalSummaryList = new  ArrayList<>();
-
+		int count =0;
 		for(String symbol :  symbolItems){
 			if(!symbol.contains("-")){
+				System.out.println("Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
 				summaryList.addAll(ATREngine.execute(prop, symbol));
+				count++;
 			}
 		}
 		finalSummaryList.add(ATREngine.getHeader(prop));

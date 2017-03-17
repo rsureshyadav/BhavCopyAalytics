@@ -25,7 +25,7 @@ import java.util.zip.ZipInputStream;
 
 import com.amum.util.AmumUtil;
 
-public class InputDownload {
+public class InputStockInfoDownloader {
 
     public static void main(String[] args) throws IOException, ParseException {
         List<String> urlList = new ArrayList<>();
@@ -159,15 +159,16 @@ public class InputDownload {
  
     private static List<String> urlBuilder() throws IOException, ParseException {
         List<String> urlList = new ArrayList<>();
-        int dateCount=0;
+        long dateCount=0;
         String actualDate = AmumUtil.getLatestInputFile();
         actualDate=actualDate.substring(actualDate.indexOf("cm")+2);
         actualDate=actualDate.replace("bhav.csv", "");
-        Date result = new SimpleDateFormat("ddMMMyyyy",Locale.ENGLISH).parse(actualDate);
-        int actDateCount = LocalDate.now().getDayOfMonth();
-        int curDateCount = result.getDate();
-        dateCount = curDateCount - actDateCount;
-        System.out.println(dateCount);
+
+        Date lastDate = new SimpleDateFormat("ddMMMyyyy",Locale.ENGLISH).parse(actualDate);
+        Date curDate = new Date();
+        dateCount = daysBetween(lastDate,curDate);
+        
+
         for(int i=0; i<=dateCount;i++){
             LocalDate currentDate = LocalDate.now().minusDays(i);
             DayOfWeek dow = currentDate.getDayOfWeek(); 
@@ -186,4 +187,12 @@ public class InputDownload {
         }
         return urlList;
     }
+    
+    private static  long daysBetween(Date one, Date two) {
+        long difference =  (one.getTime()-two.getTime())/86400000;
+        return Math.abs(difference);
+    }
+
+
+
 }

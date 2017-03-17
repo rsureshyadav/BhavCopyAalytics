@@ -63,6 +63,7 @@ public class IntraDayTestResultEngine {
 								double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
 								double profitOrLoss = last_price - prev_close_price;
 								String volume =jObject.getString("vo");
+								volume=volume.replace(",", "");
 								outputList.add(last_price+","+profitOrLoss+","+volume+","+line );
 
 							}

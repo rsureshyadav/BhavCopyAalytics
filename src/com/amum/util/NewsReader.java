@@ -88,7 +88,7 @@ public class NewsReader {
 			        cal.add(Calendar.DATE, -Integer.parseInt(range));    
 			        Date finalDate = AmumUtil.convertStringToDate(dateFormat.format(cal.getTime()));
 					dateList.add(finalDate);
-				}else if(date.length()==12){
+				}else if(!date.matches(".*[^a-z].*")  && date.length()==12){
 					date=date.replace(" ", "-");
 					date = date.substring(1, date.length());
 					Date finalDate = AmumUtil.convertStringToDate(date);
