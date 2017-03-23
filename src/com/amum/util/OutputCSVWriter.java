@@ -62,6 +62,8 @@ public static void writeToCsvTestResultSummary(String fullPath, List<String> out
 			outputPath=fullPath+"/VWAP_"+getDateTime()+".csv";
 		}else if(inputFileName.startsWith("thirtymin")){
 			outputPath=fullPath+"/THIRTYMIN_INTRADAY_"+getDateTime()+".csv";
+		}else if(inputFileName.startsWith("atr_final_summary")){
+			outputPath=fullPath+"/ATR_FINAL_SUMMARY_RESULT_"+getDateTime()+".csv";
 		}
 		Files.write(Paths.get(outputPath), outputList);
 	} catch (IOException e) {

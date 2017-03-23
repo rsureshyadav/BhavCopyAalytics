@@ -54,7 +54,7 @@ public class ThirtyMinIntraDayPattern {
 					outputList.add(symbol+","+stockStatus+","+newsSentiment+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
 				}
 				count++;
-				if(symbolItems.size()>=100){
+				if(symbolItems.size()>=fileRowSplit){
 					if(fileRowSplitCout==fileRowSplit){
 						isFileRowSplitCount=true;
 					}
@@ -68,8 +68,10 @@ public class ThirtyMinIntraDayPattern {
 				}
 			}
 		}
-		if(symbolItems.size()<=100){
+		if(symbolItems.size()<=fileRowSplit){
 			FileWrite.executeIntraday(prop, outputList);
+		}else{
+			FileWrite.executeIntraday(prop, splitCount-1);
 		}
 		AmumUtil.executionTime(startTime);
 		System.out.println("Execution Completed......");

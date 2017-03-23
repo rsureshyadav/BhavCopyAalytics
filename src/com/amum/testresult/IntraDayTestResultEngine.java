@@ -43,7 +43,7 @@ public class IntraDayTestResultEngine {
 		prop.load(input);
 		List<String> outputList = new ArrayList<>();
 		List<String> inputList;
-		List<String> fileNameList = Arrays.asList(prop.getProperty("test.summary.name").split("\\s*,\\s*"));
+		List<String> fileNameList = Arrays.asList(prop.getProperty("test.summary.intraday.name").split("\\s*,\\s*"));
 		String headerName = "CURRENT_PRICE,UP_DOWN_AMOUNT,VOLUME,SYMBOL,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
 		outputList.add(headerName);
 		inputList = getSymbol(prop,fileNameList.get(0));
