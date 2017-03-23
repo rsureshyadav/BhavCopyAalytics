@@ -1,4 +1,4 @@
-package com.amum.testresult;
+package com.amum.util;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -34,7 +34,7 @@ import com.amum.sma.FileWrite;
 import com.amum.util.AmumUtil;
 import com.amum.util.OutputCSVWriter;
 
-public class TestResultEngine {
+public class CommonLogicImplementation {
 
 	
 	public static DecimalFormat df = new DecimalFormat("###.##");
@@ -168,7 +168,7 @@ public class TestResultEngine {
 	}
 
 
-	private static void executeGoodStock(Properties prop,Set<String> inputList) throws IOException {
+	public static void getGoodStockForThirtyMin(Properties prop,Set<String> inputList) throws IOException {
 		List<String> outputList = new ArrayList<>();
 		String headerName = "SYMBOL,CURRENT_PRICE,UP_DOWN_AMOUNT,VOLUME,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
 		outputList.add(headerName);
@@ -206,16 +206,13 @@ public class TestResultEngine {
 				}
 			}
 			count++;
-			
 		}
-		if(!inputList.isEmpty()){
 			String testPath = prop.getProperty("file.summary.final")+"/"+LocalDate.now();
-			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,"final_summary");
-		}
+			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,"thirty_min");
 	}
 
 
-	private static Set<String> getGoodStockFrmVwap(Properties prop, String fileName) throws IOException {
+	public static Set<String> getGoodStockFrmVwap(Properties prop, String fileName) throws IOException {
 		Set<String> output = new HashSet<>();
 		String outputPath=prop.getProperty("file.summary.path");
         String readFileName = outputPath+"/"+LocalDate.now()+"/"+fileName;
@@ -240,7 +237,7 @@ public class TestResultEngine {
 	}
 
 
-	private static Set<String> getGoodStockFrmSma(Properties prop, String fileName) throws IOException {
+	public static Set<String> getGoodStockFrmSma(Properties prop, String fileName) throws IOException {
 		Set<String> output = new HashSet<>();
 		String outputPath=prop.getProperty("file.summary.path");
         String readFileName = outputPath+"/"+LocalDate.now()+"/"+fileName;
@@ -268,7 +265,7 @@ public class TestResultEngine {
 	}
 
 
-	private static Set<String> getGoodStockFrmAtr(Properties prop, String fileName) throws IOException {
+	public static Set<String> getGoodStockFrmAtr(Properties prop, String fileName) throws IOException {
 		Set<String> atrSet = new HashSet<>();
 		String outputPath=prop.getProperty("file.summary.path");
         String readFileName = outputPath+"/"+LocalDate.now()+"/"+fileName;

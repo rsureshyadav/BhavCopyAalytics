@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 public class OutputCSVWriter {
 public static void writeToCsvFile(String fullPath, String symbol, List<String> outputList ){
@@ -41,6 +42,16 @@ public static void writeToCsvSummaryFile(String fullPath, List<String> outputLis
 	}
 		
 }
+
+public static void writeToCsvFinalFile(String fullPath, Set<String> outputList ){
+
+	try {
+		Files.write(Paths.get(fullPath), outputList);
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+		
+}
 public static void writeToCsvTestResultSummary(String fullPath, List<String> outputList,String inputFileName ){
 	String outputPath = null;
 	Path path = Paths.get(fullPath);
@@ -64,6 +75,8 @@ public static void writeToCsvTestResultSummary(String fullPath, List<String> out
 			outputPath=fullPath+"/THIRTYMIN_INTRADAY_"+getDateTime()+".csv";
 		}else if(inputFileName.startsWith("atr_final_summary")){
 			outputPath=fullPath+"/ATR_FINAL_SUMMARY_RESULT_"+getDateTime()+".csv";
+		}else if(inputFileName.startsWith("thirty_min")){
+			outputPath=fullPath+"/THIRTYMIN_"+getDateTime()+".csv";
 		}
 		Files.write(Paths.get(outputPath), outputList);
 	} catch (IOException e) {

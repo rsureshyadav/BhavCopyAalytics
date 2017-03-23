@@ -77,7 +77,7 @@ public class IntraDayTestResultEngine {
 			
 			String testPath = prop.getProperty("file.summary.path")+"/TEST_RESULT/"+LocalDate.now();
 			
-			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,"thirtymin_intraday_summary");
+		OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,"thirtymin_intraday_summary");
 		AmumUtil.executionTime(startTime);
 		System.out.println("Execution Completed......");
 	}
