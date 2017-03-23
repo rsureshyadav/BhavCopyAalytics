@@ -39,112 +39,6 @@ public class CommonLogicImplementation {
 	
 	public static DecimalFormat df = new DecimalFormat("###.##");
 	public static Map<String, JSONObject> jsonMap = new HashMap<>();
-	public static void main(String str[]) throws IOException{
-		System.out.println("Execution Started......");
-		long startTime = System.currentTimeMillis();
-		
-		Properties prop = new Properties();
-		InputStream input = null;
-		input = new FileInputStream("conf/config.properties");
-		prop.load(input);
-		List<String> inputList;
-		List<String> fileNameList = Arrays.asList(prop.getProperty("test.summary.name").split("\\s*,\\s*"));
-		
-		inputList = getSymbol(prop,fileNameList.get(0));
-		if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
-			for(String line :inputList){
-				String inputArray[] = line.split("\\s*,\\s*");
-				if(inputArray.length>1){
-					System.out.println("==>"+line);
-					String isNull = inputArray[1];
-					if(!isNull.equalsIgnoreCase("NULL")){
-						String jsonString = getJsonObjectInfo(inputArray[0].toString());
-						
-						JSONObject jObject = null;
-						try {
-							if(jsonString != null){
-								jObject = new JSONObject(jsonString);
-								jsonMap.put(inputArray[0].toString(), jObject);
-							}
-						} 
-						catch (JSONException e) {
-							e.printStackTrace();
-						}
-					}
-				}
-			}
-		}
-		for(String fileName : fileNameList ){
-			int count=0;
-			List<String> headerNameList = getHeader(prop,fileName);
-			String headerName = "ACTUAL_RESULT, UP_DOWN_AMOUNT, CURRENT_PRICE, "+ headerNameList.get(0);
-			List<String> outputList = new ArrayList<>();
-			outputList.add(headerName);
-			inputList = getSymbol(prop,fileName);
-			if(LocalTime.now().getHour()>=9 && LocalTime.now().getHour()<=16){
-				for(String line :inputList){
-					String inputArray[] = line.split("\\s*,\\s*");
-					if(inputArray.length>1){
-						String isNull = inputArray[1];
-						if(!isNull.equalsIgnoreCase("NULL")){
-							outputList.add(getOutputOnlineResult(inputArray[0].toString(),line,jsonMap));
-						}
-					}
-				}
-				}else{
-				inputList = getSymbol(prop,fileName);
-				for(String line :inputList){
-					String inputArray[] = line.split("\\s*,\\s*");
-					if(inputArray.length>1){
-						System.out.println("("+count+") => "+fileName +" => "+line);
-						String isNull = inputArray[1];
-						if(!isNull.equalsIgnoreCase("NULL")){
-							outputList.add(getOutputOfflineResult(inputArray[0].toString(),line));
-						}
-					}
-					count++;
-				}
-			}
-			String testPath = prop.getProperty("file.summary.path")+"/TEST_RESULT/"+LocalDate.now();
-			
-			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,fileName);
-			
-		}
-		Set<String> finalGoodStock = new HashSet<>();
-		for(String fileName : fileNameList ){
-			Set<String> atrStock = null;
-			Set<String> smaStock = null;
-			Set<String> vwapStock = null;
-			if(fileName.contains("atr_summary.csv")){
-				atrStock = getGoodStockFrmAtr(prop,fileName);
-				finalGoodStock.addAll(atrStock);
-			}else if(fileName.contains("sma_summary.csv")){
-				smaStock = getGoodStockFrmSma(prop,fileName);
-				finalGoodStock.addAll(smaStock);
-			}else if(fileName.contains("vwap_summary.csv")){
-				vwapStock = getGoodStockFrmVwap(prop,fileName);
-				finalGoodStock.addAll(vwapStock);
-			}
-			
-		}
-		if(!finalGoodStock.isEmpty()){
-			String path = prop.getProperty("file.summary.final")+"/"+LocalDate.now()+"/Good_Stock.csv";
-			System.out.println("Final Good Stock ==> "+finalGoodStock);
-			OutputCSVWriter.writeToCsvFinalFile(path,finalGoodStock);
-			//---
-			List<String>goodStockList = new ArrayList<>();
-			goodStockList.addAll(finalGoodStock);
-	
-			//goodStockList.subList(fromIndex, toIndex);
-			executeGoodStockWithATR(prop,finalGoodStock);
-			//executeGoodStock(prop,finalGoodStock);
-		}
-		
-		AmumUtil.executionTime(startTime);
-		System.out.println("Execution Completed......");
-	}
-
-
 	private static void executeGoodStockWithATR(Properties prop, Set<String> finalGoodStock) throws IOException {
 		String OUTPUT_HEADER ="SYMBOL,DATE,HIGH,LOW,CLOSE,HIGH-LOW,CURR_HIGH-PREV_CLOSE,CURR_LOW-PREV_CLOSE,TRUE_RANGE,AVG_TRUE_RANGE";
 
@@ -170,7 +64,7 @@ public class CommonLogicImplementation {
 
 	public static void getGoodStockForThirtyMin(Properties prop,Set<String> inputList) throws IOException {
 		List<String> outputList = new ArrayList<>();
-		String headerName = "SYMBOL,CURRENT_PRICE,UP_DOWN_AMOUNT,VOLUME,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
+		String headerName = "SYMBOL,CURRENT_PRICE,UP_DOWN_AMOUNT,VOLUME,STOCK_STATUS,NEWS_STATUS,PE_RATIO(18-20),BUY_PRICE,SELL_PRICE";
 		outputList.add(headerName);
 		int count=0;
 		int period = Integer.parseInt(prop.getProperty("intraday.period"));
@@ -198,8 +92,9 @@ public class CommonLogicImplementation {
 						double profitOrLoss = last_price - prev_close_price;
 						String volume = jObject.getString("vo");
 						volume = volume.replace(",", "");
-						outputList.add(symbol+ "," + last_price + "," + profitOrLoss + "," + volume + "," + ","+stockStatus+","+newsSentiment+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
-
+						String peRatio=jObject.getString("pe");
+						peRatio = peRatio.replace(",", "");
+						outputList.add(symbol+ "," + last_price + "," + profitOrLoss + "," + volume + "," +stockStatus+","+newsSentiment+","+peRatio+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
 					}
 				} catch (JSONException e) {
 					e.printStackTrace();

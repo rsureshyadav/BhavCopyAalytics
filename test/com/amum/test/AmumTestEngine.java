@@ -1,4 +1,4 @@
-package com.amum.testresult;
+package com.amum.test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -40,9 +40,7 @@ public class AmumTestEngine {
 		Set<String> smaStock =CommonLogicImplementation.getGoodStockFrmSma(prop,prop.getProperty("sma.summary.name"));
 		System.out.println("SMA==>"+smaStock);
 		finalGoodStock.addAll(smaStock);
-		/*Set<String> vwapStock =CommonLogicImplementation.getGoodStockFrmVwap(prop,prop.getProperty("vwap.summary.name"));
-		System.out.println("VWAP==>"+vwapStock);
-		finalGoodStock.addAll(vwapStock);*/
+		//Yet to add other filter criteria
 		System.out.println("Final Good Stock ==> "+finalGoodStock);
 		
 		CommonLogicImplementation.getGoodStockForThirtyMin(prop,finalGoodStock);
