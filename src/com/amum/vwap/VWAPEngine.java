@@ -98,6 +98,8 @@ public class VWAPEngine {
 	}
 
 	public static void writeToFileOutput(Properties prop, String symbol) throws IOException {
+		double minPrice=Double.parseDouble(prop.getProperty("min.price"));		
+		double maxPrice=Double.parseDouble(prop.getProperty("max.price"));
 		String date;
 		double open;
 		double high;
@@ -123,7 +125,11 @@ public class VWAPEngine {
 		stockList.add(header);
 		for(String filename :inputFileList){
 			String stockInfo = VWAPEngine.execute(filename,symbol);
-			stockInfoList.add(stockInfo);
+			String nameArray[]= stockInfo.split(",");
+			double closePrice =Double.parseDouble(nameArray[5]);
+			if(minPrice<=closePrice && maxPrice>=closePrice){
+				stockInfoList.add(stockInfo);
+			}
 		}
 		Collections.reverse(stockInfoList);
 		int count=0;

@@ -128,9 +128,10 @@ public class TestResultEngine {
 			
 		}
 		if(!finalGoodStock.isEmpty()){
-			String path = prop.getProperty("file.summary.final")+"/"+LocalDate.now()+"/Good_Stock.csv";
+			String path = prop.getProperty("file.summary.final")+"/"+LocalDate.now();
+			String filename ="Good_Stock.csv";
 			System.out.println("Final Good Stock ==> "+finalGoodStock);
-			OutputCSVWriter.writeToCsvFinalFile(path,finalGoodStock);
+			OutputCSVWriter.writeToCsvFinalFile(path,finalGoodStock,filename);
 			//---
 			List<String>goodStockList = new ArrayList<>();
 			goodStockList.addAll(finalGoodStock);

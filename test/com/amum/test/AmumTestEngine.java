@@ -3,19 +3,25 @@ package com.amum.test;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
 
+import javax.mail.MessagingException;
+import javax.mail.internet.AddressException;
+
 import com.amum.atr.AverageTrueRangePattern;
 import com.amum.sma.SimpleMovAvgPattern;
+import com.amum.util.AmumEmail;
 import com.amum.util.AmumUtil;
 import com.amum.util.CommonLogicImplementation;
+import com.amum.util.OutputCSVWriter;
 import com.amum.vwap.VolWeightedAvgPricePattern;
 
 public class AmumTestEngine {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, AddressException, MessagingException {
 		System.out.println("Execution Started......");
 		long startTime = System.currentTimeMillis();
 		
@@ -35,13 +41,15 @@ public class AmumTestEngine {
 		 */
 		Set<String> finalGoodStock = new HashSet<>();
 		Set<String> atrStock = CommonLogicImplementation.getGoodStockFrmAtr(prop,prop.getProperty("atr.summary.name"));
-		System.out.println("ATR==>"+atrStock);
 		finalGoodStock.addAll(atrStock);
 		Set<String> smaStock =CommonLogicImplementation.getGoodStockFrmSma(prop,prop.getProperty("sma.summary.name"));
-		System.out.println("SMA==>"+smaStock);
 		finalGoodStock.addAll(smaStock);
 		//Yet to add other filter criteria
 		System.out.println("Final Good Stock ==> "+finalGoodStock);
+		String path = prop.getProperty("file.summary.final")+"/"+LocalDate.now();
+		String fileName ="Good_Stock.csv";
+		OutputCSVWriter.writeToCsvFinalFile(path,finalGoodStock,fileName);
+		AmumEmail.execute(path+"/"+fileName,finalGoodStock);
 		
 		CommonLogicImplementation.getGoodStockForThirtyMin(prop,finalGoodStock);
 		AmumUtil.executionTime(startTime);

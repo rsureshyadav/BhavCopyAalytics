@@ -21,6 +21,8 @@ public class InputCSVReader {
 	public static List<String> readAsCsv(Properties prop, String symbol) throws IOException {
 		List<String> inputList = new ArrayList<>();
 		StringBuffer sb = new StringBuffer();
+		double minPrice=Double.parseDouble(prop.getProperty("min.price"));		
+		double maxPrice=Double.parseDouble(prop.getProperty("max.price"));
 
 		List<String> fileList = new ArrayList<String>();
 		 Map<Date, String> dateTreeMap = new TreeMap<Date, String>(Collections.reverseOrder());
@@ -72,7 +74,10 @@ public class InputCSVReader {
 				String nameArray[]= name.split(",");
 
 				if(nameArray.length> 0 && nameArray[0].equalsIgnoreCase(symbol)){
-					inputList.add(nameArray[0]+","+nameArray[10]+","+nameArray[3]+","+nameArray[4]+","+nameArray[5]);
+					double closePrice =Double.parseDouble(nameArray[5]);
+					if(minPrice<=closePrice && maxPrice>=closePrice){
+						inputList.add(nameArray[0]+","+nameArray[10]+","+nameArray[3]+","+nameArray[4]+","+nameArray[5]);
+					}
 				}
 			}
 			predCount++;

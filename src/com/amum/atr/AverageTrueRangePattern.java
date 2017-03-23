@@ -1,7 +1,6 @@
 package com.amum.atr;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.LocalDate;
@@ -9,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
+import java.util.Set;
+import java.util.TreeSet;
 
 import com.amum.util.AmumUtil;
 import com.amum.util.OutputCSVWriter;
@@ -27,7 +28,9 @@ public class AverageTrueRangePattern {
 		//read the config file
 		input = new FileInputStream("conf/config.properties");
 		prop.load(input);
-		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
+		List<String> symbols = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
+		Set<String> symbolItems = new TreeSet<>();
+		symbolItems.addAll(symbols);
 		List<String> summaryList = new  ArrayList<>();
 		List<String> finalSummaryList = new  ArrayList<>();
 		int count =0;

@@ -35,6 +35,8 @@ public class FileReader {
 	}
 
 	private static Map<String,String> listFileNames(Properties prop, String symbol) throws IOException {
+		double minPrice=Double.parseDouble(prop.getProperty("min.price"));		
+		double maxPrice=Double.parseDouble(prop.getProperty("max.price"));
 		Map<String,String> outputMap = new HashMap<String,String>();
 		StringBuffer sb = new StringBuffer();
 		DecimalFormat df = new DecimalFormat("###.##");
@@ -95,27 +97,29 @@ public class FileReader {
 				String nameArray[]= name.split(",");
 
 				if(nameArray.length> 0 && nameArray[0].equalsIgnoreCase(symbol)){
-
-					double predectionOne = Double.parseDouble(nameArray[5]) - Double.parseDouble(nameArray[2]);
-					double predectionTwo = Double.parseDouble(nameArray[6]) - Double.parseDouble(nameArray[2]);
-					sma=sma+Double.parseDouble(nameArray[5]) ;
-					if(predectionOne > 0.0 && predectionTwo > 0.0){
-						result = "GREEN";
-					}else if(predectionOne == 0.0 && predectionTwo == 0.0){
-						result = "NEAUTRAL";
-					}else if(predectionOne == 0.0 && predectionTwo > 0.0){
-						result = "NEAUTRAL";
-					}else if(predectionOne < 0.0 && predectionTwo == 0.0){
-						result = "NEAUTRAL";
-					}else{
-						result = "RED";
+					double closePrice =Double.parseDouble(nameArray[5]);
+					if(minPrice<=closePrice && maxPrice>=closePrice){
+						double predectionOne = Double.parseDouble(nameArray[5]) - Double.parseDouble(nameArray[2]);
+						double predectionTwo = Double.parseDouble(nameArray[6]) - Double.parseDouble(nameArray[2]);
+						sma=sma+Double.parseDouble(nameArray[5]) ;
+						if(predectionOne > 0.0 && predectionTwo > 0.0){
+							result = "GREEN";
+						}else if(predectionOne == 0.0 && predectionTwo == 0.0){
+							result = "NEAUTRAL";
+						}else if(predectionOne == 0.0 && predectionTwo > 0.0){
+							result = "NEAUTRAL";
+						}else if(predectionOne < 0.0 && predectionTwo == 0.0){
+							result = "NEAUTRAL";
+						}else{
+							result = "RED";
+						}
+						resultList.add(result);
+						sb.append(nameArray[10]+" >> "
+								+df.format(predectionOne)+" >> "
+								+df.format(predectionTwo)+" >> "
+								+result
+								+System.getProperty("line.separator"));
 					}
-					resultList.add(result);
-					sb.append(nameArray[10]+" >> "
-							+df.format(predectionOne)+" >> "
-							+df.format(predectionTwo)+" >> "
-							+result
-							+System.getProperty("line.separator"));
 				}
 			}
 			predCount++;

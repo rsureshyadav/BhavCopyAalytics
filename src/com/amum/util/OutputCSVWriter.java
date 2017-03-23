@@ -43,10 +43,20 @@ public static void writeToCsvSummaryFile(String fullPath, List<String> outputLis
 		
 }
 
-public static void writeToCsvFinalFile(String fullPath, Set<String> outputList ){
+public static void writeToCsvFinalFile(String fullPath, Set<String> outputList,String inputFileName ){
+	Path path = Paths.get(fullPath);
+    //if directory exists?
+    if (!Files.exists(path)) {
+        try {
+            Files.createDirectories(path);
+        } catch (IOException e) {
+            //fail to create directory
+            e.printStackTrace();
+        }
+    }
 
 	try {
-		Files.write(Paths.get(fullPath), outputList);
+		Files.write(Paths.get(fullPath+"/"+inputFileName), outputList);
 	} catch (IOException e) {
 		e.printStackTrace();
 	}

@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.Set;
+import java.util.TreeSet;
 
 import com.amum.util.AmumUtil;
 
@@ -22,7 +24,9 @@ public class SimpleMovAvgPattern {
 		//read the config file
 		input = new FileInputStream("conf/config.properties");
 		prop.load(input);
-		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
+		List<String> symbols = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
+		Set<String> symbolItems = new TreeSet<>();
+		symbolItems.addAll(symbols);
 		buffer.append("SYMBOL,PREDECTION,MAX_GREEN,MAX_RED,SMA"+System.getProperty("line.separator"));
 		int count =0;
 		for(String symbol :  symbolItems){
