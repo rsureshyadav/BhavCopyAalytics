@@ -1,6 +1,7 @@
 package com.amum.util;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
@@ -18,12 +19,12 @@ public class AmumEmail {
 	static Session getMailSession;
 	static MimeMessage generateMailMessage;
 	
-	public static void execute(String path,Set<String> symbol) throws AddressException, MessagingException{
-		 generateAndSendEmail(path,symbol);
+	public static void execute(String path,Set<String> symbol,String peStocks) throws AddressException, MessagingException{
+		 generateAndSendEmail(path,symbol,peStocks);
 		System.out.println("\n\n ===> Your Java Program has just sent an Email successfully. Check your email..");
 
 	}
-	private static void generateAndSendEmail(String path,Set<String> symbol) throws AddressException, MessagingException {
+	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks) throws AddressException, MessagingException {
 		// Step1
 				System.out.println("\n 1st ===> setup Mail Server Properties..");
 				mailServerProperties = System.getProperties();
@@ -39,7 +40,11 @@ public class AmumEmail {
 				generateMailMessage.addRecipient(Message.RecipientType.TO, new InternetAddress("jayac251@gmail.com"));
 				generateMailMessage.addRecipient(Message.RecipientType.CC, new InternetAddress("rsureshyadav@gmail.com"));
 				generateMailMessage.setSubject("!!! "+LocalDateTime.now()+" => Stock Market Notification!!!");
-				String emailBody = "Today's Best Stock For Analysis <br> "+symbol + "<br><br> Regards, <br>AMUM Admin";
+				String emailBody = "<h1>Today's Over All Best Stock For Analysis</h1> <hr> <br> <p>"+symbol + "</p>\n<br><br>"
+						+ "<h1>Best PE Ratio Stock</h1>"
+						+ "<hr><table border=\"1\"><tr><td><b>Symbol</b></td><td><b>Price</b></td><td><b>PE Ratio</b></td></tr>"
+						+ peStocks+"</table>"
+						+ "<br><br> Regards, <br>AMUM Admin";
 				generateMailMessage.setContent(emailBody, "text/html");
 				System.out.println("Mail Session has been created successfully..");
 		 

@@ -126,10 +126,7 @@ public class VWAPEngine {
 		for(String filename :inputFileList){
 			String stockInfo = VWAPEngine.execute(filename,symbol);
 			String nameArray[]= stockInfo.split(",");
-			double closePrice =Double.parseDouble(nameArray[5]);
-			if(minPrice<=closePrice && maxPrice>=closePrice){
-				stockInfoList.add(stockInfo);
-			}
+					stockInfoList.add(stockInfo);
 		}
 		Collections.reverse(stockInfoList);
 		int count=0;

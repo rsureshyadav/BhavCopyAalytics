@@ -62,7 +62,8 @@ public class CommonLogicImplementation {
 	}
 
 
-	public static void getGoodStockForThirtyMin(Properties prop,Set<String> inputList) throws IOException {
+	public static String  getGoodStockForThirtyMin(Properties prop,Set<String> inputList) throws IOException {
+		StringBuffer output =new StringBuffer();
 		List<String> outputList = new ArrayList<>();
 		String headerName = "SYMBOL,CURRENT_PRICE,UP_DOWN_AMOUNT,VOLUME,STOCK_STATUS,NEWS_STATUS,PE_RATIO(18-20),BUY_PRICE,SELL_PRICE";
 		outputList.add(headerName);
@@ -94,7 +95,13 @@ public class CommonLogicImplementation {
 						volume = volume.replace(",", "");
 						String peRatio=jObject.getString("pe");
 						peRatio = peRatio.replace(",", "");
-						outputList.add(symbol+ "," + last_price + "," + profitOrLoss + "," + volume + "," +stockStatus+","+newsSentiment+","+peRatio+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
+						if(peRatio.length()>0){
+							double peRat = Double.parseDouble(peRatio) ; 
+							if(peRat>=18){
+								output.append("<tr><td>"+symbol+"</td><td>"+last_price+"</td><td>"+peRatio+"</td></tr>");
+								outputList.add(symbol+ "," + last_price + "," + profitOrLoss + "," + volume + "," +stockStatus+","+newsSentiment+","+peRat+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
+							}
+						}
 					}
 				} catch (JSONException e) {
 					e.printStackTrace();
@@ -104,6 +111,8 @@ public class CommonLogicImplementation {
 		}
 			String testPath = prop.getProperty("file.summary.final")+"/"+LocalDate.now();
 			OutputCSVWriter.writeToCsvTestResultSummary(testPath, outputList,"thirty_min");
+			
+			return output.toString();
 	}
 
 
