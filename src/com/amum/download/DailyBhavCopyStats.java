@@ -34,7 +34,7 @@ public class DailyBhavCopyStats {
 	}
 
 	private static void urlDownloader(List<String> urlList,Properties prop) {
-		String saveDir=prop.getProperty("dest.dir");
+		String saveDir=prop.getProperty("dailyrprt.dest.dir");
 		
 		for(String targetURL:urlList){
 			System.out.println(targetURL);

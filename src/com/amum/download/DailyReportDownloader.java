@@ -25,7 +25,7 @@ import java.util.zip.ZipInputStream;
 
 import com.amum.util.AmumUtil;
 
-public class InputStockInfoDownloader {
+public class DailyReportDownloader {
 
     public static void main(String[] args) throws IOException, ParseException {
         List<String> urlList = new ArrayList<>();
@@ -34,13 +34,13 @@ public class InputStockInfoDownloader {
         input = new FileInputStream("conf/config.properties");
         prop.load(input);
         
-        urlList=urlBuilder();
+        urlList=urlBuilder(prop);
         urlDownloader(urlList,prop);
         
     }
 
     private static void urlDownloader(List<String> urlList,Properties prop) {
-        String saveDir=prop.getProperty("dest.dir");
+        String saveDir=prop.getProperty("dailyrprt.dest.dir");
         for(String targetURL:urlList){
             System.out.println(targetURL);
                 try {
@@ -157,10 +157,10 @@ public class InputStockInfoDownloader {
          
     }
  
-    private static List<String> urlBuilder() throws IOException, ParseException {
+    private static List<String> urlBuilder(Properties prop) throws IOException, ParseException {
         List<String> urlList = new ArrayList<>();
         long dateCount=0;
-        String actualDate = AmumUtil.getLatestInputFile();
+        String actualDate = AmumUtil.getLatestInputFile(prop);
         actualDate=actualDate.substring(actualDate.indexOf("cm")+2);
         actualDate=actualDate.replace("bhav.csv", "");
 

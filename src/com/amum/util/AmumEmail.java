@@ -19,12 +19,12 @@ public class AmumEmail {
 	static Session getMailSession;
 	static MimeMessage generateMailMessage;
 	
-	public static void execute(String path,Set<String> symbol,String peStocks) throws AddressException, MessagingException{
-		 generateAndSendEmail(path,symbol,peStocks);
+	public static void execute(String path,Set<String> symbol,String peStocks,List<String> copyCat) throws AddressException, MessagingException{
+		 generateAndSendEmail(path,symbol,peStocks,copyCat);
 		System.out.println("\n\n ===> Your Java Program has just sent an Email successfully. Check your email..");
 
 	}
-	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks) throws AddressException, MessagingException {
+	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks,List<String> copyCat) throws AddressException, MessagingException {
 		// Step1
 				System.out.println("\n 1st ===> setup Mail Server Properties..");
 				mailServerProperties = System.getProperties();
@@ -44,6 +44,7 @@ public class AmumEmail {
 						+ "<h1>Best PE Ratio Stock</h1>"
 						+ "<hr><table border=\"1\"><tr><td><b>Symbol</b></td><td><b>Price</b></td><td><b>PE Ratio</b></td></tr>"
 						+ peStocks+"</table>"
+						+"<h1>Copy Cat Stock</h1> <hr> <br> <p>"+copyCat + "</p>\n<br><br>"
 						+ "<br><br> Regards, <br>AMUM Admin";
 				generateMailMessage.setContent(emailBody, "text/html");
 				System.out.println("Mail Session has been created successfully..");

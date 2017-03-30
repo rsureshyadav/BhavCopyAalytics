@@ -32,7 +32,7 @@ public class ThirtyMinIntraDayPattern {
 		List<String> symbolItems = Arrays.asList(prop.getProperty("symbol").split("\\s*,\\s*"));
 		int period = Integer.parseInt(prop.getProperty("intraday.period"));
 		String deliveryMode = prop.getProperty("delivery.mode");
-		List<String> inputFileList = AmumUtil.getLatestInputFileList(period);
+		List<String> inputFileList = AmumUtil.getLatestInputFileList(period,prop);
 		String header="SYMBOL,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
 		outputList.add(header);
 		int count=0;

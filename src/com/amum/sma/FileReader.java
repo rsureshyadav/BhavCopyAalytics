@@ -53,7 +53,7 @@ public class FileReader {
 		sb.append(symbol+System.getProperty("line.separator"));
 		sb.append(System.getProperty("line.separator"));
 
-		try(Stream<Path> paths = Files.walk(Paths.get("input"))) {
+		try(Stream<Path> paths = Files.walk(Paths.get(prop.getProperty("dailyrprt.dest.dir")))) {
 		    paths.forEach(filePath -> {
 		        if (Files.isRegularFile(filePath)) {
 		            fileList.add(filePath.toString());
@@ -62,7 +62,9 @@ public class FileReader {
 		} 
 		
 		for(String fileName : fileList){
-			String name =  fileName.replace("input\\cm", "");
+			String replaceName=prop.getProperty("dailyrprt.dest.dir")+"\\cm";
+			replaceName=replaceName.replace("/", "\\");
+			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
 
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");

@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -61,6 +62,32 @@ public class CommonLogicImplementation {
 		
 	}
 
+	public static List<String>  getCopyCatStockInfo(Properties prop) throws IOException {
+		List<String> outputList = new ArrayList<>();
+		List<String> inputLine = Arrays.asList(prop.getProperty("copycat.clientname").split("\\s*,\\s*"));
+		Set<String> symbols = new TreeSet<>();
+		inputLine.addAll(symbols);
+		String filePath=prop.getProperty("bulkrprt.dest.dir")+"/bulk.csv";
+		List<String> inputList = InputCSVReader.processInputFileToList(filePath);
+		Set<String> names= new TreeSet<>();
+		for(String line : inputList){
+			String lineArray[]=line.split("\\s*,\\s*");
+			String clientName=lineArray[3].replace("\"", "");
+			names.add(clientName);
+			for(String input : inputLine){
+				input=input.toLowerCase();
+				clientName=clientName.toLowerCase();
+				if(clientName.contains(input)){
+					outputList.add(lineArray[0].replace("\"", "")
+							+","+lineArray[1].replace("\"", "")
+							+","+lineArray[3].replace("\"", "")
+							+","+lineArray[4].replace("\"", "")
+							+","+lineArray[5].replace("\"", ""));
+				}
+			}
+		}
+		return outputList;
+	}
 
 	public static String  getGoodStockForThirtyMin(Properties prop,Set<String> inputList) throws IOException {
 		StringBuffer output =new StringBuffer();
@@ -70,7 +97,7 @@ public class CommonLogicImplementation {
 		int count=0;
 		int period = Integer.parseInt(prop.getProperty("intraday.period"));
 		String deliveryMode = prop.getProperty("delivery.mode");
-		List<String> inputFileList = AmumUtil.getLatestInputFileList(period);
+		List<String> inputFileList = AmumUtil.getLatestInputFileList(period,prop);
 		
 		for (String symbol : inputList) {
 			
@@ -197,12 +224,12 @@ public class CommonLogicImplementation {
 	}
 
 
-	private static String getOutputOfflineResult(String symbol, String outputLine) {
+	private static String getOutputOfflineResult(String symbol, String outputLine,Properties prop) {
 		String finalOutputString = null;
 		String result = null;
 		List<String> list = new ArrayList<>();
 		try {
-			String latestFileName=AmumUtil.getLatestInputFile();
+			String latestFileName=AmumUtil.getLatestInputFile(prop);
 			
 			try (Stream<String> stream = Files.lines(Paths.get(latestFileName))) {
 				list = stream

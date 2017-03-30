@@ -1,5 +1,7 @@
 package com.amum.util;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -30,7 +32,7 @@ public class InputCSVReader {
 		List<String> list = new ArrayList<>();
 
 
-		try(Stream<Path> paths = Files.walk(Paths.get("input"))) {
+		try(Stream<Path> paths = Files.walk(Paths.get(prop.getProperty("dailyrprt.dest.dir")))) {
 		    paths.forEach(filePath -> {
 		        if (Files.isRegularFile(filePath)) {
 		            fileList.add(filePath.toString());
@@ -39,7 +41,9 @@ public class InputCSVReader {
 		} 
 		
 		for(String fileName : fileList){
-			String name =  fileName.replace("input\\cm", "");
+			String replaceName=prop.getProperty("dailyrprt.dest.dir")+"\\cm";
+			replaceName=replaceName.replace("/", "\\");
+			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
@@ -84,6 +88,21 @@ public class InputCSVReader {
 		}
 		return inputList;
 	}
+	
+	public static List<String> processInputFileToList(String inputFilePath) {
+	    List<String> inputList = new ArrayList<String>();
+	    try (BufferedReader br = Files.newBufferedReader(Paths.get(inputFilePath))) {
+
+	    	inputList = br.lines().collect(Collectors.toList());
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	    return inputList ;
+	}
+
+
 }
 
 

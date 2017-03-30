@@ -99,7 +99,7 @@ public class TestResultEngine {
 						System.out.println("("+count+") => "+fileName +" => "+line);
 						String isNull = inputArray[1];
 						if(!isNull.equalsIgnoreCase("NULL")){
-							outputList.add(getOutputOfflineResult(inputArray[0].toString(),line));
+							outputList.add(getOutputOfflineResult(inputArray[0].toString(),line,prop));
 						}
 					}
 					count++;
@@ -176,7 +176,7 @@ public class TestResultEngine {
 		int count=0;
 		int period = Integer.parseInt(prop.getProperty("intraday.period"));
 		String deliveryMode = prop.getProperty("delivery.mode");
-		List<String> inputFileList = AmumUtil.getLatestInputFileList(period);
+		List<String> inputFileList = AmumUtil.getLatestInputFileList(period,prop);
 		
 		for (String symbol : inputList) {
 			
@@ -296,12 +296,12 @@ public class TestResultEngine {
 	}
 
 
-	private static String getOutputOfflineResult(String symbol, String outputLine) {
+	private static String getOutputOfflineResult(String symbol, String outputLine,Properties prop) {
 		String finalOutputString = null;
 		String result = null;
 		List<String> list = new ArrayList<>();
 		try {
-			String latestFileName=AmumUtil.getLatestInputFile();
+			String latestFileName=AmumUtil.getLatestInputFile(prop);
 			
 			try (Stream<String> stream = Files.lines(Paths.get(latestFileName))) {
 				list = stream

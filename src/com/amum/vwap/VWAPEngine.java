@@ -116,7 +116,7 @@ public class VWAPEngine {
 		double vwapTwo=0;
 		int period = Integer.parseInt(prop.getProperty("period"));
 
-		List<String> inputFileList = AmumUtil.getLatestInputFileList(period);
+		List<String> inputFileList = AmumUtil.getLatestInputFileList(period,prop);
 		List<Long> volumeList = new ArrayList<>();
 		List<Long> volumexList= new ArrayList<>();
 		String header="DATE,OPEN,HIGH,LOW,CLOSE,VOLUME,VOLUMExCLOSE,13-VWAP,20-VWAP";

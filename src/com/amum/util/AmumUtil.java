@@ -16,6 +16,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -44,13 +45,13 @@ public class AmumUtil {
 
 	}
 	
-	public static String getLatestInputFile() throws IOException {
+	public static String getLatestInputFile(Properties prop) throws IOException {
 		String latestInputFile=null;
 		
 		List<String> fileList = new ArrayList<String>();
 		Map<Date, String> dateTreeMap = new TreeMap<Date, String>(Collections.reverseOrder());
 		
-		try(Stream<Path> paths = Files.walk(Paths.get("input"))) {
+		try(Stream<Path> paths = Files.walk(Paths.get(prop.getProperty("dailyrprt.dest.dir")))) {
 		    paths.forEach(filePath -> {
 		        if (Files.isRegularFile(filePath)) {
 		            fileList.add(filePath.toString());
@@ -59,8 +60,11 @@ public class AmumUtil {
 		} 
 		
 		for(String fileName : fileList){
-			String name =  fileName.replace("input\\cm", "");
+			String replaceName=prop.getProperty("dailyrprt.dest.dir")+"\\cm";
+			replaceName=replaceName.replace("/", "\\");
+			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
+
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
             try {
@@ -105,13 +109,13 @@ public class AmumUtil {
 		return list.get(list.size()-1);
 	}
 	
-	public static List<String> getLatestInputFileList(int period) throws IOException {
+	public static List<String> getLatestInputFileList(int period,Properties prop) throws IOException {
 		List<String> latestInputFile=new ArrayList<>();
 		
 		List<String> fileList = new ArrayList<String>();
 		Map<Date, String> dateTreeMap = new TreeMap<Date, String>(Collections.reverseOrder());
 		
-		try(Stream<Path> paths = Files.walk(Paths.get("input"))) {
+		try(Stream<Path> paths = Files.walk(Paths.get(prop.getProperty("dailyrprt.dest.dir")))) {
 		    paths.forEach(filePath -> {
 		        if (Files.isRegularFile(filePath)) {
 		            fileList.add(filePath.toString());
@@ -120,7 +124,9 @@ public class AmumUtil {
 		} 
 		
 		for(String fileName : fileList){
-			String name =  fileName.replace("input\\cm", "");
+			String replaceName=prop.getProperty("dailyrprt.dest.dir")+"\\cm";
+			replaceName=replaceName.replace("/", "\\");
+			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
