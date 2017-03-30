@@ -1,6 +1,7 @@
 package com.amum.util;
 
 import java.time.LocalDateTime;
+import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
@@ -20,11 +21,24 @@ public class AmumEmail {
 	static MimeMessage generateMailMessage;
 	
 	public static void execute(String path,Set<String> symbol,String peStocks,List<String> copyCat) throws AddressException, MessagingException{
-		 generateAndSendEmail(path,symbol,peStocks,copyCat);
-		System.out.println("\n\n ===> Your Java Program has just sent an Email successfully. Check your email..");
+	StringBuffer  copyCatBuff = new StringBuffer();
+		if(copyCat.size()>0){
+			Collections.reverse(copyCat);
+			copyCatBuff.append("<hr><table border=\"5\">");
+			copyCatBuff.append("<tr><td>Date</td><td><b>Symbol</b></td><td>Company Name</td><td><b>Buy/Sell</b></td><td>Quantity</td><td>Avg Price</td></tr>");
+			for(String line : copyCat){
+				line=line.replace(",","</td><td>");
+				copyCatBuff.append("<tr><td>"+line+"</td></tr>");
+			}
+			copyCatBuff.append("</table>");
+		}else{
+			copyCatBuff.append("No Information Found On COPY CAT!!!");			
+		}
+		 generateAndSendEmail(path,symbol,peStocks,copyCatBuff.toString());
+		System.out.println("\n\n ===> AMUM has just sent an Email successfully. Check your email..");
 
 	}
-	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks,List<String> copyCat) throws AddressException, MessagingException {
+	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks,String copyCat) throws AddressException, MessagingException {
 		// Step1
 				System.out.println("\n 1st ===> setup Mail Server Properties..");
 				mailServerProperties = System.getProperties();
@@ -42,9 +56,9 @@ public class AmumEmail {
 				generateMailMessage.setSubject("!!! "+LocalDateTime.now()+" => Stock Market Notification!!!");
 				String emailBody = "<h1>Today's Over All Best Stock For Analysis</h1> <hr> <br> <p>"+symbol + "</p>\n<br><br>"
 						+ "<h1>Best PE Ratio Stock</h1>"
-						+ "<hr><table border=\"1\"><tr><td><b>Symbol</b></td><td><b>Price</b></td><td><b>PE Ratio</b></td></tr>"
+						+ "<hr><table border=\"5\"><tr><td><b>Symbol</b></td><td><b>Price</b></td><td><b>PE Ratio</b></td></tr>"
 						+ peStocks+"</table>"
-						+"<h1>Copy Cat Stock</h1> <hr> <br> <p>"+copyCat + "</p>\n<br><br>"
+						+"<h1>Ninja Copy Cat Stocks</h1> <hr> <br> <p>"+copyCat + "</p>\n<br><br>"
 						+ "<br><br> Regards, <br>AMUM Admin";
 				generateMailMessage.setContent(emailBody, "text/html");
 				System.out.println("Mail Session has been created successfully..");

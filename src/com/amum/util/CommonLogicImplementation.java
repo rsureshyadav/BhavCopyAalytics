@@ -71,6 +71,10 @@ public class CommonLogicImplementation {
 		List<String> inputList = InputCSVReader.processInputFileToList(filePath);
 		Set<String> names= new TreeSet<>();
 		for(String line : inputList){
+			line=line.replace("\",\"", "^");
+			line=line.replace("\"", "");
+			line=line.replace(",", "");
+			line=line.replace("^", ",");
 			String lineArray[]=line.split("\\s*,\\s*");
 			String clientName=lineArray[3].replace("\"", "");
 			names.add(clientName);
@@ -78,11 +82,12 @@ public class CommonLogicImplementation {
 				input=input.toLowerCase();
 				clientName=clientName.toLowerCase();
 				if(clientName.contains(input)){
-					outputList.add(lineArray[0].replace("\"", "")
-							+","+lineArray[1].replace("\"", "")
-							+","+lineArray[3].replace("\"", "")
-							+","+lineArray[4].replace("\"", "")
-							+","+lineArray[5].replace("\"", ""));
+					outputList.add(lineArray[0] 
+							+","+lineArray[1] 
+							+","+lineArray[3] 
+							+","+lineArray[4] 
+							+","+lineArray[5] 
+							+","+lineArray[6]);
 				}
 			}
 		}
