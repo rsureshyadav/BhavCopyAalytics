@@ -96,8 +96,9 @@ public class CommonLogicImplementation {
 						String peRatio=jObject.getString("pe");
 						peRatio = peRatio.replace(",", "");
 						if(peRatio.length()>0){
-							double peRat = Double.parseDouble(peRatio) ; 
-							if(peRat>=18){
+							double peRat = Double.parseDouble(peRatio) ;
+							if(peRat>=8 && peRat<=10){
+							//if(peRat>=18){
 								output.append("<tr><td>"+symbol+"</td><td>"+last_price+"</td><td>"+peRatio+"</td></tr>");
 								outputList.add(symbol+ "," + last_price + "," + profitOrLoss + "," + volume + "," +stockStatus+","+newsSentiment+","+peRat+","+df.format(buySellMap.get("BUY_PRICE"))+","+df.format(buySellMap.get("SELL_PRICE")));
 							}
