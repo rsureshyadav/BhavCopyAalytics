@@ -71,30 +71,30 @@ public class CommonLogicImplementation {
 		List<String> inputList = InputCSVReader.processInputFileToList(filePath);
 		Set<String> names= new TreeSet<>();
 		for(String line : inputList){
-			line=line.replace("\",\"", "^");
-			line=line.replace("\"", "");
-			line=line.replace(",", "");
-			line=line.replace("^", ",");
-			String lineArray[]=line.split("\\s*,\\s*");
-			String clientName=lineArray[3].replace("\"", "");
-			names.add(clientName);
-			for(String input : inputLine){
-				input=input.toLowerCase();
-				clientName=clientName.toLowerCase();
-				if(clientName.contains(input)){
-					outputList.add(lineArray[0] 
-							+","+lineArray[1] 
-							+","+lineArray[3] 
-							+","+lineArray[4] 
-							+","+lineArray[5] 
-							+","+lineArray[6]);
+				/*line=line.replace("\",\"", "^");
+				line=line.replace("\"", "");
+				line=line.replace(",", "");
+				line=line.replace("^", ",");*/
+				String lineArray[]=line.split("\\s*,\\s*");
+				String clientName=lineArray[3].replace("\"", "");
+				names.add(clientName);
+				for(String input : inputLine){
+					input=input.toLowerCase();
+					clientName=clientName.toLowerCase();
+					if(clientName.contains(input)){
+						outputList.add(lineArray[0] 
+								+","+lineArray[1] 
+								+","+lineArray[3] 
+								+","+lineArray[4] 
+								+","+lineArray[5] 
+								+","+lineArray[6]);
+					}
 				}
 			}
-		}
 		return outputList;
 	}
 
-	public static String  getGoodStockForThirtyMin(Properties prop,Set<String> inputList) throws IOException {
+	public static String  getPEGoodStocks(Properties prop,Set<String> inputList) throws IOException {
 		StringBuffer output =new StringBuffer();
 		List<String> outputList = new ArrayList<>();
 		String headerName = "SYMBOL,CURRENT_PRICE,UP_DOWN_AMOUNT,VOLUME,STOCK_STATUS,NEWS_STATUS,PE_RATIO(18-20),BUY_PRICE,SELL_PRICE";

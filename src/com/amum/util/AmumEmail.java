@@ -20,7 +20,7 @@ public class AmumEmail {
 	static Session getMailSession;
 	static MimeMessage generateMailMessage;
 	
-	public static void execute(String path,Set<String> symbol,String peStocks,List<String> copyCat) throws AddressException, MessagingException{
+	public static void execute(String path,Set<String> symbol,String peStocks,List<String> copyCat,String thirtyMinOutput) throws AddressException, MessagingException{
 	StringBuffer  copyCatBuff = new StringBuffer();
 		if(copyCat.size()>0){
 			Collections.reverse(copyCat);
@@ -34,11 +34,11 @@ public class AmumEmail {
 		}else{
 			copyCatBuff.append("No Information Found On COPY CAT!!!");			
 		}
-		 generateAndSendEmail(path,symbol,peStocks,copyCatBuff.toString());
+		 generateAndSendEmail(path,symbol,peStocks,copyCatBuff.toString(),thirtyMinOutput);
 		System.out.println("\n\n ===> AMUM has just sent an Email successfully. Check your email..");
 
 	}
-	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks,String copyCat) throws AddressException, MessagingException {
+	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks,String copyCat,String thirtyMinOutput) throws AddressException, MessagingException {
 		// Step1
 				System.out.println("\n 1st ===> setup Mail Server Properties..");
 				mailServerProperties = System.getProperties();
@@ -55,6 +55,9 @@ public class AmumEmail {
 				generateMailMessage.addRecipient(Message.RecipientType.CC, new InternetAddress("rsureshyadav@gmail.com"));
 				generateMailMessage.setSubject("!!! "+LocalDateTime.now()+" => Stock Market Notification!!!");
 				String emailBody = "<h1>Today's Over All Best Stock For Analysis</h1> <hr> <br> <p>"+symbol + "</p>\n<br><br>"
+						+ "<h1>Best Thirty Min Trading Stock (9:15 AM - 9:45 AM)</h1>"
+						+ "<hr><table border=\"5\"><tr><td><b>Symbol</b></td><td><b>Price</b></td><td><b>Profit/Loss</b></td><td><b>Volume</b></td></tr>"
+						+ thirtyMinOutput+"</table>"
 						+ "<h1>Best PE Ratio Stock</h1>"
 						+ "<hr><table border=\"5\"><tr><td><b>Symbol</b></td><td><b>Price</b></td><td><b>PE Ratio</b></td></tr>"
 						+ peStocks+"</table>"

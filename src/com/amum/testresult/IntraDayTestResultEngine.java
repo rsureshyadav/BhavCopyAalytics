@@ -33,6 +33,35 @@ public class IntraDayTestResultEngine {
 	
 	public static DecimalFormat df = new DecimalFormat("###.##");
 	public static Map<String, JSONObject> jsonMap = new HashMap<>();
+	public static String execute(List<String> inputList) throws IOException{
+		StringBuffer buffer = new StringBuffer();
+			for(String symbol :inputList){
+					System.out.println("==>"+symbol);
+						String jsonString = getJsonObjectInfo(symbol);
+						
+						JSONObject jObject = null;
+						try {
+							if(jsonString != null){
+								jObject = new JSONObject(jsonString);
+								double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
+								double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
+								double profitOrLoss = last_price - prev_close_price;
+								String volume =jObject.getString("vo");
+								volume=volume.replace(",", "");
+								if(volume.contains("M")){
+									buffer.append("<tr><td>"+symbol+"</td><td>"+last_price+"</td><td>"+df.format(profitOrLoss)+"</td><td>"+volume+"</td></tr>");
+								}
+
+							}
+						} 
+						catch (JSONException e) {
+							e.printStackTrace();
+						}
+			}
+		return buffer.toString();
+	}
+
+		
 	public static void main(String str[]) throws IOException{
 		System.out.println("Execution Started......");
 		long startTime = System.currentTimeMillis();
