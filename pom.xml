@@ -36,7 +36,11 @@
 	    <artifactId>jsoup</artifactId>
 	    <version>1.10.2</version>
 	</dependency>
-	
+	<!-- <dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala-library</artifactId>
+    <version>2.10.6</version>
+</dependency> -->
 	<dependency>
     <groupId>way2sms</groupId>
     <artifactId>com.way2sms</artifactId>
@@ -45,12 +49,28 @@
     <systemPath>${project.basedir}/lib/way2sms-api-4.0.0.jar</systemPath>
 </dependency>
 	 <!-- Spark -->
-        <!-- <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.11</artifactId>
-            <version>2.1.0</version>
-        </dependency> -->
-
+         <dependency>
+    		<groupId>org.apache.spark</groupId>
+    		<artifactId>spark-core_2.10</artifactId>
+    		<version>1.5.2</version>
+		</dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql_2.10 -->
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-sql_2.10</artifactId>
+		    <version>2.1.0</version>
+		</dependency>
+		<dependency>
+   			 <groupId>com.databricks</groupId>
+    		 <artifactId>spark-csv_2.10</artifactId>
+    		 <version>1.4.0</version>
+		</dependency>        
+		<dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
         <!-- Logging -->
       <!--   <dependency>
             <groupId>org.slf4j</groupId>
@@ -69,6 +89,22 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
     </plugins>
   </build>
 </project>

@@ -35,10 +35,17 @@ public class IntraDayTestResultEngine {
 	public static Map<String, JSONObject> jsonMap = new HashMap<>();
 	public static String execute(List<String> inputList) throws IOException{
 		StringBuffer buffer = new StringBuffer();
+		List<String> newsList;
+		Properties prop = new Properties();
+		InputStream input = null;
+		input = new FileInputStream("conf/config.properties");
+		prop.load(input);
+		
 			for(String symbol :inputList){
 					System.out.println("==>"+symbol);
 						String jsonString = getJsonObjectInfo(symbol);
-						
+						//newsList = getSymbol(prop,symbol);
+						//System.out.println(">>>>>>"+newsList);
 						JSONObject jObject = null;
 						try {
 							if(jsonString != null){
