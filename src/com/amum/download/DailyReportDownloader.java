@@ -14,15 +14,18 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+import com.amum.source.InputSourceOneModeling;
 import com.amum.util.AmumUtil;
 
 public class DailyReportDownloader {
@@ -39,8 +42,9 @@ public class DailyReportDownloader {
         
     }
 
-    private static void urlDownloader(List<String> urlList,Properties prop) {
+    private static void urlDownloader(List<String> urlList,Properties prop) throws ParseException {
         String saveDir=prop.getProperty("dailyrprt.dest.dir");
+        System.out.println("saveDir>>>>"+saveDir);
         for(String targetURL:urlList){
             System.out.println(targetURL);
                 try {
@@ -52,7 +56,7 @@ public class DailyReportDownloader {
         
     }
     public static void downloadFile(String fileURL, String saveDir)
-            throws IOException {
+            throws IOException, ParseException {
 
         URL url = new URL(fileURL);
         HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
@@ -86,8 +90,9 @@ public class DailyReportDownloader {
  
             // opens input stream from the HTTP connection
             InputStream inputStream = httpConn.getInputStream();
-            String saveFilePath = saveDir + File.separator + fileName;
-             
+            AmumUtil.createDir(saveDir + File.separator +LocalDate.now());
+            String saveFilePath = saveDir + File.separator +LocalDate.now()+ File.separator + fileName;
+             System.out.println(">>>>"+saveFilePath);
             // opens an output stream to save into file
             FileOutputStream outputStream = new FileOutputStream(saveFilePath);
  
@@ -101,15 +106,30 @@ public class DailyReportDownloader {
             inputStream.close();
  
             System.out.println("File downloaded");
-            unzip(saveDir+"/"+fileName,saveDir);
-            deleteZip(saveDir+"/"+fileName);
+            unzip(saveDir+"/"+LocalDate.now()+"/"+fileName,saveDir+"/"+LocalDate.now());
+            deleteZip(saveDir+"/"+LocalDate.now()+"/"+fileName);
+            executeSourceOneModeling(saveDir+"/"+LocalDate.now());
         } else {
             System.out.println("No file to download. Server replied HTTP code: " + responseCode);
         }
         httpConn.disconnect();
     }
     
-    private static void deleteZip(String filepath) {
+    private static void executeSourceOneModeling(String inputPath) throws ParseException, IOException {
+    	File f = null;
+        File[] paths;
+    	f = new File(inputPath);
+        paths = f.listFiles();
+        for(File path:paths) {
+        	
+        	 Map<String,String> nameMap  = InputSourceOneModeling.getS1FileName(path);
+	          System.out.println(nameMap.get("FILE_NAME"));
+	          InputSourceOneModeling.createOutputFile(path,nameMap.get("FILE_NAME"));
+        }
+		
+	}
+
+	private static void deleteZip(String filepath) {
         Path path= FileSystems.getDefault().getPath(filepath);
         try {
             Files.deleteIfExists(path);

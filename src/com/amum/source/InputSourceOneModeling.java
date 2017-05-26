@@ -34,7 +34,6 @@ public class InputSourceOneModeling {
 	          for(File path:paths) {
 	          Map<String,String> nameMap  = getS1FileName(path);
 	          System.out.println(nameMap.get("FILE_NAME"));
-	         // System.out.println(nameMap.get("DATE"));
 	          createOutputFile(path,nameMap.get("FILE_NAME"));
 	          
 
@@ -48,7 +47,7 @@ public class InputSourceOneModeling {
 
 	}
 
-	private static void createOutputFile(File path, String fName) throws IOException {
+	public static void createOutputFile(File path, String fName) throws IOException {
 		List<String> list = new ArrayList<>();
         try (BufferedReader br = Files.newBufferedReader(Paths.get(path.toURI()))) {
       	  list = br.lines().collect(Collectors.toList());
@@ -59,7 +58,7 @@ public class InputSourceOneModeling {
 		
 	}
 	
-	private static Map<String,String> getS1FileName(File path) throws ParseException {
+	public static Map<String,String> getS1FileName(File path) throws ParseException {
 		Map<String,String> nameMap = new HashedMap();
 		 String fileName = path.getName();
          fileName=fileName.replace("cm", "");
