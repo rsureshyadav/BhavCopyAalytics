@@ -1,0 +1,21 @@
+Execution Time :2017-12-23T23:19:00.489
+RUCHIRA
+
+22-DEC-2017 >> -3.25 >> -2.6 >> RED
+20-DEC-2017 >> 2.45 >> 2.5 >> GREEN
+19-DEC-2017 >> 4.05 >> 4.05 >> GREEN
+18-DEC-2017 >> -4.1 >> -4.9 >> RED
+15-DEC-2017 >> -0.15 >> 0.4 >> RED
+14-DEC-2017 >> -6.15 >> -5.15 >> RED
+13-DEC-2017 >> -3.95 >> -3.05 >> RED
+12-DEC-2017 >> -5.65 >> -4.7 >> RED
+11-DEC-2017 >> 21.5 >> 21.8 >> GREEN
+
+Simple Moving Averages : 174.23
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:46.981
+OMKARCHEM
+
+22-DEC-2017 >> -0.6 >> -0.7 >> RED
+21-DEC-2017 >> 0.45 >> 0.15 >> GREEN
+20-DEC-2017 >> 0.1 >> 0.3 >> GREEN
+19-DEC-2017 >> -1.35 >> -1.1 >> RED
+18-DEC-2017 >> -1.25 >> -1.75 >> RED
+15-DEC-2017 >> -0.05 >> -0.15 >> RED
+14-DEC-2017 >> -1.95 >> -2.05 >> RED
+13-DEC-2017 >> -0.65 >> -0.35 >> RED
+12-DEC-2017 >> -2.35 >> -2.2 >> RED
+11-DEC-2017 >> -0.2 >> 0.1 >> RED
+
+Simple Moving Averages : 74.08
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

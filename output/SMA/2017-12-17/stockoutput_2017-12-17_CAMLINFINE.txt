@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:34.444
+CAMLINFINE
+
+15-DEC-2017 >> -3.6 >> -4 >> RED
+14-DEC-2017 >> 4.4 >> 4.8 >> GREEN
+13-DEC-2017 >> -0.75 >> 0.15 >> RED
+12-DEC-2017 >> -2.85 >> -2.95 >> RED
+11-DEC-2017 >> 8.35 >> 8.55 >> GREEN
+08-DEC-2017 >> -0.85 >> -1.35 >> RED
+07-DEC-2017 >> 1.75 >> 1.45 >> GREEN
+06-DEC-2017 >> -0.65 >> 0.8 >> RED
+05-DEC-2017 >> 3.6 >> 3.9 >> GREEN
+04-DEC-2017 >> -5.2 >> -4.2 >> RED
+
+Simple Moving Averages : 107.66
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:13.902
+NOIDATOLL
+
+15-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+14-DEC-2017 >> 0.2 >> 0.15 >> GREEN
+13-DEC-2017 >> -0.1 >> 0.1 >> RED
+12-DEC-2017 >> -0.5 >> -0.5 >> RED
+11-DEC-2017 >> -0.1 >> -0.1 >> RED
+08-DEC-2017 >> 0.1 >> 0 >> RED
+07-DEC-2017 >> 0.05 >> 0 >> RED
+06-DEC-2017 >> 0.15 >> 0.25 >> GREEN
+05-DEC-2017 >> -0.7 >> -0.7 >> RED
+04-DEC-2017 >> 0.55 >> 0.65 >> GREEN
+
+Simple Moving Averages : 13.1
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

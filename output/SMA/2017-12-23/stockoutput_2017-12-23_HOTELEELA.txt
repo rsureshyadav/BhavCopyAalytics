@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:22.325
+HOTELEELA
+
+22-DEC-2017 >> -0.15 >> 0.05 >> RED
+21-DEC-2017 >> -0.2 >> -0.15 >> RED
+20-DEC-2017 >> 0.4 >> 0.45 >> GREEN
+19-DEC-2017 >> 0.35 >> 0.4 >> GREEN
+18-DEC-2017 >> 0.1 >> 0.2 >> GREEN
+15-DEC-2017 >> 0 >> 0.1 >> NEAUTRAL
+14-DEC-2017 >> -0.05 >> -0.05 >> RED
+13-DEC-2017 >> -0.35 >> -0.3 >> RED
+12-DEC-2017 >> -0.5 >> -0.45 >> RED
+11-DEC-2017 >> 0.05 >> 0 >> RED
+
+Simple Moving Averages : 19.79
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

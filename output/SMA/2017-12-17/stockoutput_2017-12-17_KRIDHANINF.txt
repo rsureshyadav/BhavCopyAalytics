@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:41.047
+KRIDHANINF
+
+15-DEC-2017 >> -0.55 >> -0.4 >> RED
+14-DEC-2017 >> -6.4 >> -5.1 >> RED
+13-DEC-2017 >> 0.5 >> 1 >> GREEN
+12-DEC-2017 >> 2.65 >> 3.75 >> GREEN
+11-DEC-2017 >> -16.95 >> -17.85 >> RED
+08-DEC-2017 >> 6.35 >> 4.85 >> GREEN
+07-DEC-2017 >> -0.2 >> -0.2 >> RED
+06-DEC-2017 >> -2.75 >> -2.9 >> RED
+05-DEC-2017 >> 1.05 >> 1.55 >> GREEN
+04-DEC-2017 >> -0.9 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 98.46
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

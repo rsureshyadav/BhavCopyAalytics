@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:13.112
+FSL
+
+22-DEC-2017 >> -0.25 >> -0.35 >> RED
+21-DEC-2017 >> -0.15 >> -0.05 >> RED
+20-DEC-2017 >> 0.2 >> 0.25 >> GREEN
+19-DEC-2017 >> 0.65 >> 0.55 >> GREEN
+18-DEC-2017 >> 0.1 >> 0.25 >> GREEN
+15-DEC-2017 >> 0.05 >> 0.5 >> GREEN
+14-DEC-2017 >> -0.9 >> -0.9 >> RED
+13-DEC-2017 >> 0.25 >> 0.45 >> GREEN
+12-DEC-2017 >> -0.95 >> -1 >> RED
+11-DEC-2017 >> -0.5 >> -0.6 >> RED
+
+Simple Moving Averages : 39.48
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:55.617
+MIDCAPIWIN
+
+15-DEC-2017 >> -0.17 >> -0.28 >> RED
+14-DEC-2017 >> -0.19 >> -0.18 >> RED
+13-DEC-2017 >> -0.77 >> -0.77 >> RED
+12-DEC-2017 >> -0.96 >> -0.96 >> RED
+11-DEC-2017 >> -5.66 >> -5.66 >> RED
+08-DEC-2017 >> 0.15 >> 0 >> RED
+07-DEC-2017 >> 0.35 >> 0.35 >> GREEN
+06-DEC-2017 >> -2.87 >> -2.63 >> RED
+05-DEC-2017 >> 1.2 >> 1.2 >> GREEN
+04-DEC-2017 >> -0.52 >> -0.52 >> RED
+
+Simple Moving Averages : 74.09
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

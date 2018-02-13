@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:46.197
+DALMIASUG
+
+15-DEC-2017 >> -1.4 >> -2.9 >> RED
+14-DEC-2017 >> -2.35 >> -2.8 >> RED
+13-DEC-2017 >> -3.2 >> -4.05 >> RED
+12-DEC-2017 >> -0.8 >> -1 >> RED
+11-DEC-2017 >> -3.5 >> -3.35 >> RED
+08-DEC-2017 >> -1.45 >> -1.1 >> RED
+07-DEC-2017 >> -0.85 >> -1 >> RED
+06-DEC-2017 >> -5.9 >> -4.6 >> RED
+05-DEC-2017 >> 3.35 >> 2.9 >> GREEN
+04-DEC-2017 >> -6.35 >> -6 >> RED
+
+Simple Moving Averages : 141.37
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

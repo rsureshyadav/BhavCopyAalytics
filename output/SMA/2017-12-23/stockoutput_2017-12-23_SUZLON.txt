@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:09.721
+SUZLON
+
+22-DEC-2017 >> 0.05 >> 0 >> RED
+21-DEC-2017 >> 0.2 >> 0.25 >> GREEN
+20-DEC-2017 >> 0.4 >> 0.4 >> GREEN
+19-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+18-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+15-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -0.3 >> -0.2 >> RED
+13-DEC-2017 >> -0.15 >> -0.15 >> RED
+12-DEC-2017 >> -0.05 >> -0.1 >> RED
+11-DEC-2017 >> -0.15 >> -0.15 >> RED
+
+Simple Moving Averages : 13.85
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

@@ -1,0 +1,13 @@
+Execution Time :2017-12-17T01:33:24.751
+PIRPHYTO
+
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 4.82
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 0
+NEAUTRAL >> 1

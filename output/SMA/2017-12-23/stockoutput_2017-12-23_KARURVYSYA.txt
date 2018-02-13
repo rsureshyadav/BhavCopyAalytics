@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:30.738
+KARURVYSYA
+
+22-DEC-2017 >> -1.95 >> -1.9 >> RED
+21-DEC-2017 >> 2.75 >> 1.8 >> GREEN
+20-DEC-2017 >> 4.45 >> 4.3 >> GREEN
+19-DEC-2017 >> 0.7 >> 0.8 >> GREEN
+18-DEC-2017 >> 2.3 >> 2.3 >> GREEN
+15-DEC-2017 >> -2.1 >> -2.25 >> RED
+14-DEC-2017 >> -2.6 >> -2.45 >> RED
+13-DEC-2017 >> 1 >> 1 >> GREEN
+12-DEC-2017 >> -0.55 >> -0.9 >> RED
+11-DEC-2017 >> 3.9 >> 4.4 >> GREEN
+
+Simple Moving Averages : 118.13
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

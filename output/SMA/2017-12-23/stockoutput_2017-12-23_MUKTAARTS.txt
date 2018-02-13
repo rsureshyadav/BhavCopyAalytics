@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:42.403
+MUKTAARTS
+
+22-DEC-2017 >> -0.25 >> 0.1 >> RED
+21-DEC-2017 >> -1.25 >> -1.3 >> RED
+20-DEC-2017 >> 0.6 >> 0.8 >> GREEN
+19-DEC-2017 >> 2.15 >> 2.65 >> GREEN
+18-DEC-2017 >> 0.3 >> 0.4 >> GREEN
+15-DEC-2017 >> 3.85 >> 4.65 >> GREEN
+14-DEC-2017 >> -3.25 >> -3.65 >> RED
+13-DEC-2017 >> -1.4 >> -1.65 >> RED
+12-DEC-2017 >> -1.05 >> -1.1 >> RED
+11-DEC-2017 >> -2.45 >> -2.5 >> RED
+
+Simple Moving Averages : 101.41
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

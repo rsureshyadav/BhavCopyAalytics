@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:15.961
+UNIVCABLES
+
+22-DEC-2017 >> -3.2 >> -2.9 >> RED
+21-DEC-2017 >> 0.7 >> 0.05 >> GREEN
+20-DEC-2017 >> -3.4 >> -3.6 >> RED
+19-DEC-2017 >> 4.35 >> 4.15 >> GREEN
+18-DEC-2017 >> 8.05 >> 9.1 >> GREEN
+15-DEC-2017 >> -0.8 >> -0.8 >> RED
+14-DEC-2017 >> -4.35 >> -6.3 >> RED
+13-DEC-2017 >> 0 >> 0.75 >> NEAUTRAL
+12-DEC-2017 >> -6.85 >> -6.6 >> RED
+11-DEC-2017 >> -1.25 >> -0.6 >> RED
+
+Simple Moving Averages : 180.85
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

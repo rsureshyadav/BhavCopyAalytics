@@ -1,0 +1,16 @@
+Execution Time :2017-12-23T23:17:58.231
+BLISSGVS
+
+18-DEC-2017 >> -6.95 >> -7.5 >> RED
+14-DEC-2017 >> 0.05 >> -0.7 >> RED
+13-DEC-2017 >> -1.75 >> -2.75 >> RED
+12-DEC-2017 >> -2.1 >> -2.95 >> RED
+
+Simple Moving Averages : 79.09
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 4
+NEAUTRAL >> 0

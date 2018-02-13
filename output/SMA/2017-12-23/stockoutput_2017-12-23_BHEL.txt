@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:57.175
+BHEL
+
+22-DEC-2017 >> 0.15 >> 0.05 >> GREEN
+21-DEC-2017 >> 1.2 >> 1.15 >> GREEN
+20-DEC-2017 >> -0.2 >> -0.3 >> RED
+19-DEC-2017 >> 0.15 >> 0.05 >> GREEN
+18-DEC-2017 >> -0.15 >> -0.2 >> RED
+15-DEC-2017 >> -1.1 >> -1.4 >> RED
+14-DEC-2017 >> -0.4 >> -0.4 >> RED
+13-DEC-2017 >> -1.6 >> -1.4 >> RED
+12-DEC-2017 >> 0 >> 0.05 >> NEAUTRAL
+11-DEC-2017 >> -0.95 >> -0.95 >> RED
+
+Simple Moving Averages : 90.56
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

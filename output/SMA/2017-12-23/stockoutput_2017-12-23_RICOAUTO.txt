@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:59.265
+RICOAUTO
+
+22-DEC-2017 >> -1.65 >> -1.4 >> RED
+21-DEC-2017 >> 2.85 >> 2.6 >> GREEN
+20-DEC-2017 >> -0.05 >> -0.35 >> RED
+19-DEC-2017 >> 2.6 >> 2.45 >> GREEN
+18-DEC-2017 >> -0.75 >> -0.2 >> RED
+15-DEC-2017 >> -1.2 >> -1.45 >> RED
+14-DEC-2017 >> 1.05 >> 0.35 >> GREEN
+13-DEC-2017 >> -0.15 >> -0.75 >> RED
+12-DEC-2017 >> -1.65 >> -1.7 >> RED
+11-DEC-2017 >> 3.45 >> 4.2 >> GREEN
+
+Simple Moving Averages : 97.84
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

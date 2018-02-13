@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:22.463
+PENINLAND
+
+15-DEC-2017 >> 0.3 >> 0.3 >> GREEN
+14-DEC-2017 >> -1.1 >> -0.95 >> RED
+13-DEC-2017 >> -1.6 >> -1.7 >> RED
+12-DEC-2017 >> 0.05 >> -0.1 >> RED
+11-DEC-2017 >> 1.7 >> 1.75 >> GREEN
+08-DEC-2017 >> 0 >> -0.05 >> RED
+07-DEC-2017 >> -0.1 >> -0.2 >> RED
+06-DEC-2017 >> 0.4 >> 0.4 >> GREEN
+05-DEC-2017 >> -0.3 >> -0.2 >> RED
+04-DEC-2017 >> -0.95 >> -0.8 >> RED
+
+Simple Moving Averages : 35.06
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

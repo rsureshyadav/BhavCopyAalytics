@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:09.024
+EIHOTEL
+
+22-DEC-2017 >> -1.45 >> -1.6 >> RED
+21-DEC-2017 >> 1.25 >> 1.45 >> GREEN
+20-DEC-2017 >> -0.6 >> -0.6 >> RED
+19-DEC-2017 >> -0.7 >> -0.7 >> RED
+18-DEC-2017 >> -3.9 >> -3.75 >> RED
+15-DEC-2017 >> 0.55 >> 1 >> GREEN
+14-DEC-2017 >> -0.55 >> -0.95 >> RED
+13-DEC-2017 >> -0.9 >> -0.55 >> RED
+12-DEC-2017 >> -2.6 >> -2.5 >> RED
+11-DEC-2017 >> -1.05 >> -0.5 >> RED
+
+Simple Moving Averages : 145.89
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

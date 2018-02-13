@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:50.609
+MARKSANS
+
+15-DEC-2017 >> -0.35 >> -0.3 >> RED
+14-DEC-2017 >> -1.05 >> -1 >> RED
+13-DEC-2017 >> -0.6 >> -0.65 >> RED
+12-DEC-2017 >> -0.45 >> -0.4 >> RED
+11-DEC-2017 >> -1 >> -0.95 >> RED
+08-DEC-2017 >> -0.6 >> -0.75 >> RED
+07-DEC-2017 >> 0.55 >> 0.75 >> GREEN
+06-DEC-2017 >> -0.75 >> -0.6 >> RED
+05-DEC-2017 >> 0.9 >> 0.9 >> GREEN
+04-DEC-2017 >> -1.7 >> -1.7 >> RED
+
+Simple Moving Averages : 36.75
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

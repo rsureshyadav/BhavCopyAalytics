@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:19.550
+ORTINLABSS
+
+15-DEC-2017 >> -1.95 >> -2.1 >> RED
+14-DEC-2017 >> -2.05 >> -2 >> RED
+13-DEC-2017 >> 3.8 >> 3.95 >> GREEN
+12-DEC-2017 >> 0.9 >> 1.05 >> GREEN
+11-DEC-2017 >> -0.4 >> -0.1 >> RED
+08-DEC-2017 >> 0.6 >> 0.8 >> GREEN
+07-DEC-2017 >> -0.2 >> -0.1 >> RED
+06-DEC-2017 >> -0.7 >> -0.75 >> RED
+05-DEC-2017 >> 0.05 >> -0.3 >> RED
+04-DEC-2017 >> -0.6 >> -0.6 >> RED
+
+Simple Moving Averages : 20.77
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

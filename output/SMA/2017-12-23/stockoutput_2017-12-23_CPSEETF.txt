@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:04.052
+CPSEETF
+
+22-DEC-2017 >> -0.02 >> -0.09 >> RED
+21-DEC-2017 >> 0.04 >> 0.08 >> GREEN
+20-DEC-2017 >> 0.09 >> 0.11 >> GREEN
+19-DEC-2017 >> 0.11 >> -0.05 >> RED
+18-DEC-2017 >> 0.11 >> 0.15 >> GREEN
+15-DEC-2017 >> 0.25 >> 0.26 >> GREEN
+14-DEC-2017 >> -0.2 >> -0.19 >> RED
+13-DEC-2017 >> -0.03 >> -0.04 >> RED
+12-DEC-2017 >> -0.13 >> -0.34 >> RED
+11-DEC-2017 >> -0.04 >> -0.01 >> RED
+
+Simple Moving Averages : 29.8
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

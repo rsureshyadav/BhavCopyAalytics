@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:23.623
+WILLAMAGOR
+
+15-DEC-2017 >> 2.5 >> 3.5 >> GREEN
+14-DEC-2017 >> -2.05 >> -1.9 >> RED
+13-DEC-2017 >> -4.85 >> -3.3 >> RED
+12-DEC-2017 >> 1.5 >> 1.5 >> GREEN
+11-DEC-2017 >> -4.35 >> -5 >> RED
+08-DEC-2017 >> -0.7 >> 1.6 >> RED
+07-DEC-2017 >> 1.35 >> 2.15 >> GREEN
+06-DEC-2017 >> -4.1 >> -3.85 >> RED
+05-DEC-2017 >> -1.3 >> -1.3 >> RED
+04-DEC-2017 >> 1.5 >> 1.3 >> GREEN
+
+Simple Moving Averages : 91.41
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

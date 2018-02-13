@@ -1,0 +1,14 @@
+Execution Time :2017-12-23T23:19:14.114
+UBHOLDINGS
+
+18-DEC-2017 >> -0.55 >> -0.55 >> RED
+11-DEC-2017 >> -1.4 >> -1.4 >> RED
+
+Simple Moving Averages : 2.65
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 2
+NEAUTRAL >> 0

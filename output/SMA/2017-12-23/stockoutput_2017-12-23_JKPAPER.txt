@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:29.246
+JKPAPER
+
+22-DEC-2017 >> 1.3 >> 1.25 >> GREEN
+21-DEC-2017 >> 6.9 >> 7.85 >> GREEN
+20-DEC-2017 >> -2.35 >> -1.9 >> RED
+19-DEC-2017 >> 2.65 >> 3.45 >> GREEN
+18-DEC-2017 >> 2.8 >> 3.8 >> GREEN
+15-DEC-2017 >> -3.55 >> -3.1 >> RED
+14-DEC-2017 >> -2.8 >> -3.3 >> RED
+13-DEC-2017 >> -2.15 >> -2 >> RED
+12-DEC-2017 >> -0.75 >> -0.75 >> RED
+11-DEC-2017 >> 7.05 >> 7.1 >> GREEN
+
+Simple Moving Averages : 135.57
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

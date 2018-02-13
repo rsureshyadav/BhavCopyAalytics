@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:22.094
+HMT
+
+22-DEC-2017 >> -1.45 >> -1.65 >> RED
+21-DEC-2017 >> 0.1 >> 0.1 >> GREEN
+20-DEC-2017 >> 2.55 >> 2.5 >> GREEN
+19-DEC-2017 >> 1.85 >> 2 >> GREEN
+18-DEC-2017 >> -0.75 >> -0.7 >> RED
+15-DEC-2017 >> 0.55 >> 0.4 >> GREEN
+14-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+13-DEC-2017 >> -0.5 >> -0.5 >> RED
+12-DEC-2017 >> -2.15 >> -1.8 >> RED
+11-DEC-2017 >> 0.35 >> 1 >> GREEN
+
+Simple Moving Averages : 39.38
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:46.286
+MAANALU
+
+15-DEC-2017 >> 5.05 >> 4.9 >> GREEN
+14-DEC-2017 >> -4.8 >> -5.15 >> RED
+13-DEC-2017 >> -3 >> -3.1 >> RED
+12-DEC-2017 >> -12.9 >> -13.05 >> RED
+11-DEC-2017 >> 9.15 >> 9.4 >> GREEN
+08-DEC-2017 >> -4.3 >> -4.35 >> RED
+07-DEC-2017 >> -1.7 >> -1.05 >> RED
+06-DEC-2017 >> -2 >> -3 >> RED
+05-DEC-2017 >> 1.75 >> 3.15 >> GREEN
+04-DEC-2017 >> -1.15 >> -1.1 >> RED
+
+Simple Moving Averages : 147.49
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

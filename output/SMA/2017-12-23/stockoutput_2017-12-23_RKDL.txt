@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:59.431
+RKDL
+
+22-DEC-2017 >> -0.95 >> -0.6 >> RED
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+18-DEC-2017 >> 0.25 >> 0.25 >> GREEN
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -0.6 >> -0.6 >> RED
+13-DEC-2017 >> 1.05 >> 1.1 >> GREEN
+12-DEC-2017 >> -0.55 >> -0.65 >> RED
+11-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+
+Simple Moving Averages : 13.79
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 3
+NEAUTRAL >> 3

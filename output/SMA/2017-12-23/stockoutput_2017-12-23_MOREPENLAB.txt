@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:41.278
+MOREPENLAB
+
+22-DEC-2017 >> 3.35 >> 3.05 >> GREEN
+21-DEC-2017 >> 1.25 >> 1.1 >> GREEN
+20-DEC-2017 >> 4.8 >> 4.8 >> GREEN
+19-DEC-2017 >> 0.15 >> 0.2 >> GREEN
+18-DEC-2017 >> -0.1 >> -0.05 >> RED
+15-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -0.6 >> -0.5 >> RED
+13-DEC-2017 >> -0.3 >> -0.2 >> RED
+12-DEC-2017 >> -0.8 >> -0.75 >> RED
+11-DEC-2017 >> -2 >> -1.95 >> RED
+
+Simple Moving Averages : 27.74
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

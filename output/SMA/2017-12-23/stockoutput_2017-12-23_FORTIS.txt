@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:12.923
+FORTIS
+
+22-DEC-2017 >> -0.55 >> -0.6 >> RED
+21-DEC-2017 >> 1.25 >> 2.15 >> GREEN
+20-DEC-2017 >> 4.1 >> 4.55 >> GREEN
+19-DEC-2017 >> 1.35 >> 1.65 >> GREEN
+18-DEC-2017 >> -2.25 >> -2.25 >> RED
+15-DEC-2017 >> 0.45 >> 1.65 >> GREEN
+14-DEC-2017 >> 4.45 >> 3.3 >> GREEN
+13-DEC-2017 >> 0 >> -0.1 >> RED
+12-DEC-2017 >> -9.05 >> -10.25 >> RED
+11-DEC-2017 >> -4.3 >> -4.15 >> RED
+
+Simple Moving Averages : 136.35
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

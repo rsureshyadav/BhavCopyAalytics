@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:04.755
+TARAJEWELS
+
+15-DEC-2017 >> 0 >> -0.05 >> RED
+14-DEC-2017 >> -0.15 >> -0.15 >> RED
+13-DEC-2017 >> -0.25 >> -0.2 >> RED
+12-DEC-2017 >> -0.3 >> -0.35 >> RED
+11-DEC-2017 >> -0.25 >> -0.15 >> RED
+08-DEC-2017 >> 0.15 >> 0 >> RED
+07-DEC-2017 >> 0.2 >> 0.2 >> GREEN
+06-DEC-2017 >> -0.75 >> -0.75 >> RED
+05-DEC-2017 >> -0.05 >> 0.05 >> RED
+04-DEC-2017 >> 0.35 >> 0.25 >> GREEN
+
+Simple Moving Averages : 19.62
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

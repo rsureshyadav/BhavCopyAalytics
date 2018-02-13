@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:25.467
+INFIBEAM
+
+22-DEC-2017 >> 0.25 >> 0.6 >> GREEN
+21-DEC-2017 >> -1.6 >> -1.75 >> RED
+20-DEC-2017 >> -0.35 >> -1.35 >> RED
+19-DEC-2017 >> 0.25 >> -0.4 >> RED
+18-DEC-2017 >> 0.7 >> -0.4 >> RED
+15-DEC-2017 >> 2 >> 1.55 >> GREEN
+14-DEC-2017 >> -1.8 >> -3.55 >> RED
+13-DEC-2017 >> -1 >> -1.45 >> RED
+12-DEC-2017 >> -1.55 >> -1.75 >> RED
+11-DEC-2017 >> -0.35 >> -0.25 >> RED
+
+Simple Moving Averages : 162.64
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

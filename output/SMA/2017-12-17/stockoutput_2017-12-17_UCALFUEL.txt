@@ -1,0 +1,17 @@
+Execution Time :2017-12-17T01:34:13.926
+UCALFUEL
+
+08-DEC-2017 >> 1.8 >> 1.9 >> GREEN
+07-DEC-2017 >> 0.2 >> -0.05 >> RED
+06-DEC-2017 >> 0.2 >> 0.05 >> GREEN
+05-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+04-DEC-2017 >> -2.15 >> -1.6 >> RED
+
+Simple Moving Averages : 96.88
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 2
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:17.267
+ONGC
+
+15-DEC-2017 >> -2.15 >> -2 >> RED
+14-DEC-2017 >> -1.6 >> -1.45 >> RED
+13-DEC-2017 >> 0.2 >> 0.3 >> GREEN
+12-DEC-2017 >> 2.9 >> 3.45 >> GREEN
+11-DEC-2017 >> -3.05 >> -2.7 >> RED
+08-DEC-2017 >> 2.75 >> 3.85 >> GREEN
+07-DEC-2017 >> 1.5 >> 1.4 >> GREEN
+06-DEC-2017 >> -2.55 >> -2.9 >> RED
+05-DEC-2017 >> -1.7 >> -2.05 >> RED
+04-DEC-2017 >> 0.35 >> 0.1 >> GREEN
+
+Simple Moving Averages : 180.66
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

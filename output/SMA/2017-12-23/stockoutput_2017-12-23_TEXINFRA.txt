@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:11.734
+TEXINFRA
+
+22-DEC-2017 >> -0.75 >> -0.7 >> RED
+21-DEC-2017 >> 0.55 >> 0.8 >> GREEN
+20-DEC-2017 >> -0.2 >> -0.3 >> RED
+19-DEC-2017 >> 0.45 >> 0.6 >> GREEN
+18-DEC-2017 >> 0.1 >> 0.1 >> GREEN
+15-DEC-2017 >> 0.9 >> 0.6 >> GREEN
+14-DEC-2017 >> -1.8 >> -2.5 >> RED
+13-DEC-2017 >> -2.65 >> -3 >> RED
+12-DEC-2017 >> -1.7 >> -2.05 >> RED
+11-DEC-2017 >> 0.3 >> 0.7 >> GREEN
+
+Simple Moving Averages : 70.62
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

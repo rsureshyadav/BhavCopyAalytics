@@ -1,0 +1,16 @@
+Execution Time :2017-12-17T01:31:31.912
+BLUECOAST
+
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> -2.5 >> -2.5 >> RED
+07-DEC-2017 >> 4.95 >> 4.95 >> GREEN
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 52.97
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 1
+NEAUTRAL >> 2

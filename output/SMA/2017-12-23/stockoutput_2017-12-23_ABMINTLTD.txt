@@ -1,0 +1,21 @@
+Execution Time :2017-12-23T23:17:45.825
+ABMINTLTD
+
+22-DEC-2017 >> 1.7 >> 1.7 >> GREEN
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> -1.8 >> -1.8 >> RED
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+18-DEC-2017 >> -0.45 >> -0.45 >> RED
+15-DEC-2017 >> -1.6 >> -1.6 >> RED
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> -2.5 >> -2.5 >> RED
+
+Simple Moving Averages : 32.58
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 4
+NEAUTRAL >> 4

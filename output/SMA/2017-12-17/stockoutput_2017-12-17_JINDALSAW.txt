@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:30.502
+JINDALSAW
+
+15-DEC-2017 >> -1 >> -1.2 >> RED
+14-DEC-2017 >> -0.55 >> -0.9 >> RED
+13-DEC-2017 >> -2.6 >> -2.5 >> RED
+12-DEC-2017 >> 0.75 >> 0.35 >> GREEN
+11-DEC-2017 >> -0.9 >> -0.85 >> RED
+08-DEC-2017 >> -0.7 >> -0.75 >> RED
+07-DEC-2017 >> -1.15 >> -1.15 >> RED
+06-DEC-2017 >> -0.5 >> -0.6 >> RED
+05-DEC-2017 >> -1.55 >> -1.8 >> RED
+04-DEC-2017 >> -2.8 >> -2.9 >> RED
+
+Simple Moving Averages : 115.23
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

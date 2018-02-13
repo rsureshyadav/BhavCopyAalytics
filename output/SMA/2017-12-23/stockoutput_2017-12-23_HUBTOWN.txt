@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:22.622
+HUBTOWN
+
+22-DEC-2017 >> -3.6 >> -3.05 >> RED
+21-DEC-2017 >> -2.35 >> -1.85 >> RED
+20-DEC-2017 >> -2.9 >> -2.85 >> RED
+19-DEC-2017 >> 1.05 >> 0.35 >> GREEN
+18-DEC-2017 >> 2.45 >> 2.8 >> GREEN
+15-DEC-2017 >> -0.75 >> -1.45 >> RED
+14-DEC-2017 >> -0.35 >> 0.1 >> RED
+13-DEC-2017 >> -3.7 >> -3.2 >> RED
+12-DEC-2017 >> -3.5 >> -3.75 >> RED
+11-DEC-2017 >> 6.9 >> 6.65 >> GREEN
+
+Simple Moving Averages : 126.91
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

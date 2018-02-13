@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:20.405
+HDIL
+
+22-DEC-2017 >> 1.15 >> 0.95 >> GREEN
+21-DEC-2017 >> 0.15 >> 0.3 >> GREEN
+20-DEC-2017 >> 2.5 >> 2.65 >> GREEN
+19-DEC-2017 >> -0.5 >> -0.5 >> RED
+18-DEC-2017 >> -0.15 >> -0.3 >> RED
+15-DEC-2017 >> -1 >> -1.05 >> RED
+14-DEC-2017 >> 0.65 >> 0.8 >> GREEN
+13-DEC-2017 >> -2.15 >> -2 >> RED
+12-DEC-2017 >> -1.25 >> -1.15 >> RED
+11-DEC-2017 >> -1.7 >> -1.75 >> RED
+
+Simple Moving Averages : 54.66
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

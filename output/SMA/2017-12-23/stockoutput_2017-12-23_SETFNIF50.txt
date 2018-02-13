@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:02.886
+SETFNIF50
+
+22-DEC-2017 >> 0.11 >> 0.35 >> GREEN
+21-DEC-2017 >> -0.11 >> -0.11 >> RED
+20-DEC-2017 >> -0.11 >> 0.19 >> RED
+19-DEC-2017 >> 0.45 >> 0.54 >> GREEN
+18-DEC-2017 >> 2.1 >> 2.1 >> GREEN
+15-DEC-2017 >> -0.16 >> -0.61 >> RED
+14-DEC-2017 >> 0.19 >> 0.19 >> GREEN
+13-DEC-2017 >> -0.34 >> -0.22 >> RED
+12-DEC-2017 >> -0.75 >> -0.61 >> RED
+11-DEC-2017 >> -0.03 >> -0.02 >> RED
+
+Simple Moving Averages : 105.12
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

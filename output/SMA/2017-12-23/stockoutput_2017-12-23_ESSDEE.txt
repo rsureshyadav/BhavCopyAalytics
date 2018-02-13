@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:11.350
+ESSDEE
+
+22-DEC-2017 >> 2.95 >> 2.95 >> GREEN
+21-DEC-2017 >> 3.6 >> 3.85 >> GREEN
+20-DEC-2017 >> -2.65 >> -2.85 >> RED
+19-DEC-2017 >> 1.1 >> 1 >> GREEN
+18-DEC-2017 >> 0.95 >> 1.15 >> GREEN
+15-DEC-2017 >> -0.65 >> -0.95 >> RED
+14-DEC-2017 >> 3.6 >> 4.25 >> GREEN
+13-DEC-2017 >> -4.75 >> -4.75 >> RED
+12-DEC-2017 >> 2.05 >> 2.05 >> GREEN
+11-DEC-2017 >> 3.65 >> 3.65 >> GREEN
+
+Simple Moving Averages : 58.14
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 7
+RED >> 3
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:08.886
+AROGRANITE
+
+15-DEC-2017 >> -0.55 >> -0.7 >> RED
+14-DEC-2017 >> -0.4 >> -0.55 >> RED
+13-DEC-2017 >> -0.1 >> -0.05 >> RED
+12-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> -0.2 >> RED
+08-DEC-2017 >> -0.7 >> -1.3 >> RED
+07-DEC-2017 >> 0.1 >> 0 >> RED
+06-DEC-2017 >> -1.5 >> -1.55 >> RED
+05-DEC-2017 >> 0.05 >> -0.15 >> RED
+04-DEC-2017 >> -1.4 >> -1.5 >> RED
+
+Simple Moving Averages : 68.11
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 9
+NEAUTRAL >> 1

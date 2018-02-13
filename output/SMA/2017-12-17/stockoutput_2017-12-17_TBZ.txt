@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:06.584
+TBZ
+
+15-DEC-2017 >> -1 >> -0.8 >> RED
+14-DEC-2017 >> -4.15 >> -3.8 >> RED
+13-DEC-2017 >> -0.85 >> -1 >> RED
+12-DEC-2017 >> 0.2 >> 0.2 >> GREEN
+11-DEC-2017 >> -3.4 >> -3.65 >> RED
+08-DEC-2017 >> 4.25 >> 3.7 >> GREEN
+07-DEC-2017 >> 0.7 >> 0.2 >> GREEN
+06-DEC-2017 >> -3.25 >> -3 >> RED
+05-DEC-2017 >> -0.95 >> -0.95 >> RED
+04-DEC-2017 >> -3.1 >> -3.45 >> RED
+
+Simple Moving Averages : 121
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

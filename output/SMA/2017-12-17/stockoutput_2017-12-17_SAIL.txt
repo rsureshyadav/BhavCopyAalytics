@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:39.360
+SAIL
+
+15-DEC-2017 >> -0.8 >> -0.8 >> RED
+14-DEC-2017 >> -1.25 >> -1.3 >> RED
+13-DEC-2017 >> -1.8 >> -2 >> RED
+12-DEC-2017 >> -0.9 >> -0.85 >> RED
+11-DEC-2017 >> -1.65 >> -1.55 >> RED
+08-DEC-2017 >> 0.55 >> 0.6 >> GREEN
+07-DEC-2017 >> 2.5 >> 2.7 >> GREEN
+06-DEC-2017 >> -1.55 >> -1.35 >> RED
+05-DEC-2017 >> 0.95 >> 1.05 >> GREEN
+04-DEC-2017 >> -1.2 >> -0.6 >> RED
+
+Simple Moving Averages : 78.81
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

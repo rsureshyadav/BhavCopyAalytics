@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:32.535
+KOHINOOR
+
+22-DEC-2017 >> -1.15 >> -1.3 >> RED
+21-DEC-2017 >> -0.35 >> -0.4 >> RED
+20-DEC-2017 >> -1.05 >> -1 >> RED
+19-DEC-2017 >> 0.9 >> 0.75 >> GREEN
+18-DEC-2017 >> 0.25 >> 0.5 >> GREEN
+15-DEC-2017 >> -0.15 >> -0.2 >> RED
+14-DEC-2017 >> -3 >> -3.1 >> RED
+13-DEC-2017 >> -0.65 >> -0.6 >> RED
+12-DEC-2017 >> -1.1 >> -1.1 >> RED
+11-DEC-2017 >> 0.1 >> -0.2 >> RED
+
+Simple Moving Averages : 73.73
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

@@ -1,0 +1,19 @@
+Execution Time :2017-12-23T23:18:24.955
+INDOTECH
+
+20-DEC-2017 >> 0.65 >> -0.85 >> RED
+18-DEC-2017 >> -1.1 >> -0.5 >> RED
+15-DEC-2017 >> 2 >> -0.55 >> RED
+14-DEC-2017 >> 0 >> 2.85 >> NEAUTRAL
+13-DEC-2017 >> -2.1 >> -2.8 >> RED
+12-DEC-2017 >> -2.6 >> -3.7 >> RED
+11-DEC-2017 >> -3.95 >> -4.4 >> RED
+
+Simple Moving Averages : 137.5
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 6
+NEAUTRAL >> 1

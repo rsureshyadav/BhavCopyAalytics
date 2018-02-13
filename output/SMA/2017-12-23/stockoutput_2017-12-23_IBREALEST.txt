@@ -1,0 +1,14 @@
+Execution Time :2017-12-23T23:18:22.758
+IBREALEST
+
+18-DEC-2017 >> -1 >> -0.9 >> RED
+14-DEC-2017 >> -3.65 >> -5.6 >> RED
+
+Simple Moving Averages : 39.49
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 2
+NEAUTRAL >> 0

@@ -1,0 +1,13 @@
+Execution Time :2017-12-17T01:32:34.558
+JYOTISTRUC
+
+15-DEC-2017 >> 0.75 >> 0.75 >> GREEN
+
+Simple Moving Averages : 1.02
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 0
+NEAUTRAL >> 0

@@ -1,0 +1,21 @@
+Execution Time :2017-12-23T23:18:34.795
+LFIC
+
+22-DEC-2017 >> -3.55 >> -3.55 >> RED
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+18-DEC-2017 >> -4.9 >> -4.9 >> RED
+15-DEC-2017 >> 4.05 >> 4.7 >> GREEN
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 83.37
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 2
+NEAUTRAL >> 6

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:59.594
+BVCL
+
+22-DEC-2017 >> 1.25 >> 1.25 >> GREEN
+21-DEC-2017 >> -1.3 >> -1.3 >> RED
+20-DEC-2017 >> 0.35 >> -0.1 >> RED
+19-DEC-2017 >> -1.2 >> -1.2 >> RED
+18-DEC-2017 >> -0.15 >> -0.15 >> RED
+15-DEC-2017 >> -0.1 >> -0.5 >> RED
+14-DEC-2017 >> -0.25 >> -0.25 >> RED
+13-DEC-2017 >> 0.1 >> 0 >> RED
+12-DEC-2017 >> 1.4 >> 1.05 >> GREEN
+11-DEC-2017 >> 0.05 >> 0.2 >> GREEN
+
+Simple Moving Averages : 28.15
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

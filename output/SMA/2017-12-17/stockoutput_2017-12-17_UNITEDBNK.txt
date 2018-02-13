@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:15.123
+UNITEDBNK
+
+15-DEC-2017 >> -0.25 >> -0.2 >> RED
+14-DEC-2017 >> 0 >> -0.05 >> RED
+13-DEC-2017 >> -0.2 >> -0.2 >> RED
+12-DEC-2017 >> -0.15 >> -0.1 >> RED
+11-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+08-DEC-2017 >> -0.1 >> -0.1 >> RED
+07-DEC-2017 >> -0.2 >> -0.25 >> RED
+06-DEC-2017 >> -0.25 >> -0.2 >> RED
+05-DEC-2017 >> -0.1 >> -0.05 >> RED
+04-DEC-2017 >> -0.15 >> -0.15 >> RED
+
+Simple Moving Averages : 17.31
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

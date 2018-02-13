@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:12.595
+HBLPOWER
+
+15-DEC-2017 >> -0.65 >> -0.8 >> RED
+14-DEC-2017 >> -0.2 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -3.6 >> -3.5 >> RED
+12-DEC-2017 >> -0.4 >> -0.6 >> RED
+11-DEC-2017 >> 4.95 >> 5.55 >> GREEN
+08-DEC-2017 >> -0.1 >> -0.15 >> RED
+07-DEC-2017 >> 2.1 >> 2.25 >> GREEN
+06-DEC-2017 >> -0.25 >> -0.1 >> RED
+05-DEC-2017 >> -1.6 >> -1.7 >> RED
+04-DEC-2017 >> -1.6 >> -1.3 >> RED
+
+Simple Moving Averages : 65.44
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 7
+NEAUTRAL >> 1

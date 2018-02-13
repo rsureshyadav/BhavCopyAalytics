@@ -1,0 +1,17 @@
+Execution Time :2017-12-23T23:18:33.519
+KRISHANA
+
+20-DEC-2017 >> 0.9 >> 0.9 >> GREEN
+18-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -1.4 >> -1.4 >> RED
+12-DEC-2017 >> -0.4 >> 0.1 >> RED
+11-DEC-2017 >> -0.7 >> -0.7 >> RED
+
+Simple Moving Averages : 18.16
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 3
+NEAUTRAL >> 1

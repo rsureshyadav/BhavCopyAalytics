@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:09.274
+ARSHIYA
+
+15-DEC-2017 >> -1.05 >> -1 >> RED
+14-DEC-2017 >> -2.65 >> -3.25 >> RED
+13-DEC-2017 >> -0.6 >> -0.85 >> RED
+12-DEC-2017 >> -0.8 >> 0.15 >> RED
+11-DEC-2017 >> -0.25 >> 0.2 >> RED
+08-DEC-2017 >> -2.95 >> -2.8 >> RED
+07-DEC-2017 >> 2.3 >> 2.95 >> GREEN
+06-DEC-2017 >> -3.25 >> -3.05 >> RED
+05-DEC-2017 >> -1 >> -1.25 >> RED
+04-DEC-2017 >> 1.9 >> 1.9 >> GREEN
+
+Simple Moving Averages : 96.09
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

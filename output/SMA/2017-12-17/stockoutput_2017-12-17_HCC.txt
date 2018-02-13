@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:12.769
+HCC
+
+15-DEC-2017 >> -0.55 >> -0.6 >> RED
+14-DEC-2017 >> 0.15 >> 0.2 >> GREEN
+13-DEC-2017 >> -1.25 >> -1.25 >> RED
+12-DEC-2017 >> -0.3 >> -0.2 >> RED
+11-DEC-2017 >> -0.45 >> -0.45 >> RED
+08-DEC-2017 >> 0 >> -0.1 >> RED
+07-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+06-DEC-2017 >> 0.3 >> 0.2 >> GREEN
+05-DEC-2017 >> -0.25 >> -0.1 >> RED
+04-DEC-2017 >> -1.1 >> -1.05 >> RED
+
+Simple Moving Averages : 36.44
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

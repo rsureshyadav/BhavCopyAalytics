@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:47.212
+ONWARDTEC
+
+22-DEC-2017 >> 1.9 >> 3.05 >> GREEN
+21-DEC-2017 >> -5.15 >> -3.6 >> RED
+20-DEC-2017 >> 0.05 >> 0.2 >> GREEN
+19-DEC-2017 >> -1.35 >> 0.2 >> RED
+18-DEC-2017 >> -1.05 >> -1.7 >> RED
+15-DEC-2017 >> -0.45 >> -2 >> RED
+14-DEC-2017 >> -3.25 >> -2.2 >> RED
+13-DEC-2017 >> -2.15 >> -2.5 >> RED
+12-DEC-2017 >> 2.55 >> 3.05 >> GREEN
+11-DEC-2017 >> -3.85 >> -2.85 >> RED
+
+Simple Moving Averages : 136.02
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

@@ -1,0 +1,13 @@
+Execution Time :2017-12-17T01:32:53.579
+MCLEODRUSS
+
+14-DEC-2017 >> -2.8 >> -3.2 >> RED
+
+Simple Moving Averages : 19.99
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 1
+NEAUTRAL >> 0

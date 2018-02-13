@@ -1,0 +1,15 @@
+Execution Time :2017-12-23T23:18:17.459
+GPIL
+
+13-DEC-2017 >> 9 >> 8.8 >> GREEN
+12-DEC-2017 >> -2.4 >> -2.5 >> RED
+11-DEC-2017 >> -4.05 >> -3.55 >> RED
+
+Simple Moving Averages : 56.4
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 2
+NEAUTRAL >> 0

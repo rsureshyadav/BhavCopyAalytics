@@ -1,0 +1,16 @@
+Execution Time :2017-12-17T01:31:32.647
+BRFL
+
+07-DEC-2017 >> 6.85 >> 6.65 >> GREEN
+06-DEC-2017 >> 11.05 >> 10.15 >> GREEN
+05-DEC-2017 >> 3.25 >> 6.15 >> GREEN
+04-DEC-2017 >> -12.95 >> -13.5 >> RED
+
+Simple Moving Averages : 73.75
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 1
+NEAUTRAL >> 0

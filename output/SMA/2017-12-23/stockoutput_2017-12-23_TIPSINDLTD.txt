@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:12.707
+TIPSINDLTD
+
+22-DEC-2017 >> -3.3 >> -2 >> RED
+21-DEC-2017 >> 1.65 >> 2 >> GREEN
+20-DEC-2017 >> 2.25 >> 3 >> GREEN
+19-DEC-2017 >> -1.55 >> -0.8 >> RED
+18-DEC-2017 >> 4.3 >> 5.95 >> GREEN
+15-DEC-2017 >> -5.15 >> -5 >> RED
+14-DEC-2017 >> -1 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -2.25 >> -3.45 >> RED
+12-DEC-2017 >> 1.35 >> 4.5 >> GREEN
+11-DEC-2017 >> -1.55 >> -3.85 >> RED
+
+Simple Moving Averages : 118.15
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

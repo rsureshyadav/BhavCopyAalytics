@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:09.484
+ELECTHERM
+
+22-DEC-2017 >> -17.1 >> -18.5 >> RED
+21-DEC-2017 >> -7.25 >> -8 >> RED
+20-DEC-2017 >> 24.7 >> 24.7 >> GREEN
+19-DEC-2017 >> 24.65 >> 24.65 >> GREEN
+18-DEC-2017 >> -3.2 >> -2.5 >> RED
+15-DEC-2017 >> 2.15 >> 2.8 >> GREEN
+14-DEC-2017 >> -15.8 >> -15 >> RED
+13-DEC-2017 >> -7.5 >> -7 >> RED
+12-DEC-2017 >> -12.3 >> -12.1 >> RED
+11-DEC-2017 >> -6.95 >> -7.2 >> RED
+
+Simple Moving Averages : 157.13
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

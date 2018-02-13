@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:24.643
+PIONEEREMB
+
+15-DEC-2017 >> -1.2 >> -1.25 >> RED
+14-DEC-2017 >> -1.35 >> -1.2 >> RED
+13-DEC-2017 >> 0.3 >> 0.4 >> GREEN
+12-DEC-2017 >> 0.55 >> 0.55 >> GREEN
+11-DEC-2017 >> -0.1 >> 0.05 >> RED
+08-DEC-2017 >> 0.9 >> 1 >> GREEN
+07-DEC-2017 >> 1.8 >> 1.55 >> GREEN
+06-DEC-2017 >> -0.65 >> -0.95 >> RED
+05-DEC-2017 >> -1.4 >> -1.55 >> RED
+04-DEC-2017 >> 2.05 >> 2.65 >> GREEN
+
+Simple Moving Averages : 39.56
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

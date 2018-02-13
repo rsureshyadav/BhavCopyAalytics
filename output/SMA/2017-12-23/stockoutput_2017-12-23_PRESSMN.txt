@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:54.508
+PRESSMN
+
+22-DEC-2017 >> 2.65 >> 2.35 >> GREEN
+21-DEC-2017 >> 3.8 >> 3.55 >> GREEN
+20-DEC-2017 >> 1.65 >> 1.85 >> GREEN
+19-DEC-2017 >> -0.4 >> -0.45 >> RED
+18-DEC-2017 >> 1.05 >> 0.95 >> GREEN
+15-DEC-2017 >> 0.1 >> 0 >> RED
+14-DEC-2017 >> -1.85 >> -1.9 >> RED
+13-DEC-2017 >> -0.55 >> -0.65 >> RED
+12-DEC-2017 >> -4.05 >> -4 >> RED
+11-DEC-2017 >> 2.8 >> 2.75 >> GREEN
+
+Simple Moving Averages : 75.54
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

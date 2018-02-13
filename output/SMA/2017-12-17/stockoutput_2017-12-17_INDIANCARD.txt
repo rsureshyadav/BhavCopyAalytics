@@ -1,0 +1,18 @@
+Execution Time :2017-12-17T01:32:23.232
+INDIANCARD
+
+11-DEC-2017 >> 2.3 >> 1.95 >> GREEN
+08-DEC-2017 >> -0.6 >> -0.75 >> RED
+07-DEC-2017 >> 0.5 >> -0.9 >> RED
+06-DEC-2017 >> 1.95 >> 3.95 >> GREEN
+05-DEC-2017 >> 1.5 >> 1.5 >> GREEN
+04-DEC-2017 >> -1.2 >> -2.05 >> RED
+
+Simple Moving Averages : 112.16
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 3
+NEAUTRAL >> 0

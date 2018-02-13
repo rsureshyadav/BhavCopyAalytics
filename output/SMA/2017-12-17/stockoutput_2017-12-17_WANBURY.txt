@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:22.415
+WANBURY
+
+15-DEC-2017 >> 3 >> 3.55 >> GREEN
+14-DEC-2017 >> -1.05 >> -1 >> RED
+13-DEC-2017 >> -1.35 >> -0.9 >> RED
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> -1.8 >> -1.95 >> RED
+06-DEC-2017 >> -1.25 >> -1.25 >> RED
+05-DEC-2017 >> 1.3 >> 1.7 >> GREEN
+04-DEC-2017 >> 1.2 >> 1.2 >> GREEN
+
+Simple Moving Averages : 38.9
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 4
+NEAUTRAL >> 3

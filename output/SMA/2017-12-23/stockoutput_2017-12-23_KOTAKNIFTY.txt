@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:32.956
+KOTAKNIFTY
+
+22-DEC-2017 >> 0.19 >> 0.15 >> GREEN
+21-DEC-2017 >> -0.12 >> -0.1 >> RED
+20-DEC-2017 >> -0.28 >> -0.23 >> RED
+19-DEC-2017 >> 0.46 >> 0.41 >> GREEN
+18-DEC-2017 >> -1.5 >> -1.6 >> RED
+15-DEC-2017 >> -0.68 >> -0.79 >> RED
+14-DEC-2017 >> -0.21 >> -0.12 >> RED
+13-DEC-2017 >> -0.43 >> -0.12 >> RED
+12-DEC-2017 >> -0.53 >> -0.49 >> RED
+11-DEC-2017 >> 0.28 >> 0.39 >> GREEN
+
+Simple Moving Averages : 104.78
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

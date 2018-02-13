@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:12.593
+TRIVENI
+
+15-DEC-2017 >> -2 >> -2 >> RED
+14-DEC-2017 >> -2.5 >> -2.2 >> RED
+13-DEC-2017 >> -1.2 >> -1.1 >> RED
+12-DEC-2017 >> -2.2 >> -1.85 >> RED
+11-DEC-2017 >> -0.35 >> -0.1 >> RED
+08-DEC-2017 >> -1.6 >> -1.65 >> RED
+07-DEC-2017 >> 1.75 >> 2.1 >> GREEN
+06-DEC-2017 >> -6.9 >> -6.9 >> RED
+05-DEC-2017 >> 6.5 >> 6.6 >> GREEN
+04-DEC-2017 >> -2.85 >> -2.8 >> RED
+
+Simple Moving Averages : 82.06
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

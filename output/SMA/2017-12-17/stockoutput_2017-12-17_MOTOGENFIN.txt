@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:58.507
+MOTOGENFIN
+
+15-DEC-2017 >> -2.65 >> -2.65 >> RED
+14-DEC-2017 >> -2.1 >> -1.8 >> RED
+13-DEC-2017 >> -2.8 >> -3.4 >> RED
+12-DEC-2017 >> -7.35 >> -7.55 >> RED
+11-DEC-2017 >> -8.1 >> -8.75 >> RED
+08-DEC-2017 >> 5 >> 5 >> GREEN
+07-DEC-2017 >> 8.55 >> 8.55 >> GREEN
+06-DEC-2017 >> -0.4 >> -0.5 >> RED
+05-DEC-2017 >> -2.6 >> -3.25 >> RED
+04-DEC-2017 >> -0.05 >> 0.05 >> RED
+
+Simple Moving Averages : 42.99
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

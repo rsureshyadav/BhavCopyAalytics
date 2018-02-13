@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:35.763
+LOTUSEYE
+
+22-DEC-2017 >> -0.9 >> -0.9 >> RED
+21-DEC-2017 >> 0.25 >> 0.25 >> GREEN
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0.45 >> 0 >> RED
+18-DEC-2017 >> -0.5 >> -0.5 >> RED
+15-DEC-2017 >> 1.35 >> 1.35 >> GREEN
+14-DEC-2017 >> -1.2 >> -0.45 >> RED
+13-DEC-2017 >> 0.7 >> 0.7 >> GREEN
+12-DEC-2017 >> 0.25 >> 0.15 >> GREEN
+11-DEC-2017 >> -0.55 >> -0.55 >> RED
+
+Simple Moving Averages : 32.52
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

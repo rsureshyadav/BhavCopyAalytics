@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:47.509
+ORIENTABRA
+
+22-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+21-DEC-2017 >> 1.8 >> 1.8 >> GREEN
+20-DEC-2017 >> 1.9 >> 1.9 >> GREEN
+19-DEC-2017 >> 1 >> 1.6 >> GREEN
+18-DEC-2017 >> 1 >> 0.95 >> GREEN
+15-DEC-2017 >> -0.1 >> -0.5 >> RED
+14-DEC-2017 >> -1.4 >> -1.4 >> RED
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> -0.95 >> -1.4 >> RED
+11-DEC-2017 >> -0.2 >> -0.1 >> RED
+
+Simple Moving Averages : 51.61
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 4
+NEAUTRAL >> 2

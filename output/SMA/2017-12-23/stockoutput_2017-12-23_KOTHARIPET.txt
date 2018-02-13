@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:33.194
+KOTHARIPET
+
+22-DEC-2017 >> -0.95 >> -0.6 >> RED
+21-DEC-2017 >> -0.1 >> 0.2 >> RED
+20-DEC-2017 >> 1.1 >> 1.1 >> GREEN
+19-DEC-2017 >> 0.55 >> 0.4 >> GREEN
+18-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+15-DEC-2017 >> -0.85 >> -0.95 >> RED
+14-DEC-2017 >> -0.65 >> -0.65 >> RED
+13-DEC-2017 >> -0.45 >> -0.3 >> RED
+12-DEC-2017 >> -1.15 >> -1.1 >> RED
+11-DEC-2017 >> -0.35 >> -0.25 >> RED
+
+Simple Moving Averages : 31.48
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:19.650
+GULFPETRO
+
+22-DEC-2017 >> -2.6 >> -2.55 >> RED
+21-DEC-2017 >> 4.05 >> 3.9 >> GREEN
+20-DEC-2017 >> 1.55 >> 2.1 >> GREEN
+19-DEC-2017 >> -0.95 >> -1.45 >> RED
+18-DEC-2017 >> 1.75 >> 2.2 >> GREEN
+15-DEC-2017 >> -1.45 >> -1.85 >> RED
+14-DEC-2017 >> -2.25 >> -2 >> RED
+13-DEC-2017 >> 2.6 >> 3.35 >> GREEN
+12-DEC-2017 >> -1.85 >> -1.9 >> RED
+11-DEC-2017 >> -0.25 >> -0.8 >> RED
+
+Simple Moving Averages : 82.14
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

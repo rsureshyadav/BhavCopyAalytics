@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:17.582
+VIDHIING
+
+22-DEC-2017 >> 0.25 >> -0.6 >> RED
+21-DEC-2017 >> -1.55 >> -1.7 >> RED
+20-DEC-2017 >> 3.4 >> 3.45 >> GREEN
+19-DEC-2017 >> 6.15 >> 6.9 >> GREEN
+18-DEC-2017 >> 0.35 >> 0.85 >> GREEN
+15-DEC-2017 >> -2.65 >> -2.8 >> RED
+14-DEC-2017 >> -1.05 >> -0.95 >> RED
+13-DEC-2017 >> -6.9 >> -7.25 >> RED
+12-DEC-2017 >> -2.55 >> -3.1 >> RED
+11-DEC-2017 >> 0.6 >> 1.05 >> GREEN
+
+Simple Moving Averages : 105.95
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

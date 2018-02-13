@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:30.598
+KANORICHEM
+
+22-DEC-2017 >> 0 >> -0.3 >> RED
+21-DEC-2017 >> -0.6 >> -1.25 >> RED
+20-DEC-2017 >> 1.3 >> 1.2 >> GREEN
+19-DEC-2017 >> 3.2 >> 3.15 >> GREEN
+18-DEC-2017 >> 1.45 >> 1.5 >> GREEN
+15-DEC-2017 >> -0.25 >> 0.1 >> RED
+14-DEC-2017 >> -3.05 >> -3.05 >> RED
+13-DEC-2017 >> -2.25 >> -2.65 >> RED
+12-DEC-2017 >> -3.5 >> -3.6 >> RED
+11-DEC-2017 >> -1.25 >> -0.95 >> RED
+
+Simple Moving Averages : 96.98
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

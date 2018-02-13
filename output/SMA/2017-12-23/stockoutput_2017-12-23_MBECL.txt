@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:38.978
+MBECL
+
+22-DEC-2017 >> -0.05 >> -0.3 >> RED
+21-DEC-2017 >> 0 >> -0.05 >> RED
+20-DEC-2017 >> -2.25 >> -2.25 >> RED
+19-DEC-2017 >> 0.1 >> 0.05 >> GREEN
+18-DEC-2017 >> -0.9 >> -0.9 >> RED
+15-DEC-2017 >> 1.45 >> 1 >> GREEN
+14-DEC-2017 >> -0.6 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -0.4 >> -0.8 >> RED
+12-DEC-2017 >> 0.7 >> 0.65 >> GREEN
+11-DEC-2017 >> 0.75 >> 1.55 >> GREEN
+
+Simple Moving Averages : 58.05
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

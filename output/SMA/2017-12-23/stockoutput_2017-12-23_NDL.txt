@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:44.467
+NDL
+
+22-DEC-2017 >> -2 >> -1.75 >> RED
+21-DEC-2017 >> -0.2 >> -0.05 >> RED
+20-DEC-2017 >> -1.25 >> -1.85 >> RED
+19-DEC-2017 >> -2 >> -2 >> RED
+18-DEC-2017 >> -0.8 >> -0.5 >> RED
+15-DEC-2017 >> -3.4 >> -3.7 >> RED
+14-DEC-2017 >> -0.1 >> 0.2 >> RED
+13-DEC-2017 >> -4.55 >> -4.2 >> RED
+12-DEC-2017 >> -11.15 >> -11.5 >> RED
+11-DEC-2017 >> 4.1 >> 4.2 >> GREEN
+
+Simple Moving Averages : 161
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

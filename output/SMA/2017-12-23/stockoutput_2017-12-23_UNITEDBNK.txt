@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:15.207
+UNITEDBNK
+
+22-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+21-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+20-DEC-2017 >> -0.1 >> -0.05 >> RED
+19-DEC-2017 >> -0.2 >> -0.15 >> RED
+18-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+15-DEC-2017 >> -0.25 >> -0.2 >> RED
+14-DEC-2017 >> 0 >> -0.05 >> RED
+13-DEC-2017 >> -0.2 >> -0.2 >> RED
+12-DEC-2017 >> -0.15 >> -0.1 >> RED
+11-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+
+Simple Moving Averages : 17.27
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

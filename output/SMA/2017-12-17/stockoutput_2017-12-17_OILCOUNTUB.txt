@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:15.815
+OILCOUNTUB
+
+15-DEC-2017 >> -1.75 >> -2.1 >> RED
+14-DEC-2017 >> -0.9 >> -1.45 >> RED
+13-DEC-2017 >> -2.55 >> -2.2 >> RED
+12-DEC-2017 >> 2.75 >> 2.95 >> GREEN
+11-DEC-2017 >> -0.75 >> -0.9 >> RED
+08-DEC-2017 >> -0.1 >> -0.2 >> RED
+07-DEC-2017 >> 1.25 >> 1.05 >> GREEN
+06-DEC-2017 >> -1.05 >> -1.1 >> RED
+05-DEC-2017 >> 0.1 >> 0.05 >> GREEN
+04-DEC-2017 >> -1.4 >> -1.3 >> RED
+
+Simple Moving Averages : 48.16
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

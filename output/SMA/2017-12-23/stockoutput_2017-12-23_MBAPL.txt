@@ -1,0 +1,17 @@
+Execution Time :2017-12-23T23:18:38.902
+MBAPL
+
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+18-DEC-2017 >> 5 >> 5 >> GREEN
+14-DEC-2017 >> 0.95 >> 0.95 >> GREEN
+12-DEC-2017 >> -0.1 >> -0.1 >> RED
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 31.99
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 1
+NEAUTRAL >> 2

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:30.589
+JINDALSTEL
+
+15-DEC-2017 >> 1.35 >> 1.9 >> GREEN
+14-DEC-2017 >> 0.3 >> 0.75 >> GREEN
+13-DEC-2017 >> -2.4 >> -2.7 >> RED
+12-DEC-2017 >> -1.75 >> -1.4 >> RED
+11-DEC-2017 >> -1.3 >> -1.55 >> RED
+08-DEC-2017 >> 1 >> 0.5 >> GREEN
+07-DEC-2017 >> 5.15 >> 5.65 >> GREEN
+06-DEC-2017 >> -4.3 >> -4.5 >> RED
+05-DEC-2017 >> -2.1 >> -1.85 >> RED
+04-DEC-2017 >> 1.55 >> 2.3 >> GREEN
+
+Simple Moving Averages : 163.81
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:17.815
+BALAJITELE
+
+15-DEC-2017 >> 2.05 >> 2.4 >> GREEN
+14-DEC-2017 >> -2.3 >> -2.6 >> RED
+13-DEC-2017 >> -2.7 >> -2.7 >> RED
+12-DEC-2017 >> -1.5 >> -1.6 >> RED
+11-DEC-2017 >> -3.4 >> -3.7 >> RED
+08-DEC-2017 >> 0.65 >> 0.65 >> GREEN
+07-DEC-2017 >> 1.85 >> 2.5 >> GREEN
+06-DEC-2017 >> -1.9 >> -2.5 >> RED
+05-DEC-2017 >> -0.2 >> -1.3 >> RED
+04-DEC-2017 >> -2.25 >> -2.65 >> RED
+
+Simple Moving Averages : 156.16
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

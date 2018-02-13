@@ -1,0 +1,13 @@
+Execution Time :2017-12-23T23:18:33.674
+KSK
+
+22-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 1.02
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 0
+NEAUTRAL >> 1

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:28.171
+IVP
+
+15-DEC-2017 >> -5.95 >> -4.9 >> RED
+14-DEC-2017 >> -1.9 >> -1.9 >> RED
+13-DEC-2017 >> -1.2 >> -1.35 >> RED
+12-DEC-2017 >> 0.95 >> 1 >> GREEN
+11-DEC-2017 >> -0.65 >> -0.5 >> RED
+08-DEC-2017 >> -0.25 >> 1 >> RED
+07-DEC-2017 >> -5.55 >> -6.6 >> RED
+06-DEC-2017 >> -1.2 >> -2.65 >> RED
+05-DEC-2017 >> -6.1 >> -2.8 >> RED
+04-DEC-2017 >> -1.3 >> -2.05 >> RED
+
+Simple Moving Averages : 190.3
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

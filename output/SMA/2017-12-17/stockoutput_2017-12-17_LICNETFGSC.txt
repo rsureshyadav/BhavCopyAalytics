@@ -1,0 +1,20 @@
+Execution Time :2017-12-17T01:32:44.176
+LICNETFGSC
+
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 13.36
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 0
+NEAUTRAL >> 7

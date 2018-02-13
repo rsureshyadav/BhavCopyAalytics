@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:13.199
+NMDC
+
+15-DEC-2017 >> 1.65 >> 1.8 >> GREEN
+14-DEC-2017 >> -0.8 >> -1.5 >> RED
+13-DEC-2017 >> -1.8 >> -1.9 >> RED
+12-DEC-2017 >> -0.7 >> -0.25 >> RED
+11-DEC-2017 >> -1.05 >> -1 >> RED
+08-DEC-2017 >> 2.05 >> 2.25 >> GREEN
+07-DEC-2017 >> 1.75 >> 1.95 >> GREEN
+06-DEC-2017 >> -3.25 >> -3.3 >> RED
+05-DEC-2017 >> -1.95 >> -1.95 >> RED
+04-DEC-2017 >> 2.45 >> 2.5 >> GREEN
+
+Simple Moving Averages : 130.28
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

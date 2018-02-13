@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:01.532
+SANCO
+
+22-DEC-2017 >> -0.8 >> -2.05 >> RED
+21-DEC-2017 >> 0.6 >> 0.75 >> GREEN
+20-DEC-2017 >> -0.7 >> -1.55 >> RED
+19-DEC-2017 >> -0.45 >> -0.45 >> RED
+18-DEC-2017 >> 1.15 >> 1.6 >> GREEN
+15-DEC-2017 >> -1.35 >> -1.5 >> RED
+14-DEC-2017 >> 2.85 >> 3.35 >> GREEN
+13-DEC-2017 >> 4.7 >> 5.1 >> GREEN
+12-DEC-2017 >> -0.35 >> -0.5 >> RED
+11-DEC-2017 >> -0.9 >> -0.65 >> RED
+
+Simple Moving Averages : 56.8
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

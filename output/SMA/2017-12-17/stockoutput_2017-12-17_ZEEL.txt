@@ -1,0 +1,17 @@
+Execution Time :2017-12-17T01:34:25.085
+ZEEL
+
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> -0.05 >> -0.05 >> RED
+07-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+
+Simple Moving Averages : 5
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 1
+NEAUTRAL >> 2

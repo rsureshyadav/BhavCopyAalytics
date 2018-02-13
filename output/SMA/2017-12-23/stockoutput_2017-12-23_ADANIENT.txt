@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:46.154
+ADANIENT
+
+22-DEC-2017 >> -0.05 >> -0.75 >> RED
+21-DEC-2017 >> 1.6 >> 0.9 >> GREEN
+20-DEC-2017 >> 0.95 >> 1.3 >> GREEN
+19-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+18-DEC-2017 >> 11.95 >> 11.7 >> GREEN
+15-DEC-2017 >> 0.25 >> 0.75 >> GREEN
+14-DEC-2017 >> 1.55 >> 3 >> GREEN
+13-DEC-2017 >> -2.5 >> -3.2 >> RED
+12-DEC-2017 >> -1.35 >> -2.55 >> RED
+11-DEC-2017 >> 0.9 >> 0.65 >> GREEN
+
+Simple Moving Averages : 156.39
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 7
+RED >> 3
+NEAUTRAL >> 0

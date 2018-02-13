@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:29.622
+JPINFRATEC
+
+22-DEC-2017 >> -0.55 >> -0.7 >> RED
+21-DEC-2017 >> 1.35 >> 1.45 >> GREEN
+20-DEC-2017 >> 0.25 >> 0.15 >> GREEN
+19-DEC-2017 >> 0.25 >> 0.4 >> GREEN
+18-DEC-2017 >> 0.45 >> 0.45 >> GREEN
+15-DEC-2017 >> -0.15 >> -0.15 >> RED
+14-DEC-2017 >> -0.05 >> -0.15 >> RED
+13-DEC-2017 >> -0.55 >> -0.55 >> RED
+12-DEC-2017 >> -0.2 >> -0.25 >> RED
+11-DEC-2017 >> -0.55 >> -0.55 >> RED
+
+Simple Moving Averages : 14.82
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

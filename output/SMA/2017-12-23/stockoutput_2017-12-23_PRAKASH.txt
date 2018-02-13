@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:53.918
+PRAKASH
+
+22-DEC-2017 >> -1.65 >> -0.9 >> RED
+21-DEC-2017 >> -3 >> -3.95 >> RED
+20-DEC-2017 >> 0.1 >> 0.15 >> GREEN
+19-DEC-2017 >> 11.85 >> 12 >> GREEN
+18-DEC-2017 >> 12.65 >> 12.1 >> GREEN
+15-DEC-2017 >> 3.15 >> 2.9 >> GREEN
+14-DEC-2017 >> -2.9 >> -3.2 >> RED
+13-DEC-2017 >> -1.85 >> -1.4 >> RED
+12-DEC-2017 >> 4.1 >> 4.7 >> GREEN
+11-DEC-2017 >> -11.5 >> -12.9 >> RED
+
+Simple Moving Averages : 157.67
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

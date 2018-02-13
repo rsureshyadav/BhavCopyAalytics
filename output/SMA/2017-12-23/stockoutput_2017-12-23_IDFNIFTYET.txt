@@ -1,0 +1,18 @@
+Execution Time :2017-12-23T23:18:23.338
+IDFNIFTYET
+
+22-DEC-2017 >> -0.18 >> -0.18 >> RED
+21-DEC-2017 >> -0.44 >> -0.44 >> RED
+18-DEC-2017 >> 0.55 >> 0.55 >> GREEN
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> -1.85 >> -1.85 >> RED
+11-DEC-2017 >> -0.69 >> -0.69 >> RED
+
+Simple Moving Averages : 62.36
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 4
+NEAUTRAL >> 1

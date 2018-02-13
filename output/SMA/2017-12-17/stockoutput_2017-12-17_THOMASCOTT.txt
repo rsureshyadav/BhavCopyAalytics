@@ -1,0 +1,20 @@
+Execution Time :2017-12-17T01:34:09.169
+THOMASCOTT
+
+14-DEC-2017 >> -0.2 >> -1.25 >> RED
+13-DEC-2017 >> -0.1 >> -0.1 >> RED
+12-DEC-2017 >> 1.3 >> 1.3 >> GREEN
+11-DEC-2017 >> -1.5 >> -1.5 >> RED
+08-DEC-2017 >> 1.1 >> 1.1 >> GREEN
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 1.6 >> 1.6 >> GREEN
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 13.74
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 3
+NEAUTRAL >> 2

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:17.065
+VEDL
+
+15-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+06-DEC-2017 >> 0 >> 0.05 >> NEAUTRAL
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 10.44
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 0
+NEAUTRAL >> 8

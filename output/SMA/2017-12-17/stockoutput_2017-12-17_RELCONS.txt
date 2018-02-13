@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:34.603
+RELCONS
+
+15-DEC-2017 >> 0.95 >> 0.95 >> GREEN
+14-DEC-2017 >> 0.25 >> 0.25 >> GREEN
+13-DEC-2017 >> -0.97 >> -0.97 >> RED
+12-DEC-2017 >> -0.54 >> -0.54 >> RED
+11-DEC-2017 >> 0.32 >> 0.32 >> GREEN
+08-DEC-2017 >> 0.27 >> 0.27 >> GREEN
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> -4.04 >> -4.07 >> RED
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> 0.64 >> 0.64 >> GREEN
+
+Simple Moving Averages : 50.7
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 3
+NEAUTRAL >> 2

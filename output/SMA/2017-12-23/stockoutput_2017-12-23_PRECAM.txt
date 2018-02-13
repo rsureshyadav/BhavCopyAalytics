@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:54.089
+PRECAM
+
+22-DEC-2017 >> -0.1 >> -0.65 >> RED
+21-DEC-2017 >> -2.1 >> -2.4 >> RED
+20-DEC-2017 >> 0.5 >> 0.35 >> GREEN
+19-DEC-2017 >> 4.05 >> 4.3 >> GREEN
+18-DEC-2017 >> 2.75 >> 3.5 >> GREEN
+15-DEC-2017 >> -1.8 >> -2.2 >> RED
+14-DEC-2017 >> -3.35 >> -2.95 >> RED
+13-DEC-2017 >> 0.55 >> 0.5 >> GREEN
+12-DEC-2017 >> -1.85 >> -1.6 >> RED
+11-DEC-2017 >> -1.3 >> -1.6 >> RED
+
+Simple Moving Averages : 114.54
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

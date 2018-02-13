@@ -1,0 +1,13 @@
+Execution Time :2017-12-17T01:33:17.580
+OPTOCIRCUI
+
+04-DEC-2017 >> -0.25 >> -0.2 >> RED
+
+Simple Moving Averages : 1.06
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 1
+NEAUTRAL >> 0

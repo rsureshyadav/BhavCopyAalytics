@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:20.331
+BANARBEADS
+
+15-DEC-2017 >> 3.8 >> 4.6 >> GREEN
+14-DEC-2017 >> -1.8 >> -1.6 >> RED
+13-DEC-2017 >> -0.95 >> -1 >> RED
+12-DEC-2017 >> -0.15 >> -0.85 >> RED
+11-DEC-2017 >> -1.25 >> -1.7 >> RED
+08-DEC-2017 >> -0.5 >> -0.95 >> RED
+07-DEC-2017 >> -0.35 >> -0.5 >> RED
+06-DEC-2017 >> -0.9 >> -0.95 >> RED
+05-DEC-2017 >> 1.05 >> 1.05 >> GREEN
+04-DEC-2017 >> 0.45 >> 0.4 >> GREEN
+
+Simple Moving Averages : 63.92
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:17.301
+HTMEDIA
+
+15-DEC-2017 >> 1.85 >> 1.15 >> GREEN
+14-DEC-2017 >> -2.35 >> -2.65 >> RED
+13-DEC-2017 >> -2.2 >> -2 >> RED
+12-DEC-2017 >> -0.9 >> -0.4 >> RED
+11-DEC-2017 >> -0.65 >> -0.75 >> RED
+08-DEC-2017 >> -2.25 >> -2 >> RED
+07-DEC-2017 >> -0.45 >> -0.85 >> RED
+06-DEC-2017 >> 0.95 >> 0.7 >> GREEN
+05-DEC-2017 >> -1.5 >> -1.65 >> RED
+04-DEC-2017 >> -3.15 >> -2.85 >> RED
+
+Simple Moving Averages : 97.67
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

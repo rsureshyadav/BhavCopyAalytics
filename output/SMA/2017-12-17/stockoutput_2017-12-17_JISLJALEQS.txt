@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:31.078
+JISLJALEQS
+
+15-DEC-2017 >> 0.1 >> -0.35 >> RED
+14-DEC-2017 >> -1.1 >> -2 >> RED
+13-DEC-2017 >> -1.85 >> -2.2 >> RED
+12-DEC-2017 >> -2.75 >> -3.5 >> RED
+11-DEC-2017 >> -1.9 >> -1.45 >> RED
+08-DEC-2017 >> 1.2 >> 1.25 >> GREEN
+07-DEC-2017 >> 1.65 >> 1.5 >> GREEN
+06-DEC-2017 >> -2.9 >> -3.1 >> RED
+05-DEC-2017 >> 3.9 >> 4.55 >> GREEN
+04-DEC-2017 >> -3.6 >> -2.8 >> RED
+
+Simple Moving Averages : 115.41
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

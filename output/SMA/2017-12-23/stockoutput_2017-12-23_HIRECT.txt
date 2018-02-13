@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:21.755
+HIRECT
+
+22-DEC-2017 >> 6.1 >> 6 >> GREEN
+21-DEC-2017 >> 1.75 >> 1.3 >> GREEN
+20-DEC-2017 >> 0.55 >> 0.15 >> GREEN
+19-DEC-2017 >> 0.3 >> 0.05 >> GREEN
+18-DEC-2017 >> 0.05 >> -0.6 >> RED
+15-DEC-2017 >> 2.35 >> 2.45 >> GREEN
+14-DEC-2017 >> 0.85 >> 1.85 >> GREEN
+13-DEC-2017 >> -0.7 >> 0.2 >> RED
+12-DEC-2017 >> -0.6 >> -0.85 >> RED
+11-DEC-2017 >> -4.55 >> -4.45 >> RED
+
+Simple Moving Averages : 118.24
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

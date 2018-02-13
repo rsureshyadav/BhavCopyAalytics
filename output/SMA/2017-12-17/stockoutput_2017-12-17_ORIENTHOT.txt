@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:18.646
+ORIENTHOT
+
+15-DEC-2017 >> 1.8 >> 1.65 >> GREEN
+14-DEC-2017 >> -1 >> -0.85 >> RED
+13-DEC-2017 >> -0.85 >> -0.65 >> RED
+12-DEC-2017 >> -0.4 >> -0.6 >> RED
+11-DEC-2017 >> -1.8 >> -1.65 >> RED
+08-DEC-2017 >> -0.6 >> -0.7 >> RED
+07-DEC-2017 >> -0.2 >> -0.3 >> RED
+06-DEC-2017 >> 0.05 >> -0.1 >> RED
+05-DEC-2017 >> -0.2 >> 0 >> NEAUTRAL
+04-DEC-2017 >> -1.7 >> -1.8 >> RED
+
+Simple Moving Averages : 38.77
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 8
+NEAUTRAL >> 1

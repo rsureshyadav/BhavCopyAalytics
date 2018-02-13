@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:35.592
+KAMATHOTEL
+
+15-DEC-2017 >> 1.05 >> 2.05 >> GREEN
+14-DEC-2017 >> -2.05 >> -1.55 >> RED
+13-DEC-2017 >> -1.6 >> -1.55 >> RED
+12-DEC-2017 >> -2.05 >> -2 >> RED
+11-DEC-2017 >> -1.4 >> -1.65 >> RED
+08-DEC-2017 >> -2.85 >> -3.5 >> RED
+07-DEC-2017 >> 9.45 >> 9.25 >> GREEN
+06-DEC-2017 >> -0.35 >> 0.85 >> RED
+05-DEC-2017 >> -1.95 >> -2 >> RED
+04-DEC-2017 >> -5.5 >> -5.15 >> RED
+
+Simple Moving Averages : 121.26
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

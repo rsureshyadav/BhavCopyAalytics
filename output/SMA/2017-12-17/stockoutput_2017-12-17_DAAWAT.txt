@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:45.979
+DAAWAT
+
+15-DEC-2017 >> 0.85 >> 0.65 >> GREEN
+14-DEC-2017 >> -1.85 >> -1.5 >> RED
+13-DEC-2017 >> -3.1 >> -2.8 >> RED
+12-DEC-2017 >> -0.6 >> -0.15 >> RED
+11-DEC-2017 >> -0.4 >> -0.75 >> RED
+08-DEC-2017 >> -4.3 >> -4.05 >> RED
+07-DEC-2017 >> 10.85 >> 11.2 >> GREEN
+06-DEC-2017 >> 0.25 >> 0.1 >> GREEN
+05-DEC-2017 >> 0.5 >> 0.85 >> GREEN
+04-DEC-2017 >> 1.35 >> 1.6 >> GREEN
+
+Simple Moving Averages : 78.38
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

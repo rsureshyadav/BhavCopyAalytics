@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:06.859
+DHARSUGAR
+
+22-DEC-2017 >> -0.35 >> -0.25 >> RED
+21-DEC-2017 >> -0.6 >> -0.45 >> RED
+20-DEC-2017 >> -0.95 >> -1.05 >> RED
+19-DEC-2017 >> 1.5 >> 1.6 >> GREEN
+18-DEC-2017 >> 0.15 >> -0.15 >> RED
+15-DEC-2017 >> -0.75 >> -0.8 >> RED
+14-DEC-2017 >> -0.9 >> -0.8 >> RED
+13-DEC-2017 >> -0.45 >> -0.3 >> RED
+12-DEC-2017 >> -0.3 >> -0.05 >> RED
+11-DEC-2017 >> -1.25 >> -1.1 >> RED
+
+Simple Moving Averages : 29.71
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

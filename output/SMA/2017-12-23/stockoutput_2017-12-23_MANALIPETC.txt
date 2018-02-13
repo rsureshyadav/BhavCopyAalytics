@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:37.677
+MANALIPETC
+
+22-DEC-2017 >> -1.35 >> -1.45 >> RED
+21-DEC-2017 >> 0.7 >> 0.6 >> GREEN
+20-DEC-2017 >> 1.25 >> 1.25 >> GREEN
+19-DEC-2017 >> 2.35 >> 2.25 >> GREEN
+18-DEC-2017 >> 0.65 >> 0.65 >> GREEN
+15-DEC-2017 >> -0.2 >> -0.3 >> RED
+14-DEC-2017 >> -0.95 >> -0.9 >> RED
+13-DEC-2017 >> -0.65 >> -0.55 >> RED
+12-DEC-2017 >> -1.55 >> -1.45 >> RED
+11-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+
+Simple Moving Averages : 37.22
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

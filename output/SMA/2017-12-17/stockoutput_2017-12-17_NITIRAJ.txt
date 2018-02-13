@@ -1,0 +1,20 @@
+Execution Time :2017-12-17T01:33:12.837
+NITIRAJ
+
+14-DEC-2017 >> 2.95 >> 2.95 >> GREEN
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> -0.05 >> -0.05 >> RED
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 2 >> 2 >> GREEN
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> 1.7 >> 1.7 >> GREEN
+
+Simple Moving Averages : 55.31
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 1
+NEAUTRAL >> 4

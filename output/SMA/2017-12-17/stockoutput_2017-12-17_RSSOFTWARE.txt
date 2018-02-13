@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:37.725
+RSSOFTWARE
+
+15-DEC-2017 >> -0.65 >> -0.95 >> RED
+14-DEC-2017 >> -2.9 >> -3.25 >> RED
+13-DEC-2017 >> -0.8 >> -0.85 >> RED
+12-DEC-2017 >> -0.35 >> -0.9 >> RED
+11-DEC-2017 >> -1.5 >> -1.55 >> RED
+08-DEC-2017 >> -1.65 >> -1.4 >> RED
+07-DEC-2017 >> 3.25 >> 3.35 >> GREEN
+06-DEC-2017 >> 3.9 >> 4.3 >> GREEN
+05-DEC-2017 >> 1.2 >> 1.1 >> GREEN
+04-DEC-2017 >> 1.75 >> 1.2 >> GREEN
+
+Simple Moving Averages : 82.37
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

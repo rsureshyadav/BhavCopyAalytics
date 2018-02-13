@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:46.468
+MADHUCON
+
+15-DEC-2017 >> -0.1 >> -0.15 >> RED
+14-DEC-2017 >> 0 >> 0.05 >> NEAUTRAL
+13-DEC-2017 >> -1.2 >> -1.3 >> RED
+12-DEC-2017 >> 0.25 >> 0.2 >> GREEN
+11-DEC-2017 >> -1.25 >> -1.25 >> RED
+08-DEC-2017 >> -0.4 >> -0.55 >> RED
+07-DEC-2017 >> 0.6 >> 0.55 >> GREEN
+06-DEC-2017 >> -1.35 >> -1.45 >> RED
+05-DEC-2017 >> 2.75 >> 2.6 >> GREEN
+04-DEC-2017 >> -0.9 >> -0.85 >> RED
+
+Simple Moving Averages : 31.98
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

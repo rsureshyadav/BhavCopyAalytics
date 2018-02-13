@@ -1,0 +1,16 @@
+Execution Time :2017-12-23T23:19:12.584
+TIMETECHNO
+
+14-DEC-2017 >> -5.45 >> -5.95 >> RED
+13-DEC-2017 >> -0.05 >> 2.15 >> RED
+12-DEC-2017 >> 0.75 >> 0.65 >> GREEN
+11-DEC-2017 >> -3 >> -2.95 >> RED
+
+Simple Moving Averages : 79.31
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 3
+NEAUTRAL >> 0

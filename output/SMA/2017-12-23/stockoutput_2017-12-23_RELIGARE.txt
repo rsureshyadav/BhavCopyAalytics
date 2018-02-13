@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:58.714
+RELIGARE
+
+22-DEC-2017 >> -4.05 >> -4.15 >> RED
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+18-DEC-2017 >> 4.35 >> 4.35 >> GREEN
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> 1.75 >> 1.75 >> GREEN
+13-DEC-2017 >> -3.45 >> -3.45 >> RED
+12-DEC-2017 >> -1.9 >> -1.75 >> RED
+11-DEC-2017 >> -0.1 >> -0.15 >> RED
+
+Simple Moving Averages : 66.42
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 4
+NEAUTRAL >> 4

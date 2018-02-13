@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:05.218
+NAHARSPING
+
+15-DEC-2017 >> -1.05 >> -1 >> RED
+14-DEC-2017 >> -0.75 >> -1.05 >> RED
+13-DEC-2017 >> -2 >> -2.25 >> RED
+12-DEC-2017 >> -2.3 >> -2 >> RED
+11-DEC-2017 >> -1.65 >> -2.6 >> RED
+08-DEC-2017 >> 0.4 >> 0 >> RED
+07-DEC-2017 >> 1.9 >> 1.4 >> GREEN
+06-DEC-2017 >> -0.85 >> -1.25 >> RED
+05-DEC-2017 >> -0.75 >> -1.25 >> RED
+04-DEC-2017 >> 0.1 >> 0 >> RED
+
+Simple Moving Averages : 108.09
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

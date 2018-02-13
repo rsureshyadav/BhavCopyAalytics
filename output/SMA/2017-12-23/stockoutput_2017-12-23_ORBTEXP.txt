@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:47.329
+ORBTEXP
+
+22-DEC-2017 >> 2.95 >> 3 >> GREEN
+21-DEC-2017 >> 1.35 >> 6.05 >> GREEN
+20-DEC-2017 >> -3.2 >> -3.3 >> RED
+19-DEC-2017 >> -1.3 >> -0.05 >> RED
+18-DEC-2017 >> 4.05 >> 4.9 >> GREEN
+15-DEC-2017 >> -1.75 >> -1.85 >> RED
+14-DEC-2017 >> 0.1 >> 0.95 >> GREEN
+13-DEC-2017 >> 0.55 >> 1.4 >> GREEN
+12-DEC-2017 >> -10.45 >> -11.65 >> RED
+11-DEC-2017 >> -3.6 >> -3 >> RED
+
+Simple Moving Averages : 147.65
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:53.870
+PRAJIND
+
+22-DEC-2017 >> -1.7 >> -1.75 >> RED
+21-DEC-2017 >> -1.45 >> -2.3 >> RED
+20-DEC-2017 >> 3 >> 4 >> GREEN
+19-DEC-2017 >> 2.3 >> 2.55 >> GREEN
+18-DEC-2017 >> 0.25 >> 0.8 >> GREEN
+15-DEC-2017 >> -0.15 >> -0.1 >> RED
+14-DEC-2017 >> -3.2 >> -3.15 >> RED
+13-DEC-2017 >> -4.05 >> -3.85 >> RED
+12-DEC-2017 >> -0.95 >> -1.1 >> RED
+11-DEC-2017 >> -1.75 >> -1.5 >> RED
+
+Simple Moving Averages : 110.22
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

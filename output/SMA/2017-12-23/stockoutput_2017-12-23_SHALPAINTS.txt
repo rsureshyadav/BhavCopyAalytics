@@ -1,0 +1,18 @@
+Execution Time :2017-12-23T23:19:03.559
+SHALPAINTS
+
+21-DEC-2017 >> -2.2 >> -2 >> RED
+20-DEC-2017 >> -2.5 >> -3.25 >> RED
+18-DEC-2017 >> -3.75 >> -4 >> RED
+14-DEC-2017 >> 2.25 >> 2.6 >> GREEN
+13-DEC-2017 >> 1.05 >> 1.15 >> GREEN
+12-DEC-2017 >> -7.25 >> -6.7 >> RED
+
+Simple Moving Averages : 118.92
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 4
+NEAUTRAL >> 0

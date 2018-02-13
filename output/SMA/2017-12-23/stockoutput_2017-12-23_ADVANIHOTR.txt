@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:46.871
+ADVANIHOTR
+
+22-DEC-2017 >> -0.55 >> -0.5 >> RED
+21-DEC-2017 >> -2.9 >> -2.5 >> RED
+20-DEC-2017 >> -3.35 >> -4 >> RED
+19-DEC-2017 >> 7.25 >> 6.1 >> GREEN
+18-DEC-2017 >> -1.6 >> -1.75 >> RED
+15-DEC-2017 >> 2.95 >> 1.7 >> GREEN
+14-DEC-2017 >> -3.05 >> -3.45 >> RED
+13-DEC-2017 >> -0.6 >> -0.3 >> RED
+12-DEC-2017 >> -2.55 >> -2.85 >> RED
+11-DEC-2017 >> 6.55 >> 7 >> GREEN
+
+Simple Moving Averages : 79.48
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

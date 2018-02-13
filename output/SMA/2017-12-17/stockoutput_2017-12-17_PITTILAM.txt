@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:24.831
+PITTILAM
+
+15-DEC-2017 >> -3.4 >> -4.2 >> RED
+14-DEC-2017 >> -0.35 >> -1 >> RED
+13-DEC-2017 >> 1.7 >> 2.05 >> GREEN
+12-DEC-2017 >> 1.5 >> 2.55 >> GREEN
+11-DEC-2017 >> 5.5 >> 5.45 >> GREEN
+08-DEC-2017 >> -2.4 >> -2.7 >> RED
+07-DEC-2017 >> 0.05 >> -0.45 >> RED
+06-DEC-2017 >> 2.6 >> 2.55 >> GREEN
+05-DEC-2017 >> 3.05 >> 2.2 >> GREEN
+04-DEC-2017 >> -4.25 >> -4 >> RED
+
+Simple Moving Averages : 91.76
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

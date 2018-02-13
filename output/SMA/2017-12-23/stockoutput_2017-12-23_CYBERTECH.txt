@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:04.542
+CYBERTECH
+
+22-DEC-2017 >> -2.55 >> -3.25 >> RED
+21-DEC-2017 >> 5.2 >> 5.15 >> GREEN
+20-DEC-2017 >> -0.7 >> -0.8 >> RED
+19-DEC-2017 >> 0.2 >> -0.05 >> RED
+18-DEC-2017 >> -0.85 >> -1.2 >> RED
+15-DEC-2017 >> 0.55 >> 0.45 >> GREEN
+14-DEC-2017 >> -2.2 >> -2.3 >> RED
+13-DEC-2017 >> -1.1 >> -1 >> RED
+12-DEC-2017 >> -2.15 >> -2 >> RED
+11-DEC-2017 >> 0.15 >> -0.05 >> RED
+
+Simple Moving Averages : 72.58
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

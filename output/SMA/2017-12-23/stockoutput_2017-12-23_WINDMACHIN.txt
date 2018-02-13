@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:19.727
+WINDMACHIN
+
+22-DEC-2017 >> -1.3 >> -1.4 >> RED
+21-DEC-2017 >> -2.95 >> -2.4 >> RED
+20-DEC-2017 >> -7.95 >> -7 >> RED
+19-DEC-2017 >> 16.75 >> 16.75 >> GREEN
+18-DEC-2017 >> -2.15 >> -2.6 >> RED
+15-DEC-2017 >> -2.4 >> -1.4 >> RED
+14-DEC-2017 >> -0.4 >> -1.25 >> RED
+13-DEC-2017 >> -5.2 >> -5.8 >> RED
+12-DEC-2017 >> -5.35 >> -5.05 >> RED
+11-DEC-2017 >> -0.85 >> -1.35 >> RED
+
+Simple Moving Averages : 94.11
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

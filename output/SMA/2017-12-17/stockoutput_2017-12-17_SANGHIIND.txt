@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:41.108
+SANGHIIND
+
+15-DEC-2017 >> 0.9 >> 0.3 >> GREEN
+14-DEC-2017 >> -3.15 >> -3.05 >> RED
+13-DEC-2017 >> -0.7 >> -1.1 >> RED
+12-DEC-2017 >> -3.45 >> -3.25 >> RED
+11-DEC-2017 >> -3.15 >> -3.6 >> RED
+08-DEC-2017 >> 4.6 >> 5.7 >> GREEN
+07-DEC-2017 >> 1.45 >> 1.35 >> GREEN
+06-DEC-2017 >> 3.35 >> 3.4 >> GREEN
+05-DEC-2017 >> -3.25 >> -3.55 >> RED
+04-DEC-2017 >> -3 >> -3.05 >> RED
+
+Simple Moving Averages : 116.98
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

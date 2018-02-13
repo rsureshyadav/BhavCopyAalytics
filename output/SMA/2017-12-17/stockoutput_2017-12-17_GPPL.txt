@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:08.946
+GPPL
+
+15-DEC-2017 >> -3.2 >> -2.85 >> RED
+14-DEC-2017 >> -4.3 >> -4.8 >> RED
+13-DEC-2017 >> -1.9 >> -2 >> RED
+12-DEC-2017 >> 0.15 >> 0.25 >> GREEN
+11-DEC-2017 >> 2.9 >> 3.5 >> GREEN
+08-DEC-2017 >> -4 >> -3.8 >> RED
+07-DEC-2017 >> 0.2 >> -0.15 >> RED
+06-DEC-2017 >> -0.85 >> -1.05 >> RED
+05-DEC-2017 >> -0.6 >> -0.65 >> RED
+04-DEC-2017 >> -3.55 >> -3.3 >> RED
+
+Simple Moving Averages : 138.46
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:11.036
+NILAINFRA
+
+15-DEC-2017 >> 2.25 >> 2.25 >> GREEN
+14-DEC-2017 >> -0.6 >> -0.6 >> RED
+13-DEC-2017 >> -0.25 >> -0.3 >> RED
+12-DEC-2017 >> -0.25 >> -0.1 >> RED
+11-DEC-2017 >> -0.4 >> -0.4 >> RED
+08-DEC-2017 >> 0.05 >> 0 >> RED
+07-DEC-2017 >> 0.6 >> 0.55 >> GREEN
+06-DEC-2017 >> -0.6 >> -0.6 >> RED
+05-DEC-2017 >> -0.25 >> -0.3 >> RED
+04-DEC-2017 >> -0.6 >> -0.5 >> RED
+
+Simple Moving Averages : 22.49
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

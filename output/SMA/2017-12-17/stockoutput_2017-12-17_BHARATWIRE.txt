@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:24.505
+BHARATWIRE
+
+15-DEC-2017 >> -1.4 >> -1.35 >> RED
+14-DEC-2017 >> -4.1 >> -3.3 >> RED
+13-DEC-2017 >> -1.5 >> -1.5 >> RED
+12-DEC-2017 >> -1.85 >> -2.6 >> RED
+11-DEC-2017 >> 4.25 >> 4.55 >> GREEN
+08-DEC-2017 >> -5.95 >> -7.4 >> RED
+07-DEC-2017 >> -1.9 >> -3.2 >> RED
+06-DEC-2017 >> 2.35 >> 2.35 >> GREEN
+05-DEC-2017 >> -0.05 >> -0.7 >> RED
+04-DEC-2017 >> -2.3 >> -0.8 >> RED
+
+Simple Moving Averages : 111.12
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

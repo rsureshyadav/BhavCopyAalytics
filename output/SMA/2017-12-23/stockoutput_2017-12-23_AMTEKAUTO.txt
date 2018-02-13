@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:48.808
+AMTEKAUTO
+
+22-DEC-2017 >> -0.25 >> 0 >> NEAUTRAL
+21-DEC-2017 >> -0.15 >> -0.3 >> RED
+20-DEC-2017 >> -0.75 >> -0.7 >> RED
+19-DEC-2017 >> 0.3 >> 0.3 >> GREEN
+18-DEC-2017 >> 0.15 >> 0.1 >> GREEN
+15-DEC-2017 >> -0.55 >> -0.6 >> RED
+14-DEC-2017 >> 0.05 >> -0.15 >> RED
+13-DEC-2017 >> 0.1 >> 0.05 >> GREEN
+12-DEC-2017 >> 0.6 >> 0.8 >> GREEN
+11-DEC-2017 >> -0.05 >> 0.2 >> RED
+
+Simple Moving Averages : 25.65
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:37.801
+KHANDSE
+
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> 0.1 >> 0.1 >> GREEN
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 20.07
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 0
+NEAUTRAL >> 8

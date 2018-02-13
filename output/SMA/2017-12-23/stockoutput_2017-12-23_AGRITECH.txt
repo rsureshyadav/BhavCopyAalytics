@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:47.232
+AGRITECH
+
+22-DEC-2017 >> -0.7 >> -2.25 >> RED
+21-DEC-2017 >> -9.2 >> -10.5 >> RED
+20-DEC-2017 >> 10.9 >> 10.9 >> GREEN
+19-DEC-2017 >> -2.35 >> -1.9 >> RED
+18-DEC-2017 >> 1.75 >> 0.3 >> GREEN
+15-DEC-2017 >> -3.3 >> -3.45 >> RED
+14-DEC-2017 >> 1.7 >> 2.2 >> GREEN
+13-DEC-2017 >> -2.35 >> -3.4 >> RED
+12-DEC-2017 >> -4.2 >> -4.4 >> RED
+11-DEC-2017 >> 4.85 >> 4.6 >> GREEN
+
+Simple Moving Averages : 118.53
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

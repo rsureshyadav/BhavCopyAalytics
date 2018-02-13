@@ -1,0 +1,18 @@
+Execution Time :2017-12-17T01:32:08.163
+GOLDENTOBC
+
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> 0.45 >> 0.45 >> GREEN
+05-DEC-2017 >> 1.8 >> 1.8 >> GREEN
+04-DEC-2017 >> 4.45 >> 4.45 >> GREEN
+
+Simple Moving Averages : 30.1
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 0
+NEAUTRAL >> 3

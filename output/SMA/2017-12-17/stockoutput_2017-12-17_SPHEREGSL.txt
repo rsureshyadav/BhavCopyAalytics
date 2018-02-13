@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:55.227
+SPHEREGSL
+
+15-DEC-2017 >> -4.55 >> -4.75 >> RED
+14-DEC-2017 >> 0.2 >> 0.05 >> GREEN
+13-DEC-2017 >> -0.1 >> 0.2 >> RED
+12-DEC-2017 >> -0.35 >> -0.65 >> RED
+11-DEC-2017 >> -3.25 >> -3.4 >> RED
+08-DEC-2017 >> -0.65 >> -0.65 >> RED
+07-DEC-2017 >> -0.05 >> -0.05 >> RED
+06-DEC-2017 >> -0.55 >> -0.85 >> RED
+05-DEC-2017 >> 0.6 >> 0.25 >> GREEN
+04-DEC-2017 >> 0.05 >> 0.45 >> GREEN
+
+Simple Moving Averages : 41.44
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

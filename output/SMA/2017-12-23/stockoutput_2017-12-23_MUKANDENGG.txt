@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:42.218
+MUKANDENGG
+
+22-DEC-2017 >> -2.8 >> -3 >> RED
+21-DEC-2017 >> 3.1 >> 2.8 >> GREEN
+20-DEC-2017 >> 0.75 >> 0.7 >> GREEN
+19-DEC-2017 >> 0.6 >> 0.45 >> GREEN
+18-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+15-DEC-2017 >> 0.25 >> 0.4 >> GREEN
+14-DEC-2017 >> -0.95 >> -0.95 >> RED
+13-DEC-2017 >> -0.85 >> -0.7 >> RED
+12-DEC-2017 >> -1.8 >> -1.8 >> RED
+11-DEC-2017 >> -1.05 >> -1.1 >> RED
+
+Simple Moving Averages : 47.03
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

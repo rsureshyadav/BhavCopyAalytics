@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:27.606
+J&KBANK
+
+22-DEC-2017 >> -0.75 >> -0.35 >> RED
+21-DEC-2017 >> 0.8 >> 0.95 >> GREEN
+20-DEC-2017 >> -0.25 >> -0.3 >> RED
+19-DEC-2017 >> 0.95 >> 0.9 >> GREEN
+18-DEC-2017 >> 2.6 >> 2.6 >> GREEN
+15-DEC-2017 >> -0.65 >> -0.7 >> RED
+14-DEC-2017 >> -0.85 >> -0.5 >> RED
+13-DEC-2017 >> -0.6 >> -0.55 >> RED
+12-DEC-2017 >> -1.7 >> -1.4 >> RED
+11-DEC-2017 >> 0.8 >> 0.85 >> GREEN
+
+Simple Moving Averages : 76.02
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

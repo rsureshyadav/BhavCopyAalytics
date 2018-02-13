@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:56.120
+BGRENERGY
+
+22-DEC-2017 >> -2.45 >> -2.85 >> RED
+21-DEC-2017 >> 4.7 >> 5.5 >> GREEN
+20-DEC-2017 >> -1.65 >> -1.7 >> RED
+19-DEC-2017 >> 0.75 >> 1.3 >> GREEN
+18-DEC-2017 >> -0.6 >> -0.7 >> RED
+15-DEC-2017 >> -0.95 >> -1.2 >> RED
+14-DEC-2017 >> -1.05 >> -0.15 >> RED
+13-DEC-2017 >> -1.35 >> -1.35 >> RED
+12-DEC-2017 >> -0.95 >> -0.25 >> RED
+11-DEC-2017 >> -2.75 >> -2.9 >> RED
+
+Simple Moving Averages : 131.5
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

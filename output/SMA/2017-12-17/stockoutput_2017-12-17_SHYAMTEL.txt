@@ -1,0 +1,20 @@
+Execution Time :2017-12-17T01:33:50.446
+SHYAMTEL
+
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+11-DEC-2017 >> 0.25 >> 0.1 >> GREEN
+08-DEC-2017 >> 0.85 >> 0.85 >> GREEN
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> -0.05 >> -0.05 >> RED
+05-DEC-2017 >> 0.05 >> -0.35 >> RED
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 8.65
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 2
+NEAUTRAL >> 3

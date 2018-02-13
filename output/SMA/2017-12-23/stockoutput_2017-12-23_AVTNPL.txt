@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:52.719
+AVTNPL
+
+22-DEC-2017 >> -0.9 >> -0.95 >> RED
+21-DEC-2017 >> -0.75 >> -0.65 >> RED
+20-DEC-2017 >> -0.9 >> -0.5 >> RED
+19-DEC-2017 >> 1.65 >> 1.65 >> GREEN
+18-DEC-2017 >> 0.65 >> 1.1 >> GREEN
+15-DEC-2017 >> -1.2 >> -1.2 >> RED
+14-DEC-2017 >> 0.6 >> 0.5 >> GREEN
+13-DEC-2017 >> 6.8 >> 7.25 >> GREEN
+12-DEC-2017 >> 0.9 >> 0.85 >> GREEN
+11-DEC-2017 >> 0.85 >> 1.1 >> GREEN
+
+Simple Moving Averages : 54.98
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

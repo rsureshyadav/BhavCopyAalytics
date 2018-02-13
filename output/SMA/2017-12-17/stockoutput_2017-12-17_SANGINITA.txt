@@ -1,0 +1,18 @@
+Execution Time :2017-12-17T01:33:41.458
+SANGINITA
+
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> -3 >> -3 >> RED
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> -1 >> -1 >> RED
+
+Simple Moving Averages : 34.08
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 2
+NEAUTRAL >> 4

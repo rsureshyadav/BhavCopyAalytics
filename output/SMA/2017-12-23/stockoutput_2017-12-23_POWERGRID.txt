@@ -1,0 +1,14 @@
+Execution Time :2017-12-23T23:18:53.658
+POWERGRID
+
+18-DEC-2017 >> 0.95 >> 0.8 >> GREEN
+15-DEC-2017 >> -2.55 >> -2.4 >> RED
+
+Simple Moving Averages : 39.88
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 1
+NEAUTRAL >> 0

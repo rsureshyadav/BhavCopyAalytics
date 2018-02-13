@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:47.833
+ALANKIT
+
+22-DEC-2017 >> -0.75 >> -0.85 >> RED
+21-DEC-2017 >> -2.85 >> -2.5 >> RED
+20-DEC-2017 >> -0.7 >> -0.6 >> RED
+19-DEC-2017 >> 0.1 >> 1 >> GREEN
+18-DEC-2017 >> 1.65 >> 2.15 >> GREEN
+15-DEC-2017 >> -1.1 >> -0.5 >> RED
+14-DEC-2017 >> -2.8 >> -3.35 >> RED
+13-DEC-2017 >> 1.5 >> 1.5 >> GREEN
+12-DEC-2017 >> 2.05 >> 2.05 >> GREEN
+11-DEC-2017 >> 2.55 >> 2.55 >> GREEN
+
+Simple Moving Averages : 57.09
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

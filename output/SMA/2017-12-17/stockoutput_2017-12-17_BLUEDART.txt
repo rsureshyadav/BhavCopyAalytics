@@ -1,0 +1,25 @@
+Execution Time :2017-12-17T01:31:32.034
+BLUEDART
+
+15-DEC-2017 >> 0.87 >> 0.87 >> GREEN
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> -0.02 >> -0.02 >> RED
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> -0.35 >> -0.35 >> RED
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 13.38
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 2
+NEAUTRAL >> 10

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:17.155
+ONELIFECAP
+
+15-DEC-2017 >> 0.95 >> 0.85 >> GREEN
+14-DEC-2017 >> -1.25 >> -1.25 >> RED
+13-DEC-2017 >> 0.2 >> 1 >> GREEN
+12-DEC-2017 >> -0.35 >> -0.35 >> RED
+11-DEC-2017 >> -0.05 >> -0.05 >> RED
+08-DEC-2017 >> 1.05 >> 1.05 >> GREEN
+07-DEC-2017 >> 0.4 >> 0.4 >> GREEN
+06-DEC-2017 >> -0.3 >> -0.3 >> RED
+05-DEC-2017 >> 0.35 >> 0.35 >> GREEN
+04-DEC-2017 >> 0.3 >> 0.35 >> GREEN
+
+Simple Moving Averages : 26.35
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

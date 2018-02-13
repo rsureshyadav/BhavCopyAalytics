@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:31.078
+RAJTV
+
+15-DEC-2017 >> 0.7 >> 0.4 >> GREEN
+14-DEC-2017 >> -0.35 >> 0.25 >> RED
+13-DEC-2017 >> -0.7 >> -0.65 >> RED
+12-DEC-2017 >> -3.25 >> -3.85 >> RED
+11-DEC-2017 >> -0.85 >> -1.2 >> RED
+08-DEC-2017 >> 0.1 >> -0.15 >> RED
+07-DEC-2017 >> 0.95 >> 1.05 >> GREEN
+06-DEC-2017 >> -1.35 >> -1.4 >> RED
+05-DEC-2017 >> 1.9 >> 2.05 >> GREEN
+04-DEC-2017 >> -3.3 >> -3.25 >> RED
+
+Simple Moving Averages : 59.38
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:38.049
+MANINFRA
+
+22-DEC-2017 >> 5.35 >> 5.7 >> GREEN
+21-DEC-2017 >> 2.75 >> 2.9 >> GREEN
+20-DEC-2017 >> 0.6 >> 0.35 >> GREEN
+19-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+18-DEC-2017 >> 0.45 >> 1.35 >> GREEN
+15-DEC-2017 >> -0.4 >> -0.6 >> RED
+14-DEC-2017 >> -1.25 >> -1.4 >> RED
+13-DEC-2017 >> -1.9 >> -2.05 >> RED
+12-DEC-2017 >> -0.95 >> -0.95 >> RED
+11-DEC-2017 >> -1.3 >> -1.65 >> RED
+
+Simple Moving Averages : 62.84
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

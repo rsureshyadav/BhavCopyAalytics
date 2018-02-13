@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:51.693
+DWARKESH
+
+15-DEC-2017 >> -2.2 >> -2.15 >> RED
+14-DEC-2017 >> -1.95 >> -1.6 >> RED
+13-DEC-2017 >> -0.4 >> -0.2 >> RED
+12-DEC-2017 >> -0.9 >> -0.8 >> RED
+11-DEC-2017 >> -1.15 >> -1.5 >> RED
+08-DEC-2017 >> -1.1 >> -1.35 >> RED
+07-DEC-2017 >> -0.15 >> -0.35 >> RED
+06-DEC-2017 >> -4.7 >> -4.7 >> RED
+05-DEC-2017 >> 5.95 >> 6.2 >> GREEN
+04-DEC-2017 >> -2.95 >> -2.95 >> RED
+
+Simple Moving Averages : 57.78
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

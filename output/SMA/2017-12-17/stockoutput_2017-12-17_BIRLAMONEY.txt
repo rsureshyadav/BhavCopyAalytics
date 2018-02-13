@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:27.647
+BIRLAMONEY
+
+15-DEC-2017 >> -0.35 >> -0.45 >> RED
+14-DEC-2017 >> -0.75 >> -0.75 >> RED
+13-DEC-2017 >> -1.05 >> -1.1 >> RED
+12-DEC-2017 >> -1.05 >> -1 >> RED
+11-DEC-2017 >> -2.05 >> -1.8 >> RED
+08-DEC-2017 >> 0.3 >> 0.4 >> GREEN
+07-DEC-2017 >> 1.7 >> 1.4 >> GREEN
+06-DEC-2017 >> -0.7 >> -0.8 >> RED
+05-DEC-2017 >> 0.4 >> 0.25 >> GREEN
+04-DEC-2017 >> -3.65 >> -2.95 >> RED
+
+Simple Moving Averages : 77.4
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

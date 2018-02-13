@@ -1,0 +1,19 @@
+Execution Time :2017-12-23T23:18:34.957
+LIBAS
+
+22-DEC-2017 >> 4.75 >> 5.8 >> GREEN
+21-DEC-2017 >> 1 >> 1 >> GREEN
+20-DEC-2017 >> 4.4 >> 4.4 >> GREEN
+19-DEC-2017 >> 4 >> 4 >> GREEN
+18-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -8.85 >> -6.95 >> RED
+11-DEC-2017 >> -1 >> -1 >> RED
+
+Simple Moving Averages : 72.16
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 2
+NEAUTRAL >> 1

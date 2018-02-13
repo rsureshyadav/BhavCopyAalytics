@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:39.348
+MEGASOFT
+
+22-DEC-2017 >> 0.4 >> 0.25 >> GREEN
+21-DEC-2017 >> -0.1 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0.5 >> 0.3 >> GREEN
+19-DEC-2017 >> -0.1 >> -0.05 >> RED
+18-DEC-2017 >> 0.45 >> 0.55 >> GREEN
+15-DEC-2017 >> -0.5 >> -0.45 >> RED
+14-DEC-2017 >> -0.05 >> -0.05 >> RED
+13-DEC-2017 >> -0.25 >> -0.2 >> RED
+12-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+11-DEC-2017 >> 0.3 >> 0.3 >> GREEN
+
+Simple Moving Averages : 13.73
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 4
+NEAUTRAL >> 1

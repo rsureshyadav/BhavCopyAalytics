@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:13.205
+TV18BRDCST
+
+15-DEC-2017 >> -1.35 >> -1.25 >> RED
+14-DEC-2017 >> -0.15 >> -0.15 >> RED
+13-DEC-2017 >> -1.2 >> -1.15 >> RED
+12-DEC-2017 >> -2 >> -1.8 >> RED
+11-DEC-2017 >> -0.75 >> -0.8 >> RED
+08-DEC-2017 >> 0.45 >> 0.15 >> GREEN
+07-DEC-2017 >> 3.5 >> 3.55 >> GREEN
+06-DEC-2017 >> -1.05 >> -1 >> RED
+05-DEC-2017 >> 1.75 >> 1.8 >> GREEN
+04-DEC-2017 >> -2.25 >> -1.8 >> RED
+
+Simple Moving Averages : 54.69
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

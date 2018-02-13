@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:59.111
+RESPONIND
+
+22-DEC-2017 >> -0.95 >> -0.75 >> RED
+21-DEC-2017 >> -1.4 >> -1.75 >> RED
+20-DEC-2017 >> 2 >> 2.05 >> GREEN
+19-DEC-2017 >> -0.65 >> 0.1 >> RED
+18-DEC-2017 >> 0.75 >> 1.1 >> GREEN
+15-DEC-2017 >> -0.25 >> -0.25 >> RED
+14-DEC-2017 >> -1.75 >> -1.6 >> RED
+13-DEC-2017 >> -1.85 >> -1.6 >> RED
+12-DEC-2017 >> 1.1 >> 1.05 >> GREEN
+11-DEC-2017 >> 0.7 >> 1.45 >> GREEN
+
+Simple Moving Averages : 40.66
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:51.040
+ARVSMART
+
+22-DEC-2017 >> 0.95 >> -0.2 >> RED
+21-DEC-2017 >> -5.45 >> -4.85 >> RED
+20-DEC-2017 >> -0.4 >> 1 >> RED
+19-DEC-2017 >> 2.95 >> 2.35 >> GREEN
+18-DEC-2017 >> 2.3 >> 2.1 >> GREEN
+15-DEC-2017 >> -1.65 >> -0.2 >> RED
+14-DEC-2017 >> -0.75 >> -0.7 >> RED
+13-DEC-2017 >> -4.25 >> -5 >> RED
+12-DEC-2017 >> -3.5 >> -2.5 >> RED
+11-DEC-2017 >> -2.55 >> -3.5 >> RED
+
+Simple Moving Averages : 175.77
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

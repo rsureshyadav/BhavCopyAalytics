@@ -1,0 +1,19 @@
+Execution Time :2017-12-17T01:30:55.950
+AICHAMP
+
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -1.85 >> -1.85 >> RED
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> -1.4 >> -1.4 >> RED
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 18.12
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 2
+NEAUTRAL >> 5

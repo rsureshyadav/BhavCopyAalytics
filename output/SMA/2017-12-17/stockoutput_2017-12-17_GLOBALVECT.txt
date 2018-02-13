@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:06.276
+GLOBALVECT
+
+15-DEC-2017 >> -0.5 >> -1.5 >> RED
+14-DEC-2017 >> 0.05 >> -0.7 >> RED
+13-DEC-2017 >> -1.05 >> -1.25 >> RED
+12-DEC-2017 >> 0.2 >> -0.85 >> RED
+11-DEC-2017 >> 0.4 >> 1.5 >> GREEN
+08-DEC-2017 >> -3.5 >> -3.7 >> RED
+07-DEC-2017 >> 2.65 >> 2.15 >> GREEN
+06-DEC-2017 >> 6.35 >> 7.6 >> GREEN
+05-DEC-2017 >> -2.8 >> -2.55 >> RED
+04-DEC-2017 >> -3.25 >> -2.05 >> RED
+
+Simple Moving Averages : 167.3
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

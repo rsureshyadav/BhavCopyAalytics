@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:54.913
+METALFORGE
+
+15-DEC-2017 >> -1.9 >> -1.5 >> RED
+14-DEC-2017 >> -0.6 >> -0.6 >> RED
+13-DEC-2017 >> 0.1 >> 0.35 >> GREEN
+12-DEC-2017 >> 0.6 >> 1 >> GREEN
+11-DEC-2017 >> -1.65 >> -1.7 >> RED
+08-DEC-2017 >> 0.4 >> 0.45 >> GREEN
+07-DEC-2017 >> -1.3 >> -1.35 >> RED
+06-DEC-2017 >> -1.05 >> -1.1 >> RED
+05-DEC-2017 >> 1.2 >> 1.2 >> GREEN
+04-DEC-2017 >> -2.3 >> -1.85 >> RED
+
+Simple Moving Averages : 32.8
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

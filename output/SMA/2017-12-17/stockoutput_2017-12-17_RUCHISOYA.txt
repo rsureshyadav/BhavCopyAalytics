@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:38.521
+RUCHISOYA
+
+15-DEC-2017 >> 1.2 >> 1.2 >> GREEN
+14-DEC-2017 >> -2 >> -2.1 >> RED
+13-DEC-2017 >> -0.45 >> -0.45 >> RED
+12-DEC-2017 >> -0.1 >> -0.25 >> RED
+11-DEC-2017 >> 0.15 >> 0.3 >> GREEN
+08-DEC-2017 >> -1 >> -0.95 >> RED
+07-DEC-2017 >> -1.45 >> -1.6 >> RED
+06-DEC-2017 >> -1.4 >> -1.55 >> RED
+05-DEC-2017 >> -0.15 >> -0.2 >> RED
+04-DEC-2017 >> 0.55 >> 0.6 >> GREEN
+
+Simple Moving Averages : 19.75
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

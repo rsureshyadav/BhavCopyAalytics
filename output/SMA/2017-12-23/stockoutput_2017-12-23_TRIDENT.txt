@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:13.282
+TRIDENT
+
+22-DEC-2017 >> -1.65 >> -1.8 >> RED
+21-DEC-2017 >> 0.3 >> 0.3 >> GREEN
+20-DEC-2017 >> 1.85 >> 2.25 >> GREEN
+19-DEC-2017 >> 2.2 >> 2.15 >> GREEN
+18-DEC-2017 >> -0.25 >> 0.45 >> RED
+15-DEC-2017 >> -0.1 >> 0.35 >> RED
+14-DEC-2017 >> -1.15 >> -1.3 >> RED
+13-DEC-2017 >> -1.55 >> -1.3 >> RED
+12-DEC-2017 >> -4.15 >> -4.05 >> RED
+11-DEC-2017 >> 3.55 >> 3.65 >> GREEN
+
+Simple Moving Averages : 88.9
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:16.710
+GOKULAGRO
+
+22-DEC-2017 >> -0.75 >> -0.65 >> RED
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0.3 >> 0.5 >> GREEN
+19-DEC-2017 >> 0.05 >> -0.1 >> RED
+18-DEC-2017 >> 0.45 >> 0.7 >> GREEN
+15-DEC-2017 >> 0.7 >> 0.9 >> GREEN
+14-DEC-2017 >> 0.2 >> 0.1 >> GREEN
+13-DEC-2017 >> 0.6 >> 0.4 >> GREEN
+12-DEC-2017 >> -0.55 >> -0.55 >> RED
+11-DEC-2017 >> 0.3 >> 0.7 >> GREEN
+
+Simple Moving Averages : 25.11
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 3
+NEAUTRAL >> 1

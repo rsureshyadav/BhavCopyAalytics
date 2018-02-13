@@ -1,0 +1,13 @@
+Execution Time :2017-12-23T23:19:04.274
+SHREYANIND
+
+12-DEC-2017 >> -12 >> -12.9 >> RED
+
+Simple Moving Averages : 19.93
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 1
+NEAUTRAL >> 0

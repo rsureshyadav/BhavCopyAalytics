@@ -1,0 +1,17 @@
+Execution Time :2017-12-23T23:19:19.488
+WELINV
+
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 3.5 >> 3.5 >> GREEN
+11-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+
+Simple Moving Averages : 88.66
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 0
+NEAUTRAL >> 3

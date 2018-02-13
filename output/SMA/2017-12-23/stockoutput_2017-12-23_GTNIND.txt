@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:19.006
+GTNIND
+
+22-DEC-2017 >> -0.25 >> -0.3 >> RED
+21-DEC-2017 >> -0.35 >> -0.05 >> RED
+20-DEC-2017 >> -0.4 >> -0.7 >> RED
+19-DEC-2017 >> 0.4 >> 0.4 >> GREEN
+18-DEC-2017 >> -0.2 >> -0.2 >> RED
+15-DEC-2017 >> 0.1 >> 0.2 >> GREEN
+14-DEC-2017 >> -0.3 >> -0.3 >> RED
+13-DEC-2017 >> -0.2 >> -0.2 >> RED
+12-DEC-2017 >> 0.35 >> 0.05 >> GREEN
+11-DEC-2017 >> -0.5 >> -0.65 >> RED
+
+Simple Moving Averages : 17.87
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

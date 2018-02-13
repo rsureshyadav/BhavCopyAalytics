@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:11.264
+ASHOKLEY
+
+15-DEC-2017 >> -1.25 >> -1.1 >> RED
+14-DEC-2017 >> -2.45 >> -2.45 >> RED
+13-DEC-2017 >> 0.15 >> 0.6 >> GREEN
+12-DEC-2017 >> -3.65 >> -3.65 >> RED
+11-DEC-2017 >> -2.45 >> -2.55 >> RED
+08-DEC-2017 >> 1.05 >> 1.25 >> GREEN
+07-DEC-2017 >> 2.05 >> 2.5 >> GREEN
+06-DEC-2017 >> 0.45 >> 0.4 >> GREEN
+05-DEC-2017 >> -2.3 >> -2.3 >> RED
+04-DEC-2017 >> -6.1 >> -5.8 >> RED
+
+Simple Moving Averages : 115.08
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

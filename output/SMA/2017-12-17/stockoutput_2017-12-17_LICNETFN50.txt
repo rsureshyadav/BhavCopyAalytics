@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:44.258
+LICNETFN50
+
+15-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -2.6 >> -2.6 >> RED
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> -2.4 >> -2.4 >> RED
+11-DEC-2017 >> -2.2 >> -2.2 >> RED
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 2.15 >> 2.15 >> GREEN
+06-DEC-2017 >> -2.1 >> -2.1 >> RED
+05-DEC-2017 >> -2.1 >> -2.1 >> RED
+04-DEC-2017 >> -0.2 >> -0.2 >> RED
+
+Simple Moving Averages : 104.09
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 6
+NEAUTRAL >> 3

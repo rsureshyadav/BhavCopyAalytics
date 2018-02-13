@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:30:50.793
+ADHUNIKIND
+
+15-DEC-2017 >> 0.4 >> 0.7 >> GREEN
+14-DEC-2017 >> -3.55 >> -3 >> RED
+13-DEC-2017 >> -2.35 >> -0.6 >> RED
+12-DEC-2017 >> 2.55 >> 2.65 >> GREEN
+11-DEC-2017 >> 3.05 >> 3.05 >> GREEN
+08-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+07-DEC-2017 >> -0.1 >> 0.2 >> RED
+06-DEC-2017 >> -0.15 >> 0.05 >> RED
+05-DEC-2017 >> 3.3 >> 3.45 >> GREEN
+04-DEC-2017 >> 4.6 >> 3.45 >> GREEN
+
+Simple Moving Averages : 80.73
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

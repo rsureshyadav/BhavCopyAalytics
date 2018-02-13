@@ -1,0 +1,21 @@
+Execution Time :2017-12-17T01:33:55.861
+SREEL
+
+14-DEC-2017 >> -4.1 >> -2.75 >> RED
+13-DEC-2017 >> 6.45 >> 6.5 >> GREEN
+12-DEC-2017 >> 4.5 >> 3.95 >> GREEN
+11-DEC-2017 >> 2.2 >> 1.5 >> GREEN
+08-DEC-2017 >> 0.15 >> 1 >> GREEN
+07-DEC-2017 >> 4.1 >> 3 >> GREEN
+06-DEC-2017 >> 1.35 >> 3 >> GREEN
+05-DEC-2017 >> 0.95 >> 0.1 >> GREEN
+04-DEC-2017 >> -1.25 >> -0.2 >> RED
+
+Simple Moving Averages : 162.2
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 7
+RED >> 2
+NEAUTRAL >> 0

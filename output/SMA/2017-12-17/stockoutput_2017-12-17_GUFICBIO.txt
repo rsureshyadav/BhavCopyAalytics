@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:11.243
+GUFICBIO
+
+15-DEC-2017 >> 3.8 >> 3.1 >> GREEN
+14-DEC-2017 >> 0.4 >> -0.45 >> RED
+13-DEC-2017 >> -4.15 >> -4.4 >> RED
+12-DEC-2017 >> 4.5 >> 5.3 >> GREEN
+11-DEC-2017 >> 1.8 >> 2.15 >> GREEN
+08-DEC-2017 >> -0.9 >> -0.4 >> RED
+07-DEC-2017 >> 1.05 >> 1.15 >> GREEN
+06-DEC-2017 >> -1.6 >> -1.6 >> RED
+05-DEC-2017 >> -0.65 >> -0.35 >> RED
+04-DEC-2017 >> 0.8 >> 0.8 >> GREEN
+
+Simple Moving Averages : 97.95
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

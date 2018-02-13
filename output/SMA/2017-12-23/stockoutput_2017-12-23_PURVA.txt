@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:55.513
+PURVA
+
+22-DEC-2017 >> 6.55 >> 6.55 >> GREEN
+21-DEC-2017 >> 3.8 >> 5.1 >> GREEN
+20-DEC-2017 >> -0.35 >> 0.55 >> RED
+19-DEC-2017 >> 1.2 >> 1.75 >> GREEN
+18-DEC-2017 >> 4.2 >> 4.4 >> GREEN
+15-DEC-2017 >> -3.8 >> -3.75 >> RED
+14-DEC-2017 >> -3.35 >> -3.45 >> RED
+13-DEC-2017 >> -6.1 >> -6.15 >> RED
+12-DEC-2017 >> 13.85 >> 13.5 >> GREEN
+11-DEC-2017 >> 11.35 >> 12.5 >> GREEN
+
+Simple Moving Averages : 161.98
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

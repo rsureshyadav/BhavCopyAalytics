@@ -1,0 +1,21 @@
+Execution Time :2017-12-23T23:18:10.319
+ENGINERSIN
+
+21-DEC-2017 >> -0.55 >> -0.9 >> RED
+20-DEC-2017 >> -0.55 >> -1.05 >> RED
+19-DEC-2017 >> 3.95 >> 3.8 >> GREEN
+18-DEC-2017 >> 0.55 >> 1.25 >> GREEN
+15-DEC-2017 >> 0.3 >> -0.25 >> RED
+14-DEC-2017 >> -0.6 >> -0.85 >> RED
+13-DEC-2017 >> -4.15 >> -4.05 >> RED
+12-DEC-2017 >> 2.5 >> 2.4 >> GREEN
+11-DEC-2017 >> 3.1 >> 3.1 >> GREEN
+
+Simple Moving Averages : 170.25
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 0

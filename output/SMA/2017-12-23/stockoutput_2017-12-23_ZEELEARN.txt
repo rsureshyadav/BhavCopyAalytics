@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:20.255
+ZEELEARN
+
+22-DEC-2017 >> -0.45 >> -0.45 >> RED
+21-DEC-2017 >> -1.05 >> -0.85 >> RED
+20-DEC-2017 >> 2.3 >> 2 >> GREEN
+19-DEC-2017 >> 0.35 >> 0.25 >> GREEN
+18-DEC-2017 >> -0.45 >> -0.15 >> RED
+15-DEC-2017 >> -1 >> -0.95 >> RED
+14-DEC-2017 >> 0.4 >> 0.5 >> GREEN
+13-DEC-2017 >> -1.75 >> -1.6 >> RED
+12-DEC-2017 >> 0.3 >> 0.35 >> GREEN
+11-DEC-2017 >> 1 >> 1.05 >> GREEN
+
+Simple Moving Averages : 44.31
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

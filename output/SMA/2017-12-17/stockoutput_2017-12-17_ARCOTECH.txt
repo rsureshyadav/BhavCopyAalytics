@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:08.367
+ARCOTECH
+
+15-DEC-2017 >> -2.05 >> -2.1 >> RED
+14-DEC-2017 >> -0.5 >> -0.35 >> RED
+13-DEC-2017 >> -4.5 >> -4 >> RED
+12-DEC-2017 >> 0.8 >> 0.6 >> GREEN
+11-DEC-2017 >> 0.45 >> 0.4 >> GREEN
+08-DEC-2017 >> -2.3 >> -2.45 >> RED
+07-DEC-2017 >> 2.7 >> 2.6 >> GREEN
+06-DEC-2017 >> -0.45 >> -0.7 >> RED
+05-DEC-2017 >> -0.6 >> -0.5 >> RED
+04-DEC-2017 >> -1 >> -0.4 >> RED
+
+Simple Moving Averages : 54.55
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

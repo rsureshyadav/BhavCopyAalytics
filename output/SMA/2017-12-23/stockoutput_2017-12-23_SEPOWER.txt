@@ -1,0 +1,13 @@
+Execution Time :2017-12-23T23:19:02.649
+SEPOWER
+
+22-DEC-2017 >> 0.35 >> 0.15 >> GREEN
+
+Simple Moving Averages : 1
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 0
+NEAUTRAL >> 0

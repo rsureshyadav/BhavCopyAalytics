@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:48.330
+ORIENTREF
+
+22-DEC-2017 >> -3.05 >> -3.9 >> RED
+21-DEC-2017 >> -4.1 >> -5 >> RED
+20-DEC-2017 >> 4.75 >> 4.8 >> GREEN
+19-DEC-2017 >> 1.35 >> 0.95 >> GREEN
+18-DEC-2017 >> -1 >> -0.5 >> RED
+15-DEC-2017 >> -3.75 >> -4.95 >> RED
+14-DEC-2017 >> 2.45 >> 0.2 >> GREEN
+13-DEC-2017 >> 2.1 >> 1.95 >> GREEN
+12-DEC-2017 >> -2.3 >> -2.45 >> RED
+11-DEC-2017 >> 0.05 >> 0.35 >> GREEN
+
+Simple Moving Averages : 164.27
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

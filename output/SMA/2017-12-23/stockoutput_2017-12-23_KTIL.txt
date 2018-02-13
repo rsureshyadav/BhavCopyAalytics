@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:33.752
+KTIL
+
+22-DEC-2017 >> -5.3 >> -5.4 >> RED
+21-DEC-2017 >> -2.3 >> -1.25 >> RED
+20-DEC-2017 >> -4.2 >> -4 >> RED
+19-DEC-2017 >> 1.85 >> 1.2 >> GREEN
+18-DEC-2017 >> -1.3 >> -1.1 >> RED
+15-DEC-2017 >> 3.85 >> 4 >> GREEN
+14-DEC-2017 >> -0.2 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -0.95 >> -1 >> RED
+12-DEC-2017 >> -2.15 >> -2.6 >> RED
+11-DEC-2017 >> 0.1 >> -0.85 >> RED
+
+Simple Moving Averages : 182.2
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 7
+NEAUTRAL >> 1

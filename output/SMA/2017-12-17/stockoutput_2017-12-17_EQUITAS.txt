@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:54.881
+EQUITAS
+
+15-DEC-2017 >> 1.45 >> 1.5 >> GREEN
+14-DEC-2017 >> -1.85 >> -1.8 >> RED
+13-DEC-2017 >> -2.35 >> -2.35 >> RED
+12-DEC-2017 >> -2.15 >> -2.2 >> RED
+11-DEC-2017 >> -1.8 >> -1.25 >> RED
+08-DEC-2017 >> 0.5 >> 0.65 >> GREEN
+07-DEC-2017 >> 1.5 >> 1.8 >> GREEN
+06-DEC-2017 >> 0.8 >> 0.2 >> GREEN
+05-DEC-2017 >> 1.65 >> 2.05 >> GREEN
+04-DEC-2017 >> -3.3 >> -3.25 >> RED
+
+Simple Moving Averages : 139.09
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

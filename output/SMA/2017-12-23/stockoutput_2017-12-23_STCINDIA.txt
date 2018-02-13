@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:07.871
+STCINDIA
+
+22-DEC-2017 >> -2.3 >> -2.4 >> RED
+21-DEC-2017 >> -3.7 >> -2 >> RED
+20-DEC-2017 >> 4.65 >> 5.65 >> GREEN
+19-DEC-2017 >> 3.8 >> 3.45 >> GREEN
+18-DEC-2017 >> -4.5 >> -4.15 >> RED
+15-DEC-2017 >> -7 >> -5.2 >> RED
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -2.8 >> -2 >> RED
+12-DEC-2017 >> -1.9 >> -2.1 >> RED
+11-DEC-2017 >> 1.9 >> 1.9 >> GREEN
+
+Simple Moving Averages : 174.21
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

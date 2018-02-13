@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:01.878
+CHAMBLFERT
+
+22-DEC-2017 >> -0.75 >> -0.75 >> RED
+21-DEC-2017 >> 1.75 >> 1.45 >> GREEN
+20-DEC-2017 >> -1.05 >> -1 >> RED
+19-DEC-2017 >> -1.95 >> -2.4 >> RED
+18-DEC-2017 >> 4.5 >> 4.1 >> GREEN
+15-DEC-2017 >> -2.65 >> -3.9 >> RED
+14-DEC-2017 >> 4 >> 3.9 >> GREEN
+13-DEC-2017 >> -1.1 >> -0.8 >> RED
+12-DEC-2017 >> -2.35 >> -2.2 >> RED
+11-DEC-2017 >> -0.1 >> -0.45 >> RED
+
+Simple Moving Averages : 146.15
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

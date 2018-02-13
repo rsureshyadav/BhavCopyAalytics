@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:09.898
+NHPC
+
+15-DEC-2017 >> -0.55 >> -0.75 >> RED
+14-DEC-2017 >> 0 >> -0.05 >> RED
+13-DEC-2017 >> -0.1 >> -0.15 >> RED
+12-DEC-2017 >> -0.3 >> -0.3 >> RED
+11-DEC-2017 >> 0.7 >> 0.7 >> GREEN
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 0.1 >> 0.15 >> GREEN
+06-DEC-2017 >> -0.05 >> -0.05 >> RED
+05-DEC-2017 >> -0.15 >> -0.25 >> RED
+04-DEC-2017 >> 0.3 >> 0.3 >> GREEN
+
+Simple Moving Averages : 28.46
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:09.613
+SUTLEJTEX
+
+22-DEC-2017 >> 0.65 >> 1.35 >> GREEN
+21-DEC-2017 >> 1.35 >> 2.4 >> GREEN
+20-DEC-2017 >> -0.75 >> -0.6 >> RED
+19-DEC-2017 >> -0.6 >> -0.55 >> RED
+18-DEC-2017 >> -1.35 >> -1.5 >> RED
+15-DEC-2017 >> -3.5 >> -3 >> RED
+14-DEC-2017 >> -2.05 >> -1.8 >> RED
+13-DEC-2017 >> -1.9 >> -2.1 >> RED
+12-DEC-2017 >> -1.25 >> -1.05 >> RED
+11-DEC-2017 >> -0.95 >> -1 >> RED
+
+Simple Moving Averages : 95.75
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:03.691
+TAINWALCHM
+
+15-DEC-2017 >> -0.8 >> -0.8 >> RED
+14-DEC-2017 >> -5.95 >> -5.3 >> RED
+13-DEC-2017 >> 3.7 >> 5 >> GREEN
+12-DEC-2017 >> -3.95 >> -5.1 >> RED
+11-DEC-2017 >> 0.3 >> -1.6 >> RED
+08-DEC-2017 >> -14 >> -13.5 >> RED
+07-DEC-2017 >> 3 >> 3 >> GREEN
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 3.1 >> 3.1 >> GREEN
+04-DEC-2017 >> 3.2 >> 3.2 >> GREEN
+
+Simple Moving Averages : 114.57
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

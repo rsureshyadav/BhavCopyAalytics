@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:10.786
+EON
+
+22-DEC-2017 >> 0.9 >> 0.2 >> GREEN
+21-DEC-2017 >> 5.2 >> 4.9 >> GREEN
+20-DEC-2017 >> 0.3 >> 1 >> GREEN
+19-DEC-2017 >> -0.8 >> -0.3 >> RED
+18-DEC-2017 >> -1.1 >> -0.5 >> RED
+15-DEC-2017 >> -0.45 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -2.75 >> -3.25 >> RED
+13-DEC-2017 >> -1.6 >> -2.4 >> RED
+12-DEC-2017 >> 0.55 >> -0.05 >> RED
+11-DEC-2017 >> -1.6 >> -0.3 >> RED
+
+Simple Moving Averages : 116.38
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

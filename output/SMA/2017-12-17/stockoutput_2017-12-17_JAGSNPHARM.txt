@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:28.900
+JAGSNPHARM
+
+15-DEC-2017 >> -0.5 >> -0.4 >> RED
+14-DEC-2017 >> -2.05 >> -2.05 >> RED
+13-DEC-2017 >> -1.45 >> -1.1 >> RED
+12-DEC-2017 >> -1.75 >> -2 >> RED
+11-DEC-2017 >> -0.35 >> -0.35 >> RED
+08-DEC-2017 >> -0.15 >> -0.25 >> RED
+07-DEC-2017 >> 0.65 >> 0.95 >> GREEN
+06-DEC-2017 >> -0.9 >> -1.05 >> RED
+05-DEC-2017 >> 0.55 >> 0.55 >> GREEN
+04-DEC-2017 >> 1.25 >> 1 >> GREEN
+
+Simple Moving Averages : 36.12
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

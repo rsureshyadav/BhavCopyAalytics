@@ -1,0 +1,13 @@
+Execution Time :2017-12-17T01:34:18.208
+VIMALOIL
+
+04-DEC-2017 >> 0.65 >> 0.65 >> GREEN
+
+Simple Moving Averages : 1.38
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 0
+NEAUTRAL >> 0

@@ -1,0 +1,19 @@
+Execution Time :2017-12-17T01:33:37.603
+RRSLGETF
+
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+13-DEC-2017 >> -0.04 >> -0.04 >> RED
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> -0.06 >> -0.06 >> RED
+
+Simple Moving Averages : 11.96
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 2
+NEAUTRAL >> 5

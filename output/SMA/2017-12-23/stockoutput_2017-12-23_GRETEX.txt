@@ -1,0 +1,19 @@
+Execution Time :2017-12-23T23:18:18.157
+GRETEX
+
+22-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+21-DEC-2017 >> 0.25 >> 0.25 >> GREEN
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+18-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 12.52
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 0
+NEAUTRAL >> 5

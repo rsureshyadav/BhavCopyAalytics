@@ -1,0 +1,15 @@
+Execution Time :2017-12-23T23:18:28.838
+JINDCOT
+
+13-DEC-2017 >> -0.3 >> -0.25 >> RED
+12-DEC-2017 >> -0.3 >> -0.3 >> RED
+11-DEC-2017 >> -0.2 >> -0.15 >> RED
+
+Simple Moving Averages : 3.17
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 3
+NEAUTRAL >> 0

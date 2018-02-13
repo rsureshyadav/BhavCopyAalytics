@@ -1,0 +1,19 @@
+Execution Time :2017-12-23T23:17:52.286
+AURDIS
+
+22-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+21-DEC-2017 >> -0.3 >> -0.45 >> RED
+20-DEC-2017 >> 2 >> 2 >> GREEN
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -1.75 >> -1.75 >> RED
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 22.92
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 2
+NEAUTRAL >> 4

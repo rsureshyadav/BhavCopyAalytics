@@ -1,0 +1,21 @@
+Execution Time :2017-12-23T23:19:16.074
+UPL
+
+22-DEC-2017 >> 1.5 >> 1.5 >> GREEN
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+18-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+14-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+13-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+12-DEC-2017 >> -0.8 >> -0.8 >> RED
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 13.62
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 1
+NEAUTRAL >> 5

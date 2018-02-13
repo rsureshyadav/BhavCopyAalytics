@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:57.057
+STEELCITY
+
+15-DEC-2017 >> 2 >> 2 >> GREEN
+14-DEC-2017 >> -4.5 >> -4.5 >> RED
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> -2.2 >> -2.2 >> RED
+11-DEC-2017 >> -2.45 >> -2.45 >> RED
+08-DEC-2017 >> -2.55 >> -2.6 >> RED
+07-DEC-2017 >> -3 >> -3 >> RED
+06-DEC-2017 >> -2.75 >> -2.75 >> RED
+05-DEC-2017 >> -2.15 >> -2.95 >> RED
+04-DEC-2017 >> -0.95 >> -0.95 >> RED
+
+Simple Moving Averages : 133.41
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 8
+NEAUTRAL >> 1

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:24.439
+XCHANGING
+
+15-DEC-2017 >> -1.55 >> -1.2 >> RED
+14-DEC-2017 >> -0.2 >> -0.25 >> RED
+13-DEC-2017 >> 0.2 >> 0.45 >> GREEN
+12-DEC-2017 >> 2.1 >> 1.6 >> GREEN
+11-DEC-2017 >> -0.35 >> -0.35 >> RED
+08-DEC-2017 >> -0.25 >> -0.25 >> RED
+07-DEC-2017 >> 0.45 >> 0.55 >> GREEN
+06-DEC-2017 >> -0.25 >> 0 >> NEAUTRAL
+05-DEC-2017 >> 0.7 >> 0.8 >> GREEN
+04-DEC-2017 >> -0.35 >> -0.1 >> RED
+
+Simple Moving Averages : 60.06
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

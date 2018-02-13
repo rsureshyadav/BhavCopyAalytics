@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:03.940
+SHIVAMAUTO
+
+22-DEC-2017 >> -1.6 >> -1.55 >> RED
+21-DEC-2017 >> -0.3 >> -0.2 >> RED
+20-DEC-2017 >> 3.85 >> 3.5 >> GREEN
+19-DEC-2017 >> -0.6 >> -0.9 >> RED
+18-DEC-2017 >> -1.25 >> -1.1 >> RED
+15-DEC-2017 >> 0.25 >> -0.1 >> RED
+14-DEC-2017 >> -4.3 >> -4.5 >> RED
+13-DEC-2017 >> -2.1 >> -1.8 >> RED
+12-DEC-2017 >> 3.8 >> 3.9 >> GREEN
+11-DEC-2017 >> -2.65 >> -2.6 >> RED
+
+Simple Moving Averages : 88.42
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

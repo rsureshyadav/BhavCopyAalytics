@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:19.532
+WELSPUNIND
+
+22-DEC-2017 >> 2.45 >> 2.75 >> GREEN
+21-DEC-2017 >> 1.1 >> 0.9 >> GREEN
+20-DEC-2017 >> -1.45 >> -1.7 >> RED
+19-DEC-2017 >> -0.45 >> -0.45 >> RED
+18-DEC-2017 >> 1 >> 1.25 >> GREEN
+15-DEC-2017 >> 0.75 >> 0.75 >> GREEN
+14-DEC-2017 >> -0.15 >> -0.15 >> RED
+13-DEC-2017 >> -1.8 >> -2 >> RED
+12-DEC-2017 >> -0.7 >> -0.7 >> RED
+11-DEC-2017 >> 3.55 >> 3.35 >> GREEN
+
+Simple Moving Averages : 70.85
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

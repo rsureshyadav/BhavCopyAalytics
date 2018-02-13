@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:22.103
+PEARLPOLY
+
+15-DEC-2017 >> -1.35 >> -1.4 >> RED
+14-DEC-2017 >> -1.15 >> -0.55 >> RED
+13-DEC-2017 >> -2.05 >> -1.6 >> RED
+12-DEC-2017 >> -2.6 >> -2.65 >> RED
+11-DEC-2017 >> 1.45 >> 1.45 >> GREEN
+08-DEC-2017 >> -1.95 >> -2.3 >> RED
+07-DEC-2017 >> -2.1 >> -2.95 >> RED
+06-DEC-2017 >> -1.4 >> -1.4 >> RED
+05-DEC-2017 >> -0.65 >> -0.7 >> RED
+04-DEC-2017 >> -0.55 >> 1.8 >> RED
+
+Simple Moving Averages : 35.26
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

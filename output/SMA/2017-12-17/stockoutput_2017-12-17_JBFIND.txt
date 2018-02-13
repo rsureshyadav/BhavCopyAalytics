@@ -1,0 +1,14 @@
+Execution Time :2017-12-17T01:32:29.728
+JBFIND
+
+06-DEC-2017 >> -0.3 >> 0.45 >> RED
+05-DEC-2017 >> -3.85 >> -4.35 >> RED
+
+Simple Moving Averages : 39.87
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 2
+NEAUTRAL >> 0

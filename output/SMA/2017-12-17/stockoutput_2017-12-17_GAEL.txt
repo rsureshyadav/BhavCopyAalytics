@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:01.260
+GAEL
+
+15-DEC-2017 >> 0.65 >> 0.05 >> GREEN
+14-DEC-2017 >> -1.15 >> -2.1 >> RED
+13-DEC-2017 >> -1.05 >> -1.2 >> RED
+12-DEC-2017 >> -3.65 >> -4.05 >> RED
+11-DEC-2017 >> -9.5 >> -8 >> RED
+08-DEC-2017 >> 20.15 >> 19.4 >> GREEN
+07-DEC-2017 >> 4.95 >> 4.9 >> GREEN
+06-DEC-2017 >> -10.75 >> -8.55 >> RED
+05-DEC-2017 >> -3.05 >> -3 >> RED
+04-DEC-2017 >> -2.15 >> -2.7 >> RED
+
+Simple Moving Averages : 175.65
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

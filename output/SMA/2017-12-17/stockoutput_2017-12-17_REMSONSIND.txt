@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:35.117
+REMSONSIND
+
+15-DEC-2017 >> 7.75 >> 7.85 >> GREEN
+14-DEC-2017 >> -10.45 >> -11.85 >> RED
+13-DEC-2017 >> -11.65 >> -10.2 >> RED
+12-DEC-2017 >> -6.45 >> -5.1 >> RED
+11-DEC-2017 >> -3.3 >> -3.5 >> RED
+08-DEC-2017 >> 1.4 >> 5 >> GREEN
+07-DEC-2017 >> 1 >> -0.2 >> RED
+06-DEC-2017 >> 21.5 >> 21.5 >> GREEN
+05-DEC-2017 >> 5.45 >> 6 >> GREEN
+04-DEC-2017 >> 13.85 >> 13.85 >> GREEN
+
+Simple Moving Averages : 125.86
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

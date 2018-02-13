@@ -1,0 +1,20 @@
+Execution Time :2017-12-23T23:17:52.872
+AXISCADES
+
+22-DEC-2017 >> -5.7 >> -5.7 >> RED
+19-DEC-2017 >> 7.55 >> 8.25 >> GREEN
+18-DEC-2017 >> 29 >> 29.3 >> GREEN
+15-DEC-2017 >> -2.4 >> -2.85 >> RED
+14-DEC-2017 >> -3.55 >> -3.55 >> RED
+13-DEC-2017 >> 1.8 >> 2 >> GREEN
+12-DEC-2017 >> 0.15 >> -0.3 >> RED
+11-DEC-2017 >> 2.8 >> 2.85 >> GREEN
+
+Simple Moving Averages : 144.3
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 4
+NEAUTRAL >> 0

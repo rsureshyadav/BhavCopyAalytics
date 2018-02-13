@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:01.920
+SANWARIA
+
+22-DEC-2017 >> -0.05 >> -0.05 >> RED
+21-DEC-2017 >> 0.05 >> 0 >> RED
+20-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+19-DEC-2017 >> 0.2 >> 0.2 >> GREEN
+18-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+15-DEC-2017 >> 0.35 >> 0.35 >> GREEN
+14-DEC-2017 >> -0.15 >> -0.05 >> RED
+13-DEC-2017 >> 0.05 >> -0.1 >> RED
+12-DEC-2017 >> -0.95 >> -0.95 >> RED
+11-DEC-2017 >> -0.75 >> -0.75 >> RED
+
+Simple Moving Averages : 20.76
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 6
+NEAUTRAL >> 2

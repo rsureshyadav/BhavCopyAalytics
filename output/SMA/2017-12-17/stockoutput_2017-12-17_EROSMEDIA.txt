@@ -1,0 +1,15 @@
+Execution Time :2017-12-17T01:31:54.973
+EROSMEDIA
+
+15-DEC-2017 >> -2.35 >> -3 >> RED
+14-DEC-2017 >> -1.9 >> -1 >> RED
+13-DEC-2017 >> -5.2 >> -5.4 >> RED
+
+Simple Moving Averages : 59.17
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 3
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:38.802
+SABEVENTS
+
+15-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+14-DEC-2017 >> -0.5 >> -0.35 >> RED
+13-DEC-2017 >> -0.65 >> -0.65 >> RED
+12-DEC-2017 >> 0.25 >> -0.15 >> RED
+11-DEC-2017 >> -0.25 >> -0.25 >> RED
+08-DEC-2017 >> 0 >> 0.05 >> NEAUTRAL
+07-DEC-2017 >> -0.6 >> -0.6 >> RED
+06-DEC-2017 >> -0.15 >> -0.15 >> RED
+05-DEC-2017 >> -0.1 >> -0.15 >> RED
+04-DEC-2017 >> -0.9 >> -0.9 >> RED
+
+Simple Moving Averages : 11.97
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 8
+NEAUTRAL >> 2

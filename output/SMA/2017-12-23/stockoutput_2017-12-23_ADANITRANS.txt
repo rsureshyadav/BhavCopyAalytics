@@ -1,0 +1,16 @@
+Execution Time :2017-12-23T23:17:46.391
+ADANITRANS
+
+14-DEC-2017 >> 1.95 >> 1.45 >> GREEN
+13-DEC-2017 >> -2.1 >> -2.3 >> RED
+12-DEC-2017 >> -3.1 >> -4 >> RED
+11-DEC-2017 >> -2.05 >> -1.6 >> RED
+
+Simple Moving Averages : 77.4
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 3
+NEAUTRAL >> 0

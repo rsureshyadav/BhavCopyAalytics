@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:46.280
+DAMODARIND
+
+15-DEC-2017 >> 1.8 >> 1.8 >> GREEN
+14-DEC-2017 >> -3.45 >> -3.4 >> RED
+13-DEC-2017 >> -0.6 >> -1 >> RED
+12-DEC-2017 >> -1.95 >> -2 >> RED
+11-DEC-2017 >> 0.75 >> 0.45 >> GREEN
+08-DEC-2017 >> 4.65 >> 4 >> GREEN
+07-DEC-2017 >> 5.45 >> 4.7 >> GREEN
+06-DEC-2017 >> 2.1 >> 2.75 >> GREEN
+05-DEC-2017 >> 2.6 >> 1.65 >> GREEN
+04-DEC-2017 >> -7.35 >> -6.9 >> RED
+
+Simple Moving Averages : 124.47
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

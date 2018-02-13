@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:10.294
+NIF100IWIN
+
+15-DEC-2017 >> -1.42 >> -1.42 >> RED
+14-DEC-2017 >> -2 >> -1.99 >> RED
+13-DEC-2017 >> 10.8 >> 10.8 >> GREEN
+12-DEC-2017 >> -1.07 >> -1.07 >> RED
+11-DEC-2017 >> -0.21 >> -0.41 >> RED
+08-DEC-2017 >> -0.13 >> -0.13 >> RED
+07-DEC-2017 >> -3.16 >> -3.16 >> RED
+06-DEC-2017 >> -4.41 >> -4.46 >> RED
+05-DEC-2017 >> -0.2 >> -0.2 >> RED
+04-DEC-2017 >> 0.14 >> 0.14 >> GREEN
+
+Simple Moving Averages : 111.4
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

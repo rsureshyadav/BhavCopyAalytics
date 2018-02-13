@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:30.160
+JVLAGRO
+
+22-DEC-2017 >> -0.25 >> -0.2 >> RED
+21-DEC-2017 >> -0.55 >> -0.25 >> RED
+20-DEC-2017 >> 0.4 >> 0.4 >> GREEN
+19-DEC-2017 >> 1 >> 0.65 >> GREEN
+18-DEC-2017 >> -0.7 >> -0.8 >> RED
+15-DEC-2017 >> -0.45 >> -0.4 >> RED
+14-DEC-2017 >> -0.9 >> -0.9 >> RED
+13-DEC-2017 >> -0.3 >> -0.25 >> RED
+12-DEC-2017 >> -0.65 >> -0.55 >> RED
+11-DEC-2017 >> -0.15 >> -0.15 >> RED
+
+Simple Moving Averages : 23.75
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:59.292
+BSL
+
+22-DEC-2017 >> 6.7 >> 6.05 >> GREEN
+21-DEC-2017 >> 1.55 >> 1.25 >> GREEN
+20-DEC-2017 >> 1.35 >> 1.85 >> GREEN
+19-DEC-2017 >> 2.15 >> 2.1 >> GREEN
+18-DEC-2017 >> 0.25 >> 0.1 >> GREEN
+15-DEC-2017 >> 0.3 >> -0.2 >> RED
+14-DEC-2017 >> -1.05 >> -1.95 >> RED
+13-DEC-2017 >> -2.3 >> -1.95 >> RED
+12-DEC-2017 >> -6.6 >> -6.5 >> RED
+11-DEC-2017 >> 15.35 >> 15.4 >> GREEN
+
+Simple Moving Averages : 77.73
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

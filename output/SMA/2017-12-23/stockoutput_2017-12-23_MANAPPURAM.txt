@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:37.727
+MANAPPURAM
+
+22-DEC-2017 >> -3.85 >> -4.05 >> RED
+21-DEC-2017 >> 12.7 >> 12.95 >> GREEN
+20-DEC-2017 >> 0.7 >> 1 >> GREEN
+19-DEC-2017 >> 2.5 >> 2.45 >> GREEN
+18-DEC-2017 >> 1.35 >> 1.5 >> GREEN
+15-DEC-2017 >> 0.7 >> 0.8 >> GREEN
+14-DEC-2017 >> -0.05 >> 0.05 >> RED
+13-DEC-2017 >> -2.6 >> -2.45 >> RED
+12-DEC-2017 >> -2.9 >> -2.6 >> RED
+11-DEC-2017 >> -1.25 >> -1 >> RED
+
+Simple Moving Averages : 105.47
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

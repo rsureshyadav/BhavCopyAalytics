@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:25.877
+INOXWIND
+
+22-DEC-2017 >> -0.75 >> -0.5 >> RED
+21-DEC-2017 >> 0.65 >> 0.5 >> GREEN
+20-DEC-2017 >> 0.95 >> 0.3 >> GREEN
+19-DEC-2017 >> -4.5 >> -4.35 >> RED
+18-DEC-2017 >> 4.05 >> 3.65 >> GREEN
+15-DEC-2017 >> 1.1 >> 1.1 >> GREEN
+14-DEC-2017 >> -5.2 >> -4.45 >> RED
+13-DEC-2017 >> 0.85 >> 1.05 >> GREEN
+12-DEC-2017 >> -1.8 >> -1.95 >> RED
+11-DEC-2017 >> -2.35 >> -3.45 >> RED
+
+Simple Moving Averages : 147.25
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

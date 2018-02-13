@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:32.713
+KOPRAN
+
+22-DEC-2017 >> -1.35 >> -1.2 >> RED
+21-DEC-2017 >> -0.35 >> -0.35 >> RED
+20-DEC-2017 >> 5.1 >> 5.25 >> GREEN
+19-DEC-2017 >> 0.2 >> 0.15 >> GREEN
+18-DEC-2017 >> 0.1 >> 0.2 >> GREEN
+15-DEC-2017 >> -3.15 >> -3.15 >> RED
+14-DEC-2017 >> -0.75 >> -0.65 >> RED
+13-DEC-2017 >> -1.2 >> -1.2 >> RED
+12-DEC-2017 >> 3.4 >> 3.35 >> GREEN
+11-DEC-2017 >> -0.45 >> -0.55 >> RED
+
+Simple Moving Averages : 65.88
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

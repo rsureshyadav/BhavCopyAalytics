@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:24.033
+INDBANK
+
+22-DEC-2017 >> -1.6 >> -1.5 >> RED
+21-DEC-2017 >> 1.75 >> 2 >> GREEN
+20-DEC-2017 >> -0.05 >> -0.2 >> RED
+19-DEC-2017 >> -0.3 >> -0.25 >> RED
+18-DEC-2017 >> 0.7 >> 0.85 >> GREEN
+15-DEC-2017 >> -0.75 >> -0.6 >> RED
+14-DEC-2017 >> -0.3 >> -0.4 >> RED
+13-DEC-2017 >> -0.15 >> -0.2 >> RED
+12-DEC-2017 >> -0.55 >> -0.4 >> RED
+11-DEC-2017 >> -0.35 >> -0.15 >> RED
+
+Simple Moving Averages : 20.98
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

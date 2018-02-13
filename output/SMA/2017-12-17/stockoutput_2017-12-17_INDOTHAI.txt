@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:24.147
+INDOTHAI
+
+15-DEC-2017 >> 1.6 >> 0.9 >> GREEN
+14-DEC-2017 >> -0.25 >> -0.05 >> RED
+13-DEC-2017 >> 2.8 >> 3 >> GREEN
+12-DEC-2017 >> -2.2 >> -1.8 >> RED
+11-DEC-2017 >> -3.5 >> -3.55 >> RED
+08-DEC-2017 >> 5.1 >> 5.15 >> GREEN
+07-DEC-2017 >> 1.75 >> 2.4 >> GREEN
+06-DEC-2017 >> -0.9 >> -0.75 >> RED
+05-DEC-2017 >> -2.5 >> -2.1 >> RED
+04-DEC-2017 >> -0.05 >> 0.1 >> RED
+
+Simple Moving Averages : 61.2
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

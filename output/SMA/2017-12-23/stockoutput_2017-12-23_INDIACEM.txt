@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:24.212
+INDIACEM
+
+22-DEC-2017 >> -1.65 >> -1.65 >> RED
+21-DEC-2017 >> 4.7 >> 4.45 >> GREEN
+20-DEC-2017 >> 6.35 >> 7 >> GREEN
+19-DEC-2017 >> 5.8 >> 5.6 >> GREEN
+18-DEC-2017 >> 0.9 >> 1.3 >> GREEN
+15-DEC-2017 >> -0.4 >> -0.5 >> RED
+14-DEC-2017 >> -5.45 >> -5 >> RED
+13-DEC-2017 >> -1.05 >> -1.2 >> RED
+12-DEC-2017 >> -4.6 >> -4.6 >> RED
+11-DEC-2017 >> -3.85 >> -3.8 >> RED
+
+Simple Moving Averages : 172.19
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

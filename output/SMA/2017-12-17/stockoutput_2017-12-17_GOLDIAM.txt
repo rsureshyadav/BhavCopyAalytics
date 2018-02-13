@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:08.266
+GOLDIAM
+
+15-DEC-2017 >> -0.45 >> -0.4 >> RED
+14-DEC-2017 >> -2.4 >> -2.2 >> RED
+13-DEC-2017 >> -0.3 >> -0.1 >> RED
+12-DEC-2017 >> -2.7 >> -2.75 >> RED
+11-DEC-2017 >> 7.45 >> 7.5 >> GREEN
+08-DEC-2017 >> 0.15 >> 0.55 >> GREEN
+07-DEC-2017 >> 0.35 >> 0.55 >> GREEN
+06-DEC-2017 >> -1.35 >> -1.85 >> RED
+05-DEC-2017 >> -1.6 >> -1.35 >> RED
+04-DEC-2017 >> -2.3 >> -2.55 >> RED
+
+Simple Moving Averages : 81.11
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

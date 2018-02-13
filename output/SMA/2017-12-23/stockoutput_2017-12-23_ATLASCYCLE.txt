@@ -1,0 +1,15 @@
+Execution Time :2017-12-23T23:17:52.123
+ATLASCYCLE
+
+13-DEC-2017 >> -0.95 >> -0.9 >> RED
+12-DEC-2017 >> -2.05 >> -2 >> RED
+11-DEC-2017 >> -11.3 >> -9.55 >> RED
+
+Simple Moving Averages : 59.71
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 3
+NEAUTRAL >> 0

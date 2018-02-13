@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:07.133
+DIGJAMLTD
+
+22-DEC-2017 >> -1.3 >> -1.05 >> RED
+21-DEC-2017 >> 0.1 >> 0.15 >> GREEN
+20-DEC-2017 >> 0.5 >> 0.5 >> GREEN
+19-DEC-2017 >> 0.9 >> 0.9 >> GREEN
+18-DEC-2017 >> -0.1 >> -0.2 >> RED
+15-DEC-2017 >> -0.35 >> -0.25 >> RED
+14-DEC-2017 >> -0.4 >> -0.4 >> RED
+13-DEC-2017 >> 0.25 >> 0.1 >> GREEN
+12-DEC-2017 >> -1.05 >> -1.15 >> RED
+11-DEC-2017 >> -0.7 >> -0.8 >> RED
+
+Simple Moving Averages : 16.18
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

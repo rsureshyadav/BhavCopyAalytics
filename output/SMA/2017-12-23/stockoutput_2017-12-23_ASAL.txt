@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:51.272
+ASAL
+
+22-DEC-2017 >> 1.35 >> 0.85 >> GREEN
+21-DEC-2017 >> -2.3 >> -2 >> RED
+20-DEC-2017 >> 7 >> 7.5 >> GREEN
+19-DEC-2017 >> -0.8 >> -0.35 >> RED
+18-DEC-2017 >> 0.6 >> 0.75 >> GREEN
+15-DEC-2017 >> -1.85 >> -2.3 >> RED
+14-DEC-2017 >> 0.3 >> 0.2 >> GREEN
+13-DEC-2017 >> -2.95 >> -3.15 >> RED
+12-DEC-2017 >> -1.2 >> -1.15 >> RED
+11-DEC-2017 >> -1.25 >> -1.3 >> RED
+
+Simple Moving Averages : 82.64
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

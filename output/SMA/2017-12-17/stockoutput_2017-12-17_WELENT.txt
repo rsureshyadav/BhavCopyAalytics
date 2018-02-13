@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:23.036
+WELENT
+
+15-DEC-2017 >> 5.6 >> 3.25 >> GREEN
+14-DEC-2017 >> 5.7 >> 6.45 >> GREEN
+13-DEC-2017 >> -3.05 >> -2.9 >> RED
+12-DEC-2017 >> -0.4 >> 0.05 >> RED
+11-DEC-2017 >> -6.25 >> -6.65 >> RED
+08-DEC-2017 >> -3.15 >> -3.15 >> RED
+07-DEC-2017 >> 0.3 >> 1.65 >> GREEN
+06-DEC-2017 >> -4.9 >> -4 >> RED
+05-DEC-2017 >> 1.55 >> 3.05 >> GREEN
+04-DEC-2017 >> 3.75 >> 5 >> GREEN
+
+Simple Moving Averages : 154.71
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:02.270
+GANESHHOUC
+
+15-DEC-2017 >> 2.75 >> 3.25 >> GREEN
+14-DEC-2017 >> -3.1 >> -3.1 >> RED
+13-DEC-2017 >> -1.8 >> -2 >> RED
+12-DEC-2017 >> -6.15 >> -6.2 >> RED
+11-DEC-2017 >> -0.5 >> -0.7 >> RED
+08-DEC-2017 >> -3.2 >> -3.7 >> RED
+07-DEC-2017 >> 9.35 >> 10.05 >> GREEN
+06-DEC-2017 >> -0.8 >> -0.1 >> RED
+05-DEC-2017 >> -4.4 >> -4.5 >> RED
+04-DEC-2017 >> 1.25 >> 1.55 >> GREEN
+
+Simple Moving Averages : 131.78
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

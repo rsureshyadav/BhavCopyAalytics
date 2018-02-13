@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:28.891
+JINDRILL
+
+22-DEC-2017 >> 0.15 >> 0.1 >> GREEN
+21-DEC-2017 >> -0.55 >> -0.6 >> RED
+20-DEC-2017 >> -1 >> -1.4 >> RED
+19-DEC-2017 >> -1.35 >> -1.6 >> RED
+18-DEC-2017 >> -3.25 >> -3.15 >> RED
+15-DEC-2017 >> -0.25 >> -0.2 >> RED
+14-DEC-2017 >> -2.6 >> -2.75 >> RED
+13-DEC-2017 >> -5.75 >> -6.2 >> RED
+12-DEC-2017 >> 3.85 >> 3 >> GREEN
+11-DEC-2017 >> -0.4 >> -0.2 >> RED
+
+Simple Moving Averages : 157.08
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:39.056
+MBLINFRA
+
+22-DEC-2017 >> -0.3 >> -0.3 >> RED
+21-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+20-DEC-2017 >> 0.3 >> 0.3 >> GREEN
+19-DEC-2017 >> -0.4 >> -0.4 >> RED
+18-DEC-2017 >> 1.65 >> 1.6 >> GREEN
+15-DEC-2017 >> 0.4 >> -0.2 >> RED
+14-DEC-2017 >> -0.2 >> -0.2 >> RED
+13-DEC-2017 >> -0.3 >> -0.1 >> RED
+12-DEC-2017 >> -0.75 >> -0.9 >> RED
+11-DEC-2017 >> 0.55 >> 0.55 >> GREEN
+
+Simple Moving Averages : 24.71
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

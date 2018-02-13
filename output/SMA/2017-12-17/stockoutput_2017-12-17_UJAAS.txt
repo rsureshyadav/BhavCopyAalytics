@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:14.337
+UJAAS
+
+15-DEC-2017 >> -0.25 >> -0.2 >> RED
+14-DEC-2017 >> -0.45 >> -0.45 >> RED
+13-DEC-2017 >> -0.4 >> -0.3 >> RED
+12-DEC-2017 >> -0.8 >> -0.85 >> RED
+11-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0.15 >> 0.15 >> GREEN
+07-DEC-2017 >> 0.05 >> 0.1 >> GREEN
+06-DEC-2017 >> -0.4 >> -0.4 >> RED
+05-DEC-2017 >> -0.45 >> -0.4 >> RED
+04-DEC-2017 >> -0.35 >> -0.25 >> RED
+
+Simple Moving Averages : 22.1
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 7
+NEAUTRAL >> 1

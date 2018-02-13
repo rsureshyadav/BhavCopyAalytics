@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:39.246
+CGPOWER
+
+15-DEC-2017 >> -0.1 >> -0.25 >> RED
+14-DEC-2017 >> -1.25 >> -1.4 >> RED
+13-DEC-2017 >> -1.5 >> -1.9 >> RED
+12-DEC-2017 >> 0.4 >> 0.3 >> GREEN
+11-DEC-2017 >> -1.05 >> -1.3 >> RED
+08-DEC-2017 >> 1.4 >> 1.2 >> GREEN
+07-DEC-2017 >> 1.4 >> 1.15 >> GREEN
+06-DEC-2017 >> -2.05 >> -2.05 >> RED
+05-DEC-2017 >> 0.25 >> 0.3 >> GREEN
+04-DEC-2017 >> -0.8 >> -0.85 >> RED
+
+Simple Moving Averages : 85.02
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

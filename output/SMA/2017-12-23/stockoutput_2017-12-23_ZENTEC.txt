@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:20.418
+ZENTEC
+
+22-DEC-2017 >> 4.05 >> 3.35 >> GREEN
+21-DEC-2017 >> -0.4 >> -1.25 >> RED
+20-DEC-2017 >> -1.95 >> -2.3 >> RED
+19-DEC-2017 >> -0.45 >> -1 >> RED
+18-DEC-2017 >> 4.8 >> 6.15 >> GREEN
+15-DEC-2017 >> -4.1 >> -3.8 >> RED
+14-DEC-2017 >> 8.7 >> 8 >> GREEN
+13-DEC-2017 >> 7.55 >> 7.9 >> GREEN
+12-DEC-2017 >> -1.15 >> -1.9 >> RED
+11-DEC-2017 >> 7.6 >> 8.55 >> GREEN
+
+Simple Moving Averages : 129.88
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

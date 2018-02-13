@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:08.874
+THIRUSUGAR
+
+15-DEC-2017 >> -1.7 >> -2.2 >> RED
+14-DEC-2017 >> 0.05 >> 0.55 >> GREEN
+13-DEC-2017 >> -0.7 >> -1.3 >> RED
+12-DEC-2017 >> -0.75 >> -1.6 >> RED
+11-DEC-2017 >> -1.25 >> -1.95 >> RED
+08-DEC-2017 >> -0.55 >> -0.35 >> RED
+07-DEC-2017 >> 0.7 >> 1.05 >> GREEN
+06-DEC-2017 >> -1.8 >> -2.05 >> RED
+05-DEC-2017 >> -0.6 >> -1 >> RED
+04-DEC-2017 >> -0.7 >> -1 >> RED
+
+Simple Moving Averages : 62.65
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

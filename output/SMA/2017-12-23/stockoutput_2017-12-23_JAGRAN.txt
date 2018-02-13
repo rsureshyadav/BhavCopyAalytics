@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:27.688
+JAGRAN
+
+22-DEC-2017 >> 1.55 >> 1.6 >> GREEN
+21-DEC-2017 >> 0.6 >> 0.8 >> GREEN
+20-DEC-2017 >> 1.45 >> 1.2 >> GREEN
+19-DEC-2017 >> -1.2 >> -1 >> RED
+18-DEC-2017 >> -3.35 >> -3.05 >> RED
+15-DEC-2017 >> -0.3 >> 0.05 >> RED
+14-DEC-2017 >> -2.25 >> -2.75 >> RED
+13-DEC-2017 >> 1.3 >> 1.45 >> GREEN
+12-DEC-2017 >> 0.85 >> 2 >> GREEN
+11-DEC-2017 >> -1.1 >> -1.7 >> RED
+
+Simple Moving Averages : 166.73
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:45.895
+NITCO
+
+22-DEC-2017 >> -1.65 >> -1.4 >> RED
+21-DEC-2017 >> -4.55 >> -4.55 >> RED
+20-DEC-2017 >> 1.8 >> 2.75 >> GREEN
+19-DEC-2017 >> 10.9 >> 10.9 >> GREEN
+18-DEC-2017 >> 1.1 >> 1.85 >> GREEN
+15-DEC-2017 >> -2.15 >> -2.45 >> RED
+14-DEC-2017 >> -3.1 >> -2.95 >> RED
+13-DEC-2017 >> 3.8 >> 4.4 >> GREEN
+12-DEC-2017 >> -2.6 >> -1.9 >> RED
+11-DEC-2017 >> -1.5 >> -0.2 >> RED
+
+Simple Moving Averages : 107.74
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

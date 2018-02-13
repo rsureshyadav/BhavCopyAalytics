@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:43.378
+SEAMECLTD
+
+15-DEC-2017 >> 4.65 >> 4.8 >> GREEN
+14-DEC-2017 >> 2.05 >> 0.75 >> GREEN
+13-DEC-2017 >> -0.1 >> -1.5 >> RED
+12-DEC-2017 >> -4.2 >> 0 >> NEAUTRAL
+11-DEC-2017 >> -4 >> -4 >> RED
+08-DEC-2017 >> 3.3 >> 3.3 >> GREEN
+07-DEC-2017 >> 1.4 >> 1.4 >> GREEN
+06-DEC-2017 >> -2.5 >> -2.5 >> RED
+05-DEC-2017 >> 4 >> 4 >> GREEN
+04-DEC-2017 >> 3.95 >> 4 >> GREEN
+
+Simple Moving Averages : 156.91
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 3
+NEAUTRAL >> 1

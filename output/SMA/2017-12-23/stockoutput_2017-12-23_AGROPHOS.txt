@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:47.286
+AGROPHOS
+
+22-DEC-2017 >> 1.35 >> 1.5 >> GREEN
+21-DEC-2017 >> 0.1 >> 0.1 >> GREEN
+20-DEC-2017 >> -1.5 >> -1.1 >> RED
+19-DEC-2017 >> 1.35 >> 1.35 >> GREEN
+18-DEC-2017 >> -0.05 >> -0.45 >> RED
+15-DEC-2017 >> 1 >> 1 >> GREEN
+14-DEC-2017 >> -1.1 >> -1.1 >> RED
+13-DEC-2017 >> -1.1 >> -1.1 >> RED
+12-DEC-2017 >> 2.25 >> 2.25 >> GREEN
+11-DEC-2017 >> -1.45 >> -1.65 >> RED
+
+Simple Moving Averages : 30.93
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

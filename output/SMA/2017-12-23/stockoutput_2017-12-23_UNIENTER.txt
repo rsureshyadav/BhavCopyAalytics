@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:14.984
+UNIENTER
+
+22-DEC-2017 >> 1.95 >> 1.5 >> GREEN
+21-DEC-2017 >> -0.15 >> -0.45 >> RED
+20-DEC-2017 >> -3.35 >> -3.7 >> RED
+19-DEC-2017 >> -1.65 >> -1.9 >> RED
+18-DEC-2017 >> -1.85 >> -1.85 >> RED
+15-DEC-2017 >> 2.85 >> 2.85 >> GREEN
+14-DEC-2017 >> -1.1 >> -1.15 >> RED
+13-DEC-2017 >> -1 >> -0.3 >> RED
+12-DEC-2017 >> -0.8 >> -0.9 >> RED
+11-DEC-2017 >> -1.9 >> -0.8 >> RED
+
+Simple Moving Averages : 89.33
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

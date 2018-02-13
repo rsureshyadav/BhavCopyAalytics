@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:48.870
+MANAKSTEEL
+
+15-DEC-2017 >> -1 >> -1.15 >> RED
+14-DEC-2017 >> 2.85 >> 2.7 >> GREEN
+13-DEC-2017 >> -0.2 >> 0.45 >> RED
+12-DEC-2017 >> -1.7 >> -1.8 >> RED
+11-DEC-2017 >> -1.35 >> -1.75 >> RED
+08-DEC-2017 >> -0.8 >> -0.75 >> RED
+07-DEC-2017 >> 0.95 >> 1.95 >> GREEN
+06-DEC-2017 >> -1.6 >> -2 >> RED
+05-DEC-2017 >> -2 >> -2.2 >> RED
+04-DEC-2017 >> -3.55 >> -3.05 >> RED
+
+Simple Moving Averages : 39.45
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

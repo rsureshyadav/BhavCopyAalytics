@@ -1,0 +1,17 @@
+Execution Time :2017-12-17T01:30:57.980
+AKASH
+
+14-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+07-DEC-2017 >> 5 >> 5 >> GREEN
+06-DEC-2017 >> -13.35 >> -13.35 >> RED
+05-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 37.11
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 1
+NEAUTRAL >> 3

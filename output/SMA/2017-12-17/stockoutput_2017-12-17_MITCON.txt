@@ -1,0 +1,17 @@
+Execution Time :2017-12-17T01:32:56.494
+MITCON
+
+13-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+06-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 32.77
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 0
+NEAUTRAL >> 5

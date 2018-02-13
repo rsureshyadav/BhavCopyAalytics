@@ -1,0 +1,15 @@
+Execution Time :2017-12-23T23:19:12.456
+TIJARIA
+
+22-DEC-2017 >> -0.95 >> -1 >> RED
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 3.13
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 1
+NEAUTRAL >> 2

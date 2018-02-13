@@ -1,0 +1,14 @@
+Execution Time :2017-12-17T01:30:53.033
+AFL
+
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+04-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+
+Simple Moving Averages : 8.05
+TOMMOROW PREDECTION :: NEAUTRAL
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 0
+RED >> 0
+NEAUTRAL >> 2

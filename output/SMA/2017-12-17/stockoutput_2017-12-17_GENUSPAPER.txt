@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:03.466
+GENUSPAPER
+
+15-DEC-2017 >> -0.15 >> -0.05 >> RED
+14-DEC-2017 >> 0 >> -0.1 >> RED
+13-DEC-2017 >> -0.4 >> -0.65 >> RED
+12-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+11-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+08-DEC-2017 >> 0.8 >> 0.8 >> GREEN
+07-DEC-2017 >> 0.45 >> 0.45 >> GREEN
+06-DEC-2017 >> -0.7 >> -0.45 >> RED
+05-DEC-2017 >> -0.25 >> -0.3 >> RED
+04-DEC-2017 >> -0.2 >> -0.1 >> RED
+
+Simple Moving Averages : 11.95
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 6
+NEAUTRAL >> 2

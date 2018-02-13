@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:36.068
+RMCL
+
+15-DEC-2017 >> -0.2 >> -0.15 >> RED
+14-DEC-2017 >> -1.05 >> -1.1 >> RED
+13-DEC-2017 >> 0.2 >> 0.2 >> GREEN
+12-DEC-2017 >> -1.65 >> -1.7 >> RED
+11-DEC-2017 >> -0.8 >> -0.65 >> RED
+08-DEC-2017 >> 0.05 >> -0.1 >> RED
+07-DEC-2017 >> -0.7 >> -0.8 >> RED
+06-DEC-2017 >> -0.4 >> 0.25 >> RED
+05-DEC-2017 >> -0.2 >> -0.1 >> RED
+04-DEC-2017 >> 0.25 >> 0.35 >> GREEN
+
+Simple Moving Averages : 27.37
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

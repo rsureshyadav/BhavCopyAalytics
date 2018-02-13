@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:28.721
+PRIMESECU
+
+15-DEC-2017 >> -1.85 >> -2.6 >> RED
+14-DEC-2017 >> -1.5 >> -1.55 >> RED
+13-DEC-2017 >> -1.55 >> -1.25 >> RED
+12-DEC-2017 >> 5.55 >> 5.7 >> GREEN
+11-DEC-2017 >> 1.75 >> 2.2 >> GREEN
+08-DEC-2017 >> 2.9 >> 2.75 >> GREEN
+07-DEC-2017 >> 0 >> 0.25 >> NEAUTRAL
+06-DEC-2017 >> -0.95 >> -1.05 >> RED
+05-DEC-2017 >> -0.8 >> -0.85 >> RED
+04-DEC-2017 >> -0.35 >> -0.4 >> RED
+
+Simple Moving Averages : 54.82
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 6
+NEAUTRAL >> 1

@@ -1,0 +1,14 @@
+Execution Time :2017-12-17T01:33:28.897
+PROVOGE
+
+14-DEC-2017 >> -0.65 >> -0.6 >> RED
+13-DEC-2017 >> 0.55 >> 0.55 >> GREEN
+
+Simple Moving Averages : 2.06
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 1
+NEAUTRAL >> 0

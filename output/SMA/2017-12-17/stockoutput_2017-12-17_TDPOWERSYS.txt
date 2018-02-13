@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:34:07.256
+TDPOWERSYS
+
+15-DEC-2017 >> 7.9 >> 8.5 >> GREEN
+14-DEC-2017 >> -3.45 >> -3.7 >> RED
+13-DEC-2017 >> -4.55 >> -4 >> RED
+12-DEC-2017 >> -0.15 >> -0.25 >> RED
+11-DEC-2017 >> -0.45 >> -0.6 >> RED
+08-DEC-2017 >> -4.25 >> -4.55 >> RED
+07-DEC-2017 >> -0.4 >> -0.1 >> RED
+06-DEC-2017 >> -4.2 >> -4.2 >> RED
+05-DEC-2017 >> -0.8 >> 0 >> NEAUTRAL
+04-DEC-2017 >> -1.5 >> -2.3 >> RED
+
+Simple Moving Averages : 177.72
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 8
+NEAUTRAL >> 1

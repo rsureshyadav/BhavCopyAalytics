@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:29.243
+JAMNAAUTO
+
+15-DEC-2017 >> 1.7 >> 1.75 >> GREEN
+14-DEC-2017 >> 2.3 >> 2.6 >> GREEN
+13-DEC-2017 >> -0.7 >> -0.65 >> RED
+12-DEC-2017 >> -2.3 >> -2.35 >> RED
+11-DEC-2017 >> -0.5 >> -0.5 >> RED
+08-DEC-2017 >> 0.9 >> 0.55 >> GREEN
+07-DEC-2017 >> 1.9 >> 1.95 >> GREEN
+06-DEC-2017 >> -2.05 >> -2.15 >> RED
+05-DEC-2017 >> -2.4 >> -2.45 >> RED
+04-DEC-2017 >> 3.65 >> 3.85 >> GREEN
+
+Simple Moving Averages : 65.86
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:06.755
+DHANBANK
+
+22-DEC-2017 >> -0.45 >> -0.55 >> RED
+21-DEC-2017 >> -0.25 >> -0.25 >> RED
+20-DEC-2017 >> 0.9 >> 0.8 >> GREEN
+19-DEC-2017 >> -0.45 >> -0.2 >> RED
+18-DEC-2017 >> -1.55 >> -1.5 >> RED
+15-DEC-2017 >> -0.25 >> -0.2 >> RED
+14-DEC-2017 >> -0.7 >> -0.7 >> RED
+13-DEC-2017 >> -0.15 >> -0.15 >> RED
+12-DEC-2017 >> -0.75 >> -0.75 >> RED
+11-DEC-2017 >> -1.15 >> -1.3 >> RED
+
+Simple Moving Averages : 29.86
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

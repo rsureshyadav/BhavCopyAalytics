@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:42.324
+L&TFH
+
+15-DEC-2017 >> 0.95 >> 0.85 >> GREEN
+14-DEC-2017 >> -1.2 >> -1.2 >> RED
+13-DEC-2017 >> -1.65 >> -1.75 >> RED
+12-DEC-2017 >> -5.35 >> -5.3 >> RED
+11-DEC-2017 >> -0.6 >> -0.8 >> RED
+08-DEC-2017 >> -2 >> -2.5 >> RED
+07-DEC-2017 >> 3.95 >> 3.9 >> GREEN
+06-DEC-2017 >> -2.85 >> -2.55 >> RED
+05-DEC-2017 >> 6.8 >> 7.25 >> GREEN
+04-DEC-2017 >> -4.05 >> -4.1 >> RED
+
+Simple Moving Averages : 167.97
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

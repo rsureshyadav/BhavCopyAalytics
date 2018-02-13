@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:55.317
+BANSWRAS
+
+22-DEC-2017 >> -1.45 >> -2.2 >> RED
+21-DEC-2017 >> -6.85 >> -7.35 >> RED
+20-DEC-2017 >> -1.1 >> -1.55 >> RED
+19-DEC-2017 >> 2.25 >> 2.5 >> GREEN
+18-DEC-2017 >> -4.65 >> -4.4 >> RED
+15-DEC-2017 >> -9 >> -7.7 >> RED
+14-DEC-2017 >> 14.5 >> 13.1 >> GREEN
+13-DEC-2017 >> -1.5 >> -1.75 >> RED
+12-DEC-2017 >> 0 >> -0.45 >> RED
+11-DEC-2017 >> 0.8 >> 0.45 >> GREEN
+
+Simple Moving Averages : 140.97
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

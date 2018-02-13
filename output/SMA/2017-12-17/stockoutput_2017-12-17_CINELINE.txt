@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:31:40.553
+CINELINE
+
+15-DEC-2017 >> -2.2 >> -1.9 >> RED
+14-DEC-2017 >> -0.5 >> -1 >> RED
+13-DEC-2017 >> -2.25 >> -2.6 >> RED
+12-DEC-2017 >> -1.05 >> -1.45 >> RED
+11-DEC-2017 >> -0.15 >> -0.35 >> RED
+08-DEC-2017 >> -2.3 >> -2.6 >> RED
+07-DEC-2017 >> 0.25 >> -0.7 >> RED
+06-DEC-2017 >> 0.35 >> 0.1 >> GREEN
+05-DEC-2017 >> -1.2 >> -2.1 >> RED
+04-DEC-2017 >> -2.2 >> -2.55 >> RED
+
+Simple Moving Averages : 89.66
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 9
+NEAUTRAL >> 0

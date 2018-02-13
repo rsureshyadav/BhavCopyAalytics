@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:03.284
+COMPINFO
+
+22-DEC-2017 >> -0.8 >> -0.65 >> RED
+21-DEC-2017 >> 0.75 >> 0.55 >> GREEN
+20-DEC-2017 >> -1.6 >> -1.5 >> RED
+19-DEC-2017 >> 2.75 >> 2.9 >> GREEN
+18-DEC-2017 >> -1.25 >> -1.15 >> RED
+15-DEC-2017 >> -1.25 >> -1.25 >> RED
+14-DEC-2017 >> -1.4 >> -1 >> RED
+13-DEC-2017 >> -1.7 >> -1.95 >> RED
+12-DEC-2017 >> -1.1 >> -1.1 >> RED
+11-DEC-2017 >> 4.05 >> 4.05 >> GREEN
+
+Simple Moving Averages : 47.26
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:04.986
+SINTEX
+
+22-DEC-2017 >> 0.2 >> 0.3 >> GREEN
+21-DEC-2017 >> -0.05 >> 0 >> NEAUTRAL
+20-DEC-2017 >> -0.75 >> -0.7 >> RED
+19-DEC-2017 >> 0.45 >> 0.5 >> GREEN
+18-DEC-2017 >> 0.85 >> 1 >> GREEN
+15-DEC-2017 >> -0.6 >> -0.55 >> RED
+14-DEC-2017 >> -0.15 >> -0.05 >> RED
+13-DEC-2017 >> -0.4 >> -0.4 >> RED
+12-DEC-2017 >> -0.2 >> -0.2 >> RED
+11-DEC-2017 >> 0.15 >> 0.05 >> GREEN
+
+Simple Moving Averages : 23.27
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 5
+NEAUTRAL >> 1

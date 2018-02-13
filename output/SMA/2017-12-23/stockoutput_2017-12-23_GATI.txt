@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:13.910
+GATI
+
+22-DEC-2017 >> 1.9 >> 1.9 >> GREEN
+21-DEC-2017 >> 2.05 >> 2.2 >> GREEN
+20-DEC-2017 >> -0.9 >> -0.9 >> RED
+19-DEC-2017 >> 1 >> 0.9 >> GREEN
+18-DEC-2017 >> -0.2 >> 0.1 >> RED
+15-DEC-2017 >> -0.1 >> -0.2 >> RED
+14-DEC-2017 >> -2.8 >> -2.75 >> RED
+13-DEC-2017 >> -0.95 >> -0.9 >> RED
+12-DEC-2017 >> -2.2 >> -1.6 >> RED
+11-DEC-2017 >> -3.35 >> -2.8 >> RED
+
+Simple Moving Averages : 133.91
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

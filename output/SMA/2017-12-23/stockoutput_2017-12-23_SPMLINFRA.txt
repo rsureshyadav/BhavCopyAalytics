@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:06.767
+SPMLINFRA
+
+22-DEC-2017 >> -1.65 >> -1 >> RED
+21-DEC-2017 >> -3.2 >> -2.95 >> RED
+20-DEC-2017 >> -6.7 >> -7.5 >> RED
+19-DEC-2017 >> 6 >> 5.15 >> GREEN
+18-DEC-2017 >> -2.2 >> -2.45 >> RED
+15-DEC-2017 >> -2.25 >> -3.85 >> RED
+14-DEC-2017 >> 0.5 >> 0.75 >> GREEN
+13-DEC-2017 >> -4.35 >> -3.5 >> RED
+12-DEC-2017 >> -2.15 >> -2.35 >> RED
+11-DEC-2017 >> -4.7 >> -6 >> RED
+
+Simple Moving Averages : 151.12
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

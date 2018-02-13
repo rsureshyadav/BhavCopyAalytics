@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:46.905
+MAHASTEEL
+
+15-DEC-2017 >> 0.2 >> 0.8 >> GREEN
+14-DEC-2017 >> -2 >> -3.6 >> RED
+13-DEC-2017 >> -0.75 >> -0.6 >> RED
+12-DEC-2017 >> 1.25 >> 0.4 >> GREEN
+11-DEC-2017 >> 0.9 >> 0.8 >> GREEN
+08-DEC-2017 >> -1.1 >> -1.05 >> RED
+07-DEC-2017 >> 5.05 >> 4.3 >> GREEN
+06-DEC-2017 >> 0.25 >> 0.1 >> GREEN
+05-DEC-2017 >> -2.6 >> -2.7 >> RED
+04-DEC-2017 >> 0.75 >> 0.75 >> GREEN
+
+Simple Moving Averages : 68.8
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 6
+RED >> 4
+NEAUTRAL >> 0

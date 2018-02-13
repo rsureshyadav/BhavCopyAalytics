@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:10.510
+TARMAT
+
+22-DEC-2017 >> -2.4 >> -3.65 >> RED
+21-DEC-2017 >> -3.05 >> -3.65 >> RED
+20-DEC-2017 >> -0.7 >> -1.35 >> RED
+19-DEC-2017 >> -2 >> -1.85 >> RED
+18-DEC-2017 >> 4.05 >> 5.25 >> GREEN
+15-DEC-2017 >> 0.3 >> 1.4 >> GREEN
+14-DEC-2017 >> 6.95 >> 5.95 >> GREEN
+13-DEC-2017 >> -4.2 >> -5.2 >> RED
+12-DEC-2017 >> -3 >> -2.8 >> RED
+11-DEC-2017 >> 1.4 >> 1.4 >> GREEN
+
+Simple Moving Averages : 74.03
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

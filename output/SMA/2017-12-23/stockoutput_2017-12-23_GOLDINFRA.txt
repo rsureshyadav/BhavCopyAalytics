@@ -1,0 +1,19 @@
+Execution Time :2017-12-23T23:18:17.043
+GOLDINFRA
+
+19-DEC-2017 >> -3 >> -3.5 >> RED
+18-DEC-2017 >> -3.8 >> -2.2 >> RED
+15-DEC-2017 >> -3.9 >> -6 >> RED
+14-DEC-2017 >> -4.05 >> -1.05 >> RED
+13-DEC-2017 >> -11.7 >> -12.85 >> RED
+12-DEC-2017 >> 10.2 >> 10.95 >> GREEN
+11-DEC-2017 >> -2.3 >> -3 >> RED
+
+Simple Moving Averages : 130.62
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 6
+NEAUTRAL >> 0

@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:33.310
+KPIT
+
+22-DEC-2017 >> -1.4 >> -1.55 >> RED
+21-DEC-2017 >> 1.2 >> 0.55 >> GREEN
+20-DEC-2017 >> -5.55 >> -5.15 >> RED
+19-DEC-2017 >> 7.15 >> 7.1 >> GREEN
+18-DEC-2017 >> 2 >> 1.85 >> GREEN
+15-DEC-2017 >> -2.6 >> -3.05 >> RED
+14-DEC-2017 >> -0.75 >> -0.7 >> RED
+13-DEC-2017 >> 0.1 >> -0.35 >> RED
+12-DEC-2017 >> -2.65 >> -2.7 >> RED
+11-DEC-2017 >> 5.75 >> 5.65 >> GREEN
+
+Simple Moving Averages : 171.44
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

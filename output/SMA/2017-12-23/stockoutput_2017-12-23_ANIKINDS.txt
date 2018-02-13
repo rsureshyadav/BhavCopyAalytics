@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:49.156
+ANIKINDS
+
+22-DEC-2017 >> 0.35 >> 1 >> GREEN
+21-DEC-2017 >> 0.45 >> 0.4 >> GREEN
+20-DEC-2017 >> -1.2 >> -1.1 >> RED
+19-DEC-2017 >> -1.15 >> -1.25 >> RED
+18-DEC-2017 >> -4.65 >> -5.2 >> RED
+15-DEC-2017 >> 3.9 >> 4 >> GREEN
+14-DEC-2017 >> -0.85 >> -1.25 >> RED
+13-DEC-2017 >> -0.25 >> -0.65 >> RED
+12-DEC-2017 >> -3.3 >> -3.7 >> RED
+11-DEC-2017 >> 0.15 >> -0.2 >> RED
+
+Simple Moving Averages : 48.95
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

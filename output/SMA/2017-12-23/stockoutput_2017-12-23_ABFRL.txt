@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:45.137
+ABFRL
+
+22-DEC-2017 >> 0.3 >> 0.25 >> GREEN
+21-DEC-2017 >> 3.2 >> 2.7 >> GREEN
+20-DEC-2017 >> 1.15 >> 1.1 >> GREEN
+19-DEC-2017 >> -0.4 >> -0.5 >> RED
+18-DEC-2017 >> -0.15 >> 0.2 >> RED
+15-DEC-2017 >> -3.55 >> -3.45 >> RED
+14-DEC-2017 >> -0.35 >> 0.45 >> RED
+13-DEC-2017 >> -1.75 >> -2.2 >> RED
+12-DEC-2017 >> 0.75 >> 0 >> RED
+11-DEC-2017 >> 0.1 >> 0 >> RED
+
+Simple Moving Averages : 170.94
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

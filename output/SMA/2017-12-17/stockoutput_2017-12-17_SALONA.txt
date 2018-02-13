@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:33:39.947
+SALONA
+
+15-DEC-2017 >> 6 >> 4.6 >> GREEN
+14-DEC-2017 >> 21.4 >> 23.55 >> GREEN
+13-DEC-2017 >> -2.6 >> -2.8 >> RED
+12-DEC-2017 >> -5.3 >> -5.6 >> RED
+11-DEC-2017 >> -3.75 >> -5.05 >> RED
+08-DEC-2017 >> -5.35 >> -5.95 >> RED
+07-DEC-2017 >> -0.35 >> -0.3 >> RED
+06-DEC-2017 >> -0.05 >> 5.25 >> RED
+05-DEC-2017 >> 2.25 >> 2.25 >> GREEN
+04-DEC-2017 >> -1.05 >> -0.05 >> RED
+
+Simple Moving Averages : 134.24
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

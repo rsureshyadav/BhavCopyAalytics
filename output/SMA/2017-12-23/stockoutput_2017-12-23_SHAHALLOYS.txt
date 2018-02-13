@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:19:03.473
+SHAHALLOYS
+
+22-DEC-2017 >> -0.05 >> 0.3 >> RED
+21-DEC-2017 >> 0 >> 0 >> NEAUTRAL
+20-DEC-2017 >> 0.05 >> -0.1 >> RED
+19-DEC-2017 >> -0.6 >> -0.4 >> RED
+18-DEC-2017 >> -0.3 >> -0.65 >> RED
+15-DEC-2017 >> -0.4 >> -0.4 >> RED
+14-DEC-2017 >> -0.9 >> -0.85 >> RED
+13-DEC-2017 >> -0.15 >> 0.15 >> RED
+12-DEC-2017 >> -0.3 >> -0.3 >> RED
+11-DEC-2017 >> 0.55 >> 0.6 >> GREEN
+
+Simple Moving Averages : 18.24
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 1
+RED >> 8
+NEAUTRAL >> 1

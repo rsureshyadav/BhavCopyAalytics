@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:56.839
+RAJSREESUG
+
+22-DEC-2017 >> 0.95 >> 0.6 >> GREEN
+21-DEC-2017 >> -2.05 >> -1.8 >> RED
+20-DEC-2017 >> -1.15 >> -0.95 >> RED
+19-DEC-2017 >> 3 >> 3.05 >> GREEN
+18-DEC-2017 >> 1.4 >> 2.5 >> GREEN
+15-DEC-2017 >> -2.75 >> -2.8 >> RED
+14-DEC-2017 >> -1.65 >> -1.3 >> RED
+13-DEC-2017 >> -2 >> -2.1 >> RED
+12-DEC-2017 >> -1.45 >> -1.5 >> RED
+11-DEC-2017 >> -1.85 >> -1.8 >> RED
+
+Simple Moving Averages : 55.03
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

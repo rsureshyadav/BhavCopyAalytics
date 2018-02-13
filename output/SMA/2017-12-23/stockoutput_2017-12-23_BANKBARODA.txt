@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:54.999
+BANKBARODA
+
+22-DEC-2017 >> -0.75 >> -0.8 >> RED
+21-DEC-2017 >> 1.25 >> 1.15 >> GREEN
+20-DEC-2017 >> -1.25 >> -1.2 >> RED
+19-DEC-2017 >> -3.05 >> -2.9 >> RED
+18-DEC-2017 >> 5.4 >> 5.5 >> GREEN
+15-DEC-2017 >> -2.75 >> -2.6 >> RED
+14-DEC-2017 >> 1.05 >> 1.2 >> GREEN
+13-DEC-2017 >> -1.35 >> -1.15 >> RED
+12-DEC-2017 >> -2 >> -2.5 >> RED
+11-DEC-2017 >> -1.15 >> -1.45 >> RED
+
+Simple Moving Averages : 166.81
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

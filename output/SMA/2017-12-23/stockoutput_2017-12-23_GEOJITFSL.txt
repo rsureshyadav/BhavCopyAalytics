@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:14.300
+GEOJITFSL
+
+22-DEC-2017 >> -3.3 >> -3.7 >> RED
+21-DEC-2017 >> 1.1 >> 0.5 >> GREEN
+20-DEC-2017 >> -0.65 >> -0.6 >> RED
+19-DEC-2017 >> 2.7 >> 2.95 >> GREEN
+18-DEC-2017 >> 4.75 >> 4.75 >> GREEN
+15-DEC-2017 >> 0.05 >> 0.05 >> GREEN
+14-DEC-2017 >> -1.85 >> -1.7 >> RED
+13-DEC-2017 >> -2.45 >> -2.75 >> RED
+12-DEC-2017 >> -3.2 >> -3.55 >> RED
+11-DEC-2017 >> -1.25 >> -1.65 >> RED
+
+Simple Moving Averages : 119.29
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0

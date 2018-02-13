@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:57.873
+MORARJEE
+
+15-DEC-2017 >> -0.25 >> -0.2 >> RED
+14-DEC-2017 >> -0.5 >> -0.5 >> RED
+13-DEC-2017 >> -1.4 >> -1.4 >> RED
+12-DEC-2017 >> -0.05 >> -0.2 >> RED
+11-DEC-2017 >> -0.25 >> -0.25 >> RED
+08-DEC-2017 >> -0.9 >> -1.1 >> RED
+07-DEC-2017 >> -0.2 >> -0.3 >> RED
+06-DEC-2017 >> -1.45 >> -1.45 >> RED
+05-DEC-2017 >> 0.45 >> 0.55 >> GREEN
+04-DEC-2017 >> 0.1 >> 0.3 >> GREEN
+
+Simple Moving Averages : 48.02
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 2
+RED >> 8
+NEAUTRAL >> 0

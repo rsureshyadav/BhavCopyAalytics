@@ -1,0 +1,22 @@
+Execution Time :2017-12-17T01:32:48.606
+MANAKSIA
+
+15-DEC-2017 >> -2.05 >> -2.2 >> RED
+14-DEC-2017 >> -2.65 >> -2.4 >> RED
+13-DEC-2017 >> 0.25 >> 0.35 >> GREEN
+12-DEC-2017 >> -2.1 >> -2.35 >> RED
+11-DEC-2017 >> 0.1 >> 0.15 >> GREEN
+08-DEC-2017 >> 0.4 >> -0.45 >> RED
+07-DEC-2017 >> 0.25 >> 0.15 >> GREEN
+06-DEC-2017 >> -2.55 >> -2.25 >> RED
+05-DEC-2017 >> -2.8 >> -3 >> RED
+04-DEC-2017 >> -3.1 >> -3.25 >> RED
+
+Simple Moving Averages : 73
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 3
+RED >> 7
+NEAUTRAL >> 0

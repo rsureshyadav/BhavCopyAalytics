@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:18:20.549
+HERCULES
+
+22-DEC-2017 >> -0.15 >> 0.05 >> RED
+21-DEC-2017 >> 3.5 >> 3.05 >> GREEN
+20-DEC-2017 >> 1.75 >> 1.8 >> GREEN
+19-DEC-2017 >> 0.4 >> 0.3 >> GREEN
+18-DEC-2017 >> 1.45 >> 0.9 >> GREEN
+15-DEC-2017 >> 1.5 >> 1.6 >> GREEN
+14-DEC-2017 >> -1.95 >> -2.25 >> RED
+13-DEC-2017 >> -2.1 >> -1.9 >> RED
+12-DEC-2017 >> -1.8 >> -2.35 >> RED
+11-DEC-2017 >> -3.45 >> -3.65 >> RED
+
+Simple Moving Averages : 144.89
+TOMMOROW PREDECTION :: RED
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 5
+RED >> 5
+NEAUTRAL >> 0

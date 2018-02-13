@@ -1,0 +1,22 @@
+Execution Time :2017-12-23T23:17:47.173
+AGCNET
+
+22-DEC-2017 >> -11.05 >> -10.8 >> RED
+21-DEC-2017 >> -12.6 >> -12.85 >> RED
+20-DEC-2017 >> -7.55 >> -6.55 >> RED
+19-DEC-2017 >> 0.95 >> 2.25 >> GREEN
+18-DEC-2017 >> -0.05 >> 0.45 >> RED
+15-DEC-2017 >> -10.8 >> -9 >> RED
+14-DEC-2017 >> -1.2 >> -0.1 >> RED
+13-DEC-2017 >> 0.5 >> 0.7 >> GREEN
+12-DEC-2017 >> 1.2 >> 1.1 >> GREEN
+11-DEC-2017 >> 7.15 >> 7.9 >> GREEN
+
+Simple Moving Averages : 150.85
+TOMMOROW PREDECTION :: GREEN
+
+Maximum occurrence from the selected period:
+-------------------------------------------
+GREEN >> 4
+RED >> 6
+NEAUTRAL >> 0
