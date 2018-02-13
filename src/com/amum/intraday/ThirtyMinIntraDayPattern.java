@@ -33,9 +33,9 @@ public class ThirtyMinIntraDayPattern {
 		int period = Integer.parseInt(prop.getProperty("intraday.period"));
 		String deliveryMode = prop.getProperty("delivery.mode");
 		List<String> inputFileList = AmumUtil.getLatestInputFileList(period,prop);
-		/*String header="SYMBOL,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
+		String header="SYMBOL,STOCK_STATUS,NEWS_STATUS,BUY_PRICE,SELL_PRICE";
 		outputList.add(header);
-		*/
+		
 		int count=0;
 		int fileRowSplitCout=1;
 		boolean isFileRowSplitCount=false;
@@ -47,7 +47,6 @@ public class ThirtyMinIntraDayPattern {
 				System.out.println(LocalDateTime.now()+"==> Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
 				Map<String, List<Double>> lastTwoPriceMap  = IntradayEngine.getLastTwoPriceInfo(inputFileList,symbol,deliveryMode);
 				List<Double> priceList = lastTwoPriceMap.get("CLOSE_PRICE");
-
 				if(!priceList.isEmpty()){
 					String stockStatus = IntradayEngine.stockPriceSentiment(priceList);
 					String newsSentiment = IntradayEngine.getNewsSentiment(prop,symbol);

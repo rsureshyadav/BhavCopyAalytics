@@ -41,7 +41,9 @@ public class IntradayEngine {
 	public static String stockPriceSentiment(List<Double> closePriceList) {
 		String result = "STRONG_STOCK";
 			double lastClosePrice = closePriceList.get(0);
+			System.out.println("lastClosePrice>>"+lastClosePrice);
 			for(double closePrice : closePriceList){
+				System.out.println("closePrice>>"+closePrice);
 				if(closePrice>lastClosePrice){
 					result="WEEK_STOCK";
 				}

@@ -20,7 +20,25 @@ public class AmumEmail {
 	static Session getMailSession;
 	static MimeMessage generateMailMessage;
 	
-	public static void execute(String path,Set<String> symbol,String peStocks,List<String> copyCat,String thirtyMinOutput) throws AddressException, MessagingException{
+	public static void execute(String path,Set<String> symbol,String thirtyMinOutput) throws AddressException, MessagingException{
+	/*	StringBuffer  copyCatBuff = new StringBuffer();
+			if(copyCat.size()>0){
+				Collections.reverse(copyCat);
+				copyCatBuff.append("<hr><table border=\"5\">");
+				copyCatBuff.append("<tr><td>Date</td><td><b>Symbol</b></td><td>Company Name</td><td><b>Buy/Sell</b></td><td>Quantity</td><td>Avg Price</td></tr>");
+				for(String line : copyCat){
+					line=line.replace(",","</td><td>");
+					copyCatBuff.append("<tr><td>"+line+"</td></tr>");
+				}
+				copyCatBuff.append("</table>");
+			}else{
+				copyCatBuff.append("No Information Found On COPY CAT!!!");			
+			}
+			 generateAndSendEmail(path,symbol,copyCatBuff.toString(),thirtyMinOutput);
+			System.out.println("\n\n ===> AMUM has just sent an Email successfully. Check your email..");
+*/
+		}
+	/*public static void execute(String path,Set<String> symbol,String peStocks,List<String> copyCat,String thirtyMinOutput) throws AddressException, MessagingException{
 	StringBuffer  copyCatBuff = new StringBuffer();
 		if(copyCat.size()>0){
 			Collections.reverse(copyCat);
@@ -37,7 +55,7 @@ public class AmumEmail {
 		 generateAndSendEmail(path,symbol,peStocks,copyCatBuff.toString(),thirtyMinOutput);
 		System.out.println("\n\n ===> AMUM has just sent an Email successfully. Check your email..");
 
-	}
+	}*/
 	private static void generateAndSendEmail(String path,Set<String> symbol,String peStocks,String copyCat,String thirtyMinOutput) throws AddressException, MessagingException {
 		// Step1
 				System.out.println("\n 1st ===> setup Mail Server Properties..");

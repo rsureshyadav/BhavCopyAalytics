@@ -32,7 +32,7 @@ public class SimpleMovAvgPattern {
 		for(String symbol :  symbolItems){
 			if(!symbol.contains("-")){
 				System.out.println("Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
-				Map<String,String> outputMap =FileReader.execute(prop,symbol);
+				Map<String,String> outputMap =FileReaders.execute(prop,symbol);
 				String resultArray[]= outputMap.get("ConStockResult").split("\\s*,\\s*");
 				String isNull = resultArray[1];
 				if(!isNull.equalsIgnoreCase("null")){
@@ -64,7 +64,7 @@ public class SimpleMovAvgPattern {
 		for(String symbol :  symbolItems){
 			if(!symbol.contains("-")){
 				System.out.println("Executing ("+(symbolItems.size() - count) +") ==> "+symbol);
-				Map<String,String> outputMap =FileReader.execute(prop,symbol);
+				Map<String,String> outputMap =FileReaders.execute(prop,symbol);
 				String resultArray[]= outputMap.get("ConStockResult").split("\\s*,\\s*");
 				String isNull = resultArray[1];
 				if(!isNull.equalsIgnoreCase("null")){

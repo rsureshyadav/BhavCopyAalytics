@@ -18,6 +18,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/json-20160810.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.10.2.jar"/>
+	<classpathentry kind="lib" path="lib/way2sms-api-4.0.0.jar"/>
 	<classpathentry kind="lib" path="target/lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="target/lib/antlr4-runtime-4.5.3.jar"/>
 	<classpathentry kind="lib" path="target/lib/aopalliance-1.0.jar"/>
@@ -88,8 +91,8 @@
 	<classpathentry kind="lib" path="target/lib/javax.annotation-api-1.2.jar"/>
 	<classpathentry kind="lib" path="target/lib/javax.inject-1.jar"/>
 	<classpathentry kind="lib" path="target/lib/javax.inject-2.4.0-b34.jar"/>
-	<classpathentry kind="lib" path="target/lib/javax.mail-1.5.2.jar"/>
-	<classpathentry kind="lib" path="target/lib/javax.mail-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="target/lib/javax.mail-1.5.5.jar"/>
+	<classpathentry kind="lib" path="target/lib/javax.mail-api-1.5.5.jar"/>
 	<classpathentry kind="lib" path="target/lib/javax.servlet-api-3.1.0.jar"/>
 	<classpathentry kind="lib" path="target/lib/javax.ws.rs-api-2.0.1.jar"/>
 	<classpathentry kind="lib" path="target/lib/jcl-over-slf4j-1.7.16.jar"/>
@@ -106,6 +109,7 @@
 	<classpathentry kind="lib" path="target/lib/json4s-ast_2.10-3.2.11.jar"/>
 	<classpathentry kind="lib" path="target/lib/json4s-core_2.10-3.2.11.jar"/>
 	<classpathentry kind="lib" path="target/lib/json4s-jackson_2.10-3.2.11.jar"/>
+	<classpathentry kind="lib" path="target/lib/jsoup-1.10.2.jar"/>
 	<classpathentry kind="lib" path="target/lib/jsr305-1.3.9.jar"/>
 	<classpathentry kind="lib" path="target/lib/jtransforms-2.4.0.jar"/>
 	<classpathentry kind="lib" path="target/lib/jul-to-slf4j-1.7.16.jar"/>
@@ -171,7 +175,5 @@
 	<classpathentry kind="lib" path="target/lib/xmlenc-0.52.jar"/>
 	<classpathentry kind="lib" path="target/lib/xz-1.0.jar"/>
 	<classpathentry kind="lib" path="target/lib/zookeeper-3.4.5.jar"/>
-	<classpathentry kind="lib" path="lib/json-20160810.jar"/>
-	<classpathentry kind="lib" path="lib/jsoup-1.10.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

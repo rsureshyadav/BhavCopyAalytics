@@ -17,7 +17,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.amum.atr.ATREngine;
-import com.amum.sma.FileReader;
+import com.amum.sma.FileReaders;
 import com.amum.sma.FileWrite;
 import com.amum.util.AmumUtil;
 import com.amum.util.OutputCSVWriter;
@@ -65,7 +65,7 @@ public class YahooFinanceExecution {
 		buffer.append("SYMBOL,PREDECTION,MAX_GREEN,MAX_RED,SMA"+System.getProperty("line.separator"));
 		for(String symbol :  yahooGainerList){
 			if(!symbol.contains("-")){
-				Map<String,String> outputMap =FileReader.execute(prop,symbol);
+				Map<String,String> outputMap =FileReaders.execute(prop,symbol);
 				FileWrite.execute(prop,symbol,outputMap);
 				buffer.append(outputMap.get("ConStockResult")+System.getProperty("line.separator"));
 			}

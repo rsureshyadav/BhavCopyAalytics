@@ -45,10 +45,15 @@ public class InputCSVReader {
 			replaceName=replaceName.replace("/", "\\");
 			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
+			int nameLength = name.length();
+			name = name.substring(name.lastIndexOf("\\")+1,nameLength);
+			name=name.replace("cm", "");
+            //System.out.println(">>NAME>>>"+name);
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
             try {
                 Date date = sdf.parse(name);
+               // System.out.println(">>DATE>>>"+date+">>>>"+fileName+">>>>");
                 dateTreeMap.put(date,fileName);
             } catch (ParseException ex) {
                 ex.printStackTrace();
@@ -56,8 +61,7 @@ public class InputCSVReader {
 		}
 		
 		int  predCount=1;
-		
-	
+			
 		for (Map.Entry<Date, String> entry : dateTreeMap.entrySet())
 	    {
 			if(predCount>Integer.parseInt(prop.getProperty("period"))){

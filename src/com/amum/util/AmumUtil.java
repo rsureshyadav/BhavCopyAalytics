@@ -64,7 +64,10 @@ public class AmumUtil {
 			replaceName=replaceName.replace("/", "\\");
 			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
-
+			int nameLength = name.length();
+			name = name.substring(name.lastIndexOf("\\")+1,nameLength);
+			name=name.replace("cm", "");
+           // System.out.println(">>NAME>>>"+name);
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
             try {
@@ -128,6 +131,10 @@ public class AmumUtil {
 			replaceName=replaceName.replace("/", "\\");
 			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
+			int nameLength = name.length();
+			name = name.substring(name.lastIndexOf("\\")+1,nameLength);
+			name=name.replace("cm", "");
+            //System.out.println(">>NAME>>>"+name);
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
             try {

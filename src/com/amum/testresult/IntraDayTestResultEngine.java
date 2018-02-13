@@ -44,21 +44,36 @@ public class IntraDayTestResultEngine {
 			for(String symbol :inputList){
 					System.out.println("==>"+symbol);
 						String jsonString = getJsonObjectInfo(symbol);
-						//newsList = getSymbol(prop,symbol);
-						//System.out.println(">>>>>>"+newsList);
+						System.out.println("jsonString>>>"+jsonString);
 						JSONObject jObject = null;
 						try {
 							if(jsonString != null){
 								jObject = new JSONObject(jsonString);
-								double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
-								double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
+								if(jObject != null && jObject.getString("l") != null){
+								double last_price = Double.parseDouble(jObject.getString("l"));
+							 	double prev_close_price = 0;
+							 	String pc = jObject.getString("c");
+							 	if(pc.contains("-")){
+							 		String value = 	pc.replace("-", "");
+								 	prev_close_price = Double.parseDouble(value);
+								 	prev_close_price = last_price + prev_close_price;
+								// 	System.out.println(prev_close_price);	
+							 	}else{
+							 	String value = 	pc.replace("+", "");
+							 	prev_close_price = Double.parseDouble(value);
+							 	prev_close_price = last_price - prev_close_price;
+							 	//System.out.println(prev_close_price);
+							 	}
+								//System.out.println("jObject>>>"+jObject);
+								//double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
+								//double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
 								double profitOrLoss = last_price - prev_close_price;
 								String volume =jObject.getString("vo");
 								volume=volume.replace(",", "");
 								if(volume.contains("M")){
 									buffer.append("<tr><td>"+symbol+"</td><td>"+last_price+"</td><td>"+df.format(profitOrLoss)+"</td><td>"+volume+"</td></tr>");
 								}
-
+							  }
 							}
 						} 
 						catch (JSONException e) {
@@ -95,13 +110,29 @@ public class IntraDayTestResultEngine {
 						try {
 							if(jsonString != null){
 								jObject = new JSONObject(jsonString);
-								double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
-								double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
+								if(jObject.getString("l") != null&& jObject.getString("l").length()>0){
+							 	double last_price = Double.parseDouble(jObject.getString("l"));
+							 	double prev_close_price = 0;
+							 	String pc = jObject.getString("c");
+							 	if(pc.contains("-")){
+							 		String value = 	pc.replace("-", "");
+								 	prev_close_price = Double.parseDouble(value);
+								 	prev_close_price = last_price + prev_close_price;
+								// 	System.out.println(prev_close_price);	
+							 	}else{
+							 	String value = 	pc.replace("+", "");
+							 	prev_close_price = Double.parseDouble(value);
+							 	prev_close_price = last_price - prev_close_price;
+							 	//System.out.println(prev_close_price);
+							 	}
+							 	
+								//double last_price = Double.parseDouble(jObject.getString("l").replace(",", ""));
+								//double prev_close_price = Double.parseDouble(jObject.getString("pcls_fix").replace(",", ""));
 								double profitOrLoss = last_price - prev_close_price;
 								String volume =jObject.getString("vo");
 								volume=volume.replace(",", "");
 								outputList.add(last_price+","+profitOrLoss+","+volume+","+line );
-
+								}
 							}
 						} 
 						catch (JSONException e) {
@@ -125,14 +156,19 @@ public class IntraDayTestResultEngine {
 			if(symbol.contains("&")){
 				symbol = symbol.replace("&", "%26");
 			}
-			String url ="http://www.google.com/finance/info?infotype=infoquoteall&q=NSE:"+symbol;
+			//RETIRED - String url ="http://www.google.com/finance/info?infotype=infoquoteall&q=NSE:"+symbol;
+			String url ="https://finance.google.com/finance?output=json&q="+symbol;
 			System.out.println("Executing>>>"+url);
 			
 			jsonString = downloadFileFromInternet(url);
 			if(jsonString != null ){
-				jsonString =jsonString.replace("// [", "");
-				jsonString =jsonString.replace("]", "");				
+				//jsonString =jsonString.replace("// [", "");
+				//jsonString =jsonString.replace("]", "");	
+				jsonString = jsonString.replaceAll("\\s+","");
+				jsonString =jsonString.replace("//[{", "{");
+				jsonString =jsonString.replace("}]}]", "}]}");
 			}
+			//System.out.println("jsonString111>>>"+jsonString);
 		}
 		return jsonString;
 	}
@@ -159,6 +195,7 @@ public class IntraDayTestResultEngine {
 		String response = null;
 			URL url = new URL(httpUrl);
 			 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			 System.out.println("conn.getResponseCode()>>>>"+conn.getResponseCode());
 			 if (conn.getResponseCode() == 200) {
 				 try (BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), StandardCharsets.UTF_8))) {
 					 response = reader.lines().collect(Collectors.joining("\n"));

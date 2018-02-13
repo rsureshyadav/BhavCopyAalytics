@@ -1,5 +1,6 @@
 package com.amum.sma;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -7,6 +8,7 @@ import java.nio.file.Paths;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,7 +21,9 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class FileReader {
+import com.amum.util.AmumUtil;
+
+public class FileReaders {
 
 	
 	public static Map<String,String>   execute(Properties prop, String symbol){
@@ -66,7 +70,10 @@ public class FileReader {
 			replaceName=replaceName.replace("/", "\\");
 			String name =  fileName.replace(replaceName, "");
 			name =  name.replace("bhav.csv", "");
-
+			int nameLength = name.length();
+			name = name.substring(name.lastIndexOf("\\")+1,nameLength);
+			name=name.replace("cm", "");
+           // System.out.println(">>NAME>>>"+name);
             SimpleDateFormat sdf = new SimpleDateFormat("ddMMMyyyy");
     
             try {
@@ -164,5 +171,29 @@ public class FileReader {
 		outputMap.put("SingleStockResult", sb.toString());
 		outputMap.put("ConStockResult", symbol+","+predection+","+greenOccurrences+","+redOccurrences+","+df.format(sma));
 		return outputMap;
+	}
+	
+	
+	
+	public static List<String> getFileReader(Properties prop,String fileName, String filter) throws IOException{
+		List<String> list = new ArrayList<>();
+		/*try(Stream<Path> paths = Files.walk(Paths.get(filePath))) {
+		    paths.forEach(filePath1 -> {
+		        if (Files.isRegularFile(filePath1)) {
+		        	linesList.add(filePath1.toString());
+		        }
+		    });
+		}*/
+		try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
+			list = stream
+					.filter(line -> line.contains(filter))
+					.collect(Collectors.toList());
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return list; 
+
 	}
 }
